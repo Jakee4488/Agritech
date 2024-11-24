@@ -1,10 +1,160 @@
 // js/products.js
 
+const products = [
+    {
+        title: "Fruits",
+        icon: "fas fa-apple-alt",
+        category: "Nature’s sweetest offerings, fresh and juicy.",
+        features: [
+            "Freshly Harvested",
+            "Export Quality",
+            "Organic Options Available"
+        ]
+    },
+    {
+        title: "Organic Fruits",
+        icon: "fas fa-apple-alt",
+        category: "Wholesome, pesticide-free goodness.",
+        features: [
+            "Freshly Harvested",
+            "Export Quality",
+            "Organic Options Available"
+        ]
+    },
+    {
+        title: "Vegetables",
+        icon: "fas fa-carrot",
+        category: "Farm-fresh greens for every plate.",
+        features: [
+            "Seasonal & Year-Round Availability",
+            "Export Grade Quality",
+            "Environmentally Friendly Packaging"
+        ]
+    },
+    {
+        title: "Organic Vegetables",
+        icon: "fas fa-carrot",
+        category: "Purity from the soil to your table.",
+        features: [
+            "Seasonal & Year-Round Availability",
+            "Export Grade Quality",
+            "Environmentally Friendly Packaging"
+        ]
+    },
+    {
+        title: "Fertilizers",
+        icon: "fas fa-seedling",
+        category: "Empowering growth, naturally.",
+        features: [
+            "High-Quality Grades",
+            "Special Thick Rice for African Markets",
+            "Export Certified"
+        ]
+    },
+    {
+        title: "Organic Fertilizers",
+        icon: "fas fa-seedling",
+        category: "Sustainable solutions for thriving crops.",
+        features: [
+            "High-Quality Grades",
+            "Special Thick Rice for African Markets",
+            "Export Certified"
+        ]
+    },
+    {
+        title: "Food Grains",
+        icon: "fas fa-seedling",
+        category: "Staples that nourish the world.",
+        features: [
+            "High-Quality Grades",
+            "Special Thick Rice for African Markets",
+            "Export Certified"
+        ]
+    },
+    {
+        title: "Pulses & Legumes",
+        icon: "fas fa-drumstick-bite",
+        category: "Protein-packed essentials for healthy living.",
+        features: [
+            "Wide Variety of Lentils",
+            "Chickpeas & Beans",
+            "Split and Whole Dal Varieties"
+        ]
+    },
+    {
+        title: "Coffee",
+        icon: "fas fa-coffee",
+        category: "Rich aroma, bold flavors, globally loved.",
+        features: [
+            "Arabica & Robusta",
+            "Whole Beans & Ground",
+            "High-Quality Export Grade"
+        ]
+    },
+    {
+        title: "Spices",
+        icon: "fas fa-pepper-hot",
+        category: "A pinch of spice, a world of flavor.",
+        features: [
+            "Cardamom, Black Pepper, Cinnamon",
+            "Turmeric, Red Chili, Cumin",
+            "ISO Certified Quality"
+        ]
+    },
+    {
+        title: "Insecticides",
+        icon: "fas fa-bug",
+        category: "Protecting your crops, safeguarding yields.",
+        features: [
+            "High-Quality Grades",
+            "Special Thick Rice for African Markets",
+            "Export Certified"
+        ]
+    },
+    {
+        title: "Pesticides",
+        icon: "fas fa-bug",
+        category: "Ensuring healthy harvests for every season.",
+        features: [
+            "High-Quality Grades",
+            "Special Thick Rice for African Markets",
+            "Export Certified"
+        ]
+    }
+];
+
+const storeTagline = "Global Groceries, Naturally Delivered.";
 document.addEventListener('DOMContentLoaded', () => {
+    const productCardsContainer = document.getElementById('product-cards');
+
+    products.forEach(product => {
+        const productCard = document.createElement('div');
+        productCard.className = 'agri-product-card';
+
+        productCard.innerHTML = `
+            <div class="agri-product-header">
+                <div class="agri-product-icon">
+                    <i class="${product.icon}"></i>
+                </div>
+                <h3>${product.title}</h3>
+                <span class="agri-category-tag">${product.category}</span>
+            </div>
+            <div class="agri-features-list">
+                <h4>Features:</h4>
+                <ul>
+                    ${product.features.map(feature => `<li><i class="fas fa-check"></i> ${feature}</li>`).join('')}
+                </ul>
+            </div>
+            <a href="contact.html" class="agri-contact-btn">Contact Us</a>
+        `;
+
+        productCardsContainer.appendChild(productCard);
+    });
+
     // Search functionality
     const searchInput = document.getElementById('searchInput');
-    const clearSearch = document.querySelector('.agri-clear-search'); // Corrected selector
-    const searchBox = document.querySelector('.agri-search-box'); // Corrected selector
+    const clearSearch = document.querySelector('.agri-clear-search');
+    const searchBox = document.querySelector('.agri-search-box');
 
     if (searchInput && clearSearch && searchBox) {
         searchInput.addEventListener('input', (e) => {
@@ -18,11 +168,10 @@ document.addEventListener('DOMContentLoaded', () => {
         clearSearch.addEventListener('click', () => {
             searchInput.value = '';
             clearSearch.style.display = 'none';
-            searchInput.focus(); // Optional: Focus back on search input
-            displayProducts(); // Refresh the product display
+            searchInput.focus();
+            displayProducts();
         });
 
-        // Search input animations
         searchInput.addEventListener('focus', () => {
             searchBox.classList.add('search-focused');
         });
@@ -35,41 +184,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Advanced Filter Sidebar
-    const filterBtn = document.querySelector('.agri-advanced-filter-btn'); // Corrected selector
-    const filterSidebar = document.querySelector('.advanced-filter-sidebar'); // Ensure this exists in HTML
+    const filterBtn = document.querySelector('.agri-advanced-filter-btn');
+    const filterSidebar = document.querySelector('.advanced-filter-sidebar');
     const closeFilterBtn = document.querySelector('.close-filter');
 
     if (filterBtn && filterSidebar && closeFilterBtn) {
-        // Create overlay element
         const overlay = document.createElement('div');
         overlay.className = 'filter-overlay';
         document.body.appendChild(overlay);
 
-        // Open filter sidebar
         filterBtn.addEventListener('click', function () {
             filterSidebar.classList.add('show');
             overlay.classList.add('show');
-            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+            document.body.style.overflow = 'hidden';
         });
 
-        // Close filter sidebar
         function closeFilter() {
             filterSidebar.classList.remove('show');
             overlay.classList.remove('show');
-            document.body.style.overflow = ''; // Restore scrolling
+            document.body.style.overflow = '';
         }
 
         closeFilterBtn.addEventListener('click', closeFilter);
         overlay.addEventListener('click', closeFilter);
 
-        // Close on escape key
         document.addEventListener('keydown', function (e) {
             if (e.key === 'Escape') {
                 closeFilter();
             }
         });
 
-        // Prevent clicks inside sidebar from closing it
         filterSidebar.addEventListener('click', (e) => {
             e.stopPropagation();
         });
@@ -82,8 +226,6 @@ document.addEventListener('DOMContentLoaded', () => {
     filterTags.forEach(tag => {
         tag.addEventListener('click', () => {
             tag.remove();
-            // Optionally, remove the filter from activeFilters array
-            // activeFilters = activeFilters.filter(f => f !== tag.textContent.trim());
             displayProducts();
         });
     });
@@ -97,7 +239,6 @@ document.addEventListener('DOMContentLoaded', () => {
         priceSlider.addEventListener('input', (e) => {
             const value = e.target.value;
             maxPrice.value = value;
-            // Optionally, update active filters or display products
             displayProducts();
         });
     }
@@ -132,7 +273,6 @@ document.addEventListener('DOMContentLoaded', () => {
             tag.style.opacity = '0';
             tag.style.transform = 'translateY(10px)';
             setTimeout(() => tag.remove(), 300);
-            // Remove from activeFilters array
             activeFilters = activeFilters.filter(f => f !== filterText);
             displayProducts();
         });
@@ -190,7 +330,6 @@ document.addEventListener('DOMContentLoaded', () => {
         region.addEventListener('click', () => {
             document.querySelectorAll('.presence-card').forEach(r => r.classList.remove('active'));
             region.classList.add('active');
-            // Implement functionality to show region-specific products
         });
     });
 
@@ -218,7 +357,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
         const sortOption = sortSelect ? sortSelect.value : 'featured';
 
-        let products = Array.from(productsGrid.children);
+        let products = Array.from(productCardsContainer.children);
 
         // Filter by search term
         if (searchTerm) {
@@ -232,9 +371,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Filter by active filters
         if (activeFilters.length > 0) {
             products = products.filter(product => {
-                // Check if product has all active filters in its data attributes or classes
                 return activeFilters.every(filter => {
-                    // Example: Check data-category
                     return product.dataset.category && product.dataset.category.includes(filter);
                 });
             });
