@@ -1,0 +1,1033 @@
+/* css/sustainability.css */
+
+body {
+    font-family: var(--font-family, 'Poppins', sans-serif);
+    color: var(--text-color, #333333);
+    margin-top: 80px;
+    padding: 0;
+    background-color: var(--background-color, #F0FFF0);
+    line-height: 1.6;
+}
+/* ===========================
+   1. Hero Section Styles
+=========================== */
+.page-hero.sustainability-hero {
+    position: relative;
+    height: 60vh;
+    background-image: url('../assets/images/sustain.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    text-align: center;
+    padding: 0 20px;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.badge {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+.badge:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* ===========================
+   2. Commitment Section Styles
+=========================== */
+.commitment-section {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+.commitment-section .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary, #555555);
+}
+
+.commitment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.commitment-card {
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.commitment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+    font-size: 2rem;
+    color: var(--primary-color, #2E8B57);
+    margin-bottom: 10px;
+}
+
+.commitment-card h3 {
+    font-size: 1.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.commitment-card p {
+    font-size: 1rem;
+    color: var(--text-secondary, #555555);
+    margin-bottom: 15px;
+}
+
+.practice-list {
+    list-style: none;
+    padding: 0;
+}
+
+.practice-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    color: var(--text-secondary, #555555);
+}
+
+.practice-list li i {
+    color: var(--primary-color, #2E8B57);
+}
+
+/* ===========================
+   3. Green Transport Section Styles
+=========================== */
+.green-transport {
+    padding: 60px 0;
+    background: #f0f0f0;
+}
+
+.green-transport .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.green-transport .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.green-transport .section-header h2 {
+    font-size: 2.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.green-transport .section-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary, #555555);
+}
+
+.transport-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.transport-item {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transport-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.transport-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.transport-item h3 {
+    font-size: 1.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.transport-item p {
+    font-size: 1rem;
+    color: var(--text-secondary, #555555);
+}
+
+/* ===========================
+   4. Green Warehouses Section Styles
+=========================== */
+.green-warehouses {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+.green-warehouses .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.green-warehouses .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.green-warehouses .section-header h2 {
+    font-size: 2.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.green-warehouses .section-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary, #555555);
+}
+
+.warehouses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.warehouse-item {
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.warehouse-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.warehouse-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.warehouse-item h3 {
+    font-size: 1.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.warehouse-item p {
+    font-size: 1rem;
+    color: var(--text-secondary, #555555);
+}
+
+/* ===========================
+   5. Direct Farmer Partnerships Section Styles
+=========================== */
+.direct-farmer-partnerships {
+    padding: 60px 0;
+    background: #f0f0f0;
+}
+
+.direct-farmer-partnerships .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.direct-farmer-partnerships .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.direct-farmer-partnerships .section-header h2 {
+    font-size: 2.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.direct-farmer-partnerships .section-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary, #555555);
+}
+
+.partnerships-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.partnership-item {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partnership-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.partnership-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.partnership-item h3 {
+    font-size: 1.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.partnership-item p {
+    font-size: 1rem;
+    color: var(--text-secondary, #555555);
+}
+
+/* ===========================
+   6. Environmentally Friendly Technologies Section Styles
+=========================== */
+.eco-friendly-technologies {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+.eco-friendly-technologies .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.eco-friendly-technologies .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.eco-friendly-technologies .section-header h2 {
+    font-size: 2.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.eco-friendly-technologies .section-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary, #555555);
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.tech-item {
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tech-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tech-item h3 {
+    font-size: 1.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.tech-item p {
+    font-size: 1rem;
+    color: var(--text-secondary, #555555);
+}
+
+/* ===========================
+   7. Farmer Support Programs Section Styles
+=========================== */
+.farmer-support-programs {
+    padding: 60px 0;
+    background: #f0f0f0;
+}
+
+.farmer-support-programs .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.farmer-support-programs .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.farmer-support-programs .section-header h2 {
+    font-size: 2.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.farmer-support-programs .section-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary, #555555);
+}
+
+.support-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.support-item {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.support-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.support-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.support-item h3 {
+    font-size: 1.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.support-item p {
+    font-size: 1rem;
+    color: var(--text-secondary, #555555);
+}
+
+/* ===========================
+   8. Impact Metrics Section Styles
+=========================== */
+.impact-metrics {
+    padding: 60px 0;
+    background: #f0f0f0;
+}
+
+.metrics-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.metrics-header h2 {
+    font-size: 2.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.metrics-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary, #555555);
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.metric-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.metric-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-color, #2E8B57);
+    transition: color 0.3s ease;
+}
+
+.metric-number:hover {
+    color: var(--secondary-color, #FFA500);
+}
+
+.metric-symbol {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    color: #888888;
+}
+
+.metric-card p {
+    font-size: 1rem;
+    color: var(--text-secondary, #555555);
+    margin-top: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.progress {
+    height: 10px;
+    background: var(--primary-color, #2E8B57);
+    width: 0%;
+    transition: width 2s ease;
+}
+
+/* ===========================
+   9. Certifications Section Styles
+=========================== */
+.certifications {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+.certifications .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.certifications .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.certifications .section-header h2 {
+    font-size: 2.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.certifications .section-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary, #555555);
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.cert-item {
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cert-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.cert-item:hover img {
+    transform: scale(1.05);
+}
+
+.cert-item h4 {
+    font-size: 1.2rem;
+    color: var(--text-color, #333333);
+}
+
+/* ===========================
+   10. Call to Action (CTA) Section Styles
+=========================== */
+.sustainability-cta {
+    padding: 60px 0;
+    background: #2E8B57;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cta-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background: #ffffff;
+    color: #2E8B57;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: #1E5F40;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* ===========================
+   11. Responsive Design Enhancements
+=========================== */
+@media (max-width: 1024px) {
+    .page-hero.sustainability-hero {
+        height: 60vh;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.3rem;
+    }
+
+    .hero-badges {
+        gap: 10px;
+    }
+
+    .badge {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    .commitment-grid,
+    .transport-grid,
+    .warehouses-grid,
+    .partnerships-grid,
+    .tech-grid,
+    .support-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .commitment-card,
+    .transport-item,
+    .warehouse-item,
+    .partnership-item,
+    .tech-item,
+    .support-item {
+        padding: 15px;
+    }
+
+    .commitment-card h3,
+    .transport-item h3,
+    .warehouse-item h3,
+    .partnership-item h3,
+    .tech-item h3,
+    .support-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .practice-list li,
+    .metric-card p {
+        font-size: 0.9rem;
+    }
+
+    .metric-number {
+        font-size: 2.5rem;
+    }
+
+    .metric-symbol {
+        font-size: 1.2rem;
+    }
+
+    .cert-item img {
+        width: 80px;
+    }
+
+    .cta-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .cta-content p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-hero.sustainability-hero {
+        height: 50vh;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .hero-badges {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .badge {
+        padding: 6px 10px;
+        font-size: 0.7rem;
+    }
+
+    .commitment-card h3,
+    .transport-item h3,
+    .warehouse-item h3,
+    .partnership-item h3,
+    .tech-item h3,
+    .support-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .practice-list li,
+    .metric-card p {
+        font-size: 0.8rem;
+    }
+
+    .metric-number {
+        font-size: 2rem;
+    }
+
+    .metric-symbol {
+        font-size: 1rem;
+    }
+
+    .cert-item img {
+        width: 60px;
+    }
+
+    .cta-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta-content p {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-hero.sustainability-hero {
+        height: 50vh;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .badge {
+        padding: 4px 8px;
+        font-size: 0.6rem;
+    }
+
+    .commitment-card h3,
+    .transport-item h3,
+    .warehouse-item h3,
+    .partnership-item h3,
+    .tech-item h3,
+    .support-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .practice-list li,
+    .metric-card p {
+        font-size: 0.7rem;
+    }
+
+    .metric-number {
+        font-size: 1.8rem;
+    }
+
+    .metric-symbol {
+        font-size: 0.9rem;
+    }
+
+    .cert-item img {
+        width: 50px;
+    }
+
+    .cta-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .cta-content p {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+/* ===========================
+   1. Certification Tooltip Styles (Optional)
+=========================== */
+.cert-tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    pointer-events: none;
+    transform: translate(-50%, -100%);
+    white-space: nowrap;
+    z-index: 1000;
+}
+
+/* ===========================
+   2. Advanced Filter Sidebar Styles (If Implemented)
+=========================== */
+.advanced-filter-sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    background: #ffffff;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: right 0.3s ease;
+    z-index: 1001;
+    overflow-y: auto;
+}
+
+.advanced-filter-sidebar.show {
+    right: 0;
+}
+
+.close-filter {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.filter-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.filter-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ===========================
+   3. Responsive Image Handling
+=========================== */
+.commitment-item img,
+.transport-item img,
+.warehouse-item img,
+.partnership-item img,
+.tech-item img,
+.support-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.commitment-item:hover img,
+.transport-item:hover img,
+.warehouse-item:hover img,
+.partnership-item:hover img,
+.tech-item:hover img,
+.support-item:hover img {
+    transform: scale(1.05);
+}
+
+/* ===========================
+   4. Hover Effects for New Sections
+=========================== */
+.transport-item:hover,
+.warehouse-item:hover,
+.partnership-item:hover,
+.tech-item:hover,
+.support-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ===========================
+   5. Additional Responsive Enhancements
+=========================== */
+@media (max-width: 1024px) {
+    /* ... Existing responsive styles ... */
+
+    /* Adjust image sizes in new sections */
+    .green-transport img,
+    .green-warehouses img,
+    .direct-farmer-partnerships img,
+    .eco-friendly-technologies img,
+    .farmer-support-programs img {
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    /* ... Existing responsive styles ... */
+
+    /* Further adjust image sizes */
+    .green-transport img,
+    .green-warehouses img,
+    .direct-farmer-partnerships img,
+    .eco-friendly-technologies img,
+    .farmer-support-programs img {
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    /* ... Existing responsive styles ... */
+
+    /* Final adjustments for mobile */
+    .green-transport img,
+    .green-warehouses img,
+    .direct-farmer-partnerships img,
+    .eco-friendly-technologies img,
+    .farmer-support-programs img {
+        height: 100px;
+        object-fit: cover;
+    }
+}

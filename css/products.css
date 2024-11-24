@@ -1,52 +1,26 @@
-/* General Styles for Product Page */
-body.agri-products-page {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f9f9f9;
-    color: #2d3e50;
-    line-height: 1.6;
-    margin: 0;
-    padding-top: 30px;
-}
+/* css/products.css */
 
-.agri-products-page h1, 
-.agri-products-page h2, 
-.agri-products-page h3, 
-.agri-products-page h4 {
-    font-weight: 700;
-    color: #2d3e50;
-}
-
-.agri-products-page h1 {
-    font-size: 3.5rem;
-}
-
-.agri-products-page h2 {
-    font-size: 2.8rem;
-    margin-bottom: 15px;
-}
-
-.agri-products-page h3 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.agri-products-page ul {
-    list-style-type: none;
+body {
+    font-family: var(--font-family);
+    margin-top: 90px;
     padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
 }
-
-.agri-products-container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Hero Section Styles */
+/* ===========================
+   1. Hero Section Styles
+=========================== */
 .agri-hero-section {
-    height: 50vh;
+    position: relative;
+    height: 60vh;
+    background-image: url('assets/images/products/organic.webp');
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
 }
 
 .agri-hero-overlay {
@@ -55,234 +29,542 @@ body.agri-products-page {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .agri-hero-content {
     position: relative;
-    z-index: 1;
-    color: #fff;
     text-align: center;
-    padding-top: 10vh;
-    max-width: 700px;
-    margin: 0 auto;
+    padding: 0 20px;
+    z-index: 1;
+}
+
+.agri-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
 }
 
 .agri-hero-badges {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
-    margin-top: 20px;
+    justify-content: center;
 }
 
 .agri-badge {
     background: rgba(255, 255, 255, 0.2);
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
 }
 
-/* Search and Filter Section Styles */
+.agri-badge:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* ===========================
+   2. Search and Filter Section Styles
+=========================== */
 .agri-search-filter-wrapper {
-    background: #f8f9fa;
+    background: #f9f9f9;
     padding: 40px 0;
+}
+
+.agri-products-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .agri-search-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .agri-search-box {
-    background: #ffffff;
-    padding: 10px 20px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    flex: 1;
+    min-width: 250px;
+}
+
+.agri-search-box i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #555555;
 }
 
 .agri-search-box input {
-    border: none;
-    outline: none;
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
     font-size: 1rem;
-    margin-left: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.agri-search-box input:focus {
+    border-color: var(--primary-color, #2E8B57);
+    outline: none;
 }
 
 .agri-clear-search {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
     background: none;
     border: none;
-    color: #888;
+    color: #555555;
+    cursor: pointer;
     display: none;
+    font-size: 1rem;
+}
+
+.agri-search-box input:not(:placeholder-shown) + .agri-clear-search {
+    display: block;
 }
 
 .agri-advanced-filter-btn {
-    background: #27ae60;
+    background: var(--primary-color, #2E8B57);
     color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 10px;
     border: none;
-    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
     display: flex;
     align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    transition: all 0.3s;
+    gap: 8px;
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .agri-advanced-filter-btn:hover {
-    background: #219a52;
+    background: var(--primary-dark, #1E5F40);
+    transform: translateY(-2px);
 }
 
 .agri-filter-sort-wrapper {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     align-items: center;
-    justify-content: space-between;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
-.agri-sort-options select {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
-}
-
-/* Product Cards Styles */
-.agri-products-showcase {
-    padding: 80px 0;
-    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
-}
-
-.agri-products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.agri-product-card {
-    background: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    padding: 30px;
+.active-filters {
     display: flex;
-    flex-direction: column;
-    transition: all 0.3s ease;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
 }
 
-.agri-product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+.active-filters span {
+    font-weight: 500;
+    color: #333333;
 }
 
-.agri-product-header {
-    text-align: center;
-    margin-bottom: 20px;
+.filter-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 10px;
 }
 
-.agri-product-icon {
-    width: 70px;
-    height: 70px;
-    background: #27ae60;
+.filter-tag {
+    background: var(--primary-color, #2E8B57);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+}
+
+.filter-tag .remove-filter {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
     border-radius: 50%;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 15px;
+    font-size: 0.8rem;
 }
 
-.agri-product-icon i {
-    font-size: 30px;
-    color: #ffffff;
-}
-
-.agri-category-tag {
-    display: inline-block;
-    padding: 5px 15px;
-    background: #e8f5e9;
-    color: #27ae60;
-    border-radius: 20px;
+.clear-all {
+    background: none;
+    border: none;
+    color: var(--primary-color, #2E8B57);
+    cursor: pointer;
     font-size: 0.9rem;
-    margin-top: 10px;
+    text-decoration: underline;
 }
 
-.agri-features-list {
-    margin: 20px 0;
+.agri-sort-options select {
+    padding: 10px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+    font-size: 1rem;
+    background: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
 }
 
-.agri-features-list ul li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
-    color: #555;
+.agri-sort-options select:focus {
+    border-color: var(--primary-color, #2E8B57);
+    outline: none;
 }
 
-.agri-features-list ul li i {
-    color: #27ae60;
-}
-
-.agri-contact-btn {
-    margin-top: auto;
-    background: #27ae60;
-    color: #ffffff;
-    padding: 15px 30px;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: 600;
-    transition: background 0.3s;
-}
-
-.agri-contact-btn:hover {
-    background: #219a52;
-}
-
-/* Global Capabilities Section Styles */
-.agri-global-capabilities {
+/* ===========================
+   3. Products Showcase Section Styles
+=========================== */
+.agri-products-showcase {
     padding: 60px 0;
     background: #ffffff;
 }
 
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary, #555555);
+}
+
+.agri-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.agri-product-card {
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.agri-product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.agri-product-header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.agri-product-icon {
+    font-size: 2rem;
+    color: var(--primary-color, #2E8B57);
+    margin-bottom: 10px;
+}
+
+.agri-product-header h3 {
+    font-size: 1.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 5px;
+}
+
+.agri-category-tag {
+    background: var(--secondary-color, #FFA500);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+.agri-features-list h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--text-color, #333333);
+}
+
+.agri-features-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.agri-features-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    color: var(--text-secondary, #555555);
+}
+
+.agri-features-list li i {
+    color: var(--primary-color, #2E8B57);
+}
+
+.agri-contact-btn {
+    display: block;
+    text-align: center;
+    background: var(--primary-color, #2E8B57);
+    color: #ffffff;
+    padding: 10px 0;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.agri-contact-btn:hover {
+    background: var(--primary-dark, #1E5F40);
+    transform: translateY(-2px);
+}
+
+/* ===========================
+   4. Global Capabilities Section Styles
+=========================== */
+.agri-global-capabilities {
+    padding: 60px 0;
+    background: #f0f0f0;
+}
+
+.agri-global-capabilities .agri-products-container {
+    text-align: center;
+}
+
 .agri-capabilities-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 30px;
+    margin-top: 40px;
 }
 
 .agri-capability-card {
     background: #ffffff;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    padding: 30px;
-    text-align: center;
-    transition: transform 0.3s;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .agri-capability-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .agri-capability-card i {
-    font-size: 40px;
-    color: #27ae60;
-    margin-bottom: 15px;
+    font-size: 2rem;
+    color: var(--primary-color, #2E8B57);
+    margin-bottom: 10px;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
+.agri-capability-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: var(--text-color, #333333);
+}
+
+.agri-capability-card p {
+    font-size: 1rem;
+    color: var(--text-secondary, #555555);
+}
+
+/* ===========================
+   5. Responsive Design Enhancements
+=========================== */
+@media (max-width: 1024px) {
     .agri-hero-content h1 {
         font-size: 2.5rem;
     }
 
-    .agri-hero-content {
-        padding-top: 20vh;
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .agri-hero-badges {
+        gap: 10px;
+    }
+
+    .agri-badge {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    .agri-search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .agri-advanced-filter-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .agri-filter-sort-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .active-filters {
+        flex-wrap: wrap;
+    }
+
+    .clear-all {
+        margin-top: 10px;
+    }
+
+    .agri-sort-options select {
+        width: 100%;
     }
 
     .agri-products-grid {
         grid-template-columns: 1fr;
+    }
+
+    .agri-capabilities-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .agri-hero-section {
+        height: 50vh;
+    }
+
+    .agri-hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .agri-hero-badges {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .agri-badge {
+        padding: 6px 10px;
+        font-size: 0.7rem;
+    }
+
+    .agri-product-card {
+        padding: 15px;
+    }
+
+    .agri-product-header h3 {
+        font-size: 1.2rem;
+    }
+
+    .agri-category-tag {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+    }
+
+    .agri-features-list h4 {
+        font-size: 1rem;
+    }
+
+    .agri-features-list li {
+        font-size: 0.9rem;
+    }
+
+    .agri-contact-btn {
+        font-size: 0.9rem;
+        padding: 8px 0;
+    }
+
+    .agri-capability-card i {
+        font-size: 1.5rem;
+    }
+
+    .agri-capability-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .agri-capability-card p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .agri-hero-section {
+        height: 50vh;
+    }
+
+    .agri-hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .agri-badge {
+        padding: 4px 8px;
+        font-size: 0.6rem;
+    }
+
+    .agri-product-card {
+        padding: 10px;
+    }
+
+    .agri-product-header h3 {
+        font-size: 1rem;
+    }
+
+    .agri-category-tag {
+        font-size: 0.7rem;
+        padding: 3px 6px;
+    }
+
+    .agri-features-list h4 {
+        font-size: 0.9rem;
+    }
+
+    .agri-features-list li {
+        font-size: 0.8rem;
+    }
+
+    .agri-contact-btn {
+        font-size: 0.8rem;
+        padding: 6px 0;
+    }
+
+    .agri-capability-card i {
+        font-size: 1.2rem;
+    }
+
+    .agri-capability-card h3 {
+        font-size: 1rem;
+    }
+
+    .agri-capability-card p {
+        font-size: 0.8rem;
     }
 }
