@@ -110,16 +110,6 @@ const products = [
             "Special Thick Rice for African Markets",
             "Export Certified"
         ]
-    },
-    {
-        title: "Pesticides",
-        icon: "fas fa-bug",
-        category: "Ensuring healthy harvests for every season.",
-        features: [
-            "High-Quality Grades",
-            "Special Thick Rice for African Markets",
-            "Export Certified"
-        ]
     }
 ];
 
