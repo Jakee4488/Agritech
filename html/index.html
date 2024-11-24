@@ -5,274 +5,229 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agri Tech - Exporting Nature's Best</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="../css/variables.css"> <!-- Must be first -->
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <h1>Agri Tech</h1>
-                <p>Harvesting Goodness, Spreading Health</p>
+    <!-- Header Placeholder -->
+    <div id="header"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero animate-on-scroll">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Connecting Farms to the World</h1>
+                <p>At Agri Tech, we bring the finest and freshest produce directly from farms to your tables, worldwide. We take pride in supporting local farmers, promoting sustainable agriculture, and ensuring the best quality at competitive prices.</p>
+                <a href="#products" class="btn">Explore Our Products</a>
             </div>
-            <button class="hamburger-menu" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="products.html">Our Products</a></li>
-                    <li><a href="sustainability.html">Sustainability</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        </section>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h2 style="color: white;">Connecting Farms to the World</h2>
-            <p>At Agri Tech, we bring the finest and freshest produce directly from farms to your tables, worldwide. We take pride in supporting local farmers, promoting sustainable agriculture, and ensuring the best quality at competitive prices.</p>
-            <a href="#products" class="btn">Explore Our Products</a>
-        </div>
-    </section>
-
-    <section class="carousel">
-        <div class="carousel-container">
-            <div class="carousel-slide">
-                <video controls>
-                    <source src="video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+         <!-- About Us Section -->
+         <section id="about" class="about animate-on-scroll">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Agri Tech is committed to exporting the freshest fruits, seasonal produce, vegetables, and organic products locally and globally. We work closely with farmers across India to ensure we bring you nature's best while supporting their livelihoods. Our mission is to provide nutritious produce, contribute to the global food supply, and do so sustainably.</p>
             </div>
-            <div class="carousel-slide">
-                <video controls>
-                    <source src="video2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="carousel-slide">
-                <video controls>
-                    <source src="video3.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="carousel-slide">
-                <video controls>
-                    <source src="video4.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="carousel-slide">
-                <video controls>
-                    <source src="video5.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
-        <div class="carousel-navigation">
-            <button id="prev">&#10094;</button>
-            <button id="next">&#10095;</button>
-        </div>
-    </section>
-
-    <section id="about" class="about small-section">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Agri Tech is committed to exporting the freshest fruits, seasonal produce, vegetables, and organic products locally and globally. We work closely with farmers across India to ensure we bring you nature's best while supporting their livelihoods. Our mission is to provide nutritious produce, contribute to the global food supply, and do so sustainably.</p>
-        </div>
-    </section>
-
-    <section id="products" class="products">
-        <div class="container">
-            <div class="products-header">
-                <h2>Our Products</h2>
-                <a href="products.html" class="learn-more-link">Learn more about our products →</a>
-            </div>
-            <div class="product-list">
-                <div class="product-item">
-                    <div class="product-tile">
-                        <i class="fas fa-apple-alt"></i>
-                        <h3>Fresh Fruits</h3>
-                        <p>From succulent mangoes to crisp apples, we offer a variety of fresh, juicy fruits sourced from local farms.</p>
-                    </div>
+        </section>
+        
+        <!-- Carousel Section -->
+        <section class="carousel animate-on-scroll">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <video muted autoplay loop>
+                        <source src="../assets/videos/farming.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
-                
-                <div class="product-item">
-                    <div class="product-tile">
-                        <i class="fas fa-carrot"></i>
-                        <h3>Fresh Vegetables</h3>
-                        <p>We bring a wide selection of fresh, nutritious vegetables, ensuring high quality from farm to fork.</p>
-                    </div>
+                <div class="carousel-slide">
+                    <video muted autoplay loop>
+                        <source src="../assets/videos/farmer_laptop.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
-
-                <div class="product-item">
-                    <div class="product-tile">
-                        <i class="fas fa-seedling"></i>
-                        <h3>Food Grains</h3>
-                        <p>Premium quality food grains sourced directly from farmers, ensuring the highest standards of purity and nutrition.</p>
-                    </div>
-                </div>
-
-                <div class="product-item">
-                    <div class="product-tile">
-                        <i class="fas fa-bowl-rice"></i>
-                        <h3>Premium Rice</h3>
-                        <p>Extensive variety of rice including Basmati, Jasmine, and specialized thick rice for African markets. Quality graded for international standards.</p>
-                    </div>
-                </div>
-
-                <div class="product-item">
-                    <div class="product-tile">
-                        <i class="fas fa-mortar-pestle"></i>
-                        <h3>Pulses & Legumes</h3>
-                        <p>Complete range of pulses and legumes, cleaned and sorted to meet international quality standards.</p>
-                    </div>
-                </div>
-
-                <div class="product-item">
-                    <div class="product-tile">
-                        <i class="fas fa-pepper-hot"></i>
-                        <h3>Spices</h3>
-                        <p>Premium quality whole and ground spices, bringing authentic flavors from the finest growing regions.</p>
-                    </div>
-                </div>
-
-                <div class="product-item">
-                    <div class="product-tile">
-                        <i class="fas fa-mug-hot"></i>
-                        <h3>Premium Coffee</h3>
-                        <p>Finest Arabica and Robusta coffee in various forms - beans, grounds, and crushes. Available in both premium and value segments.</p>
-                    </div>
-                </div>
-
-                <div class="product-item">
-                    <div class="product-tile">
-                        <i class="fas fa-leaf"></i>
-                        <h3>Organic Products</h3>
-                        <p>Certified organic produce grown without harmful chemicals, promoting health and environmental care.</p>
-                    </div>
+                <div class="carousel-slide">
+                    <video muted autoplay loop>
+                        <source src="../assets/videos/farming.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <h2>What Our Clients Say</h2>
-            <div class="testimonial-list">
-                <div class="testimonial-item">
-                    <p>"Agri Tech provides the best quality produce I've ever received. Fresh, clean, and always on time! Highly recommend." - John D.</p>
-                </div>
-                <div class="testimonial-item">
-                    <p>"We have been sourcing our organic vegetables from Agri Tech for a year now. Their commitment to quality is unmatched." - Priya R.</p>
-                </div>
-                <div class="testimonial-item">
-                    <p>"Not only are the fruits and vegetables fresh, but they also support local farmers, making every purchase a meaningful one." - Carlos S.</p>
-                </div>
+            <div class="carousel-navigation">
+                <button id="prev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+                <button id="next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="sustainability" class="sustainability">
-        <div class="container">
-            <h2>Our Sustainability Commitment</h2>
-            <p>At Agri Tech, we believe in a sustainable future for all. We work directly with farmers to ensure fair pricing and promote eco-friendly farming practices. By reducing intermediaries and supporting our farmers, we help make agriculture a profitable and lasting livelihood while keeping the quality of produce at its peak. Together, we are striving for a greener future.</p>
-        </div>
-    </section>
 
-    <section id="farmers-support" class="farmers-support">
-        <div class="container">
-            <h2>Supporting Our Farmers</h2>
-            <p>We believe that the heart of agriculture is the hardworking farmer. By sourcing our produce directly from them, we ensure fair compensation and a sustainable income for our partners in the field. Together, we create a positive impact by fostering community growth and agricultural innovation.</p>
-        </div>
-    </section>
-
-    <section class="mission-statement">
-        <div class="container">
-            <h2>Our Mission</h2>
-            <div class="mission-grid">
-                <div class="mission-item">
-                    <i class="fas fa-seedling"></i>
-                    <h3>Sustainable Farming</h3>
-                    <p>Supporting eco-friendly agricultural practices</p>
+        <!-- Products Section -->
+        <section id="products" class="products animate-on-scroll">
+            <div class="container">
+                <div class="products-header">
+                    <h2>Our Products</h2>
+                    <a href="products.html" class="learn-more-link">Learn more about our products <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="mission-item">
-                    <i class="fas fa-hands-helping"></i>
-                    <h3>Farmer Support</h3>
-                    <p>Ensuring fair compensation for our farmers</p>
-                </div>
-                <div class="mission-item">
-                    <i class="fas fa-globe-asia"></i>
-                    <h3>Global Reach</h3>
-                    <p>Connecting local farms to international markets</p>
-                </div>
-                <div class="mission-item">
-                    <i class="fas fa-leaf"></i>
-                    <h3>Organic Practices</h3>
-                    <p>Promoting chemical-free farming methods</p>
-                </div>
-                <div class="mission-item">
-                    <i class="fas fa-truck"></i>
-                    <h3>Supply Chain</h3>
-                    <p>Efficient farm-to-market distribution network</p>
-                </div>
-                <div class="mission-item">
-                    <i class="fas fa-handshake"></i>
-                    <h3>Community Growth</h3>
-                    <p>Building sustainable farming communities</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-left">
-                    <div class="contact-info">
-                        <h3>Contact Us</h3>
-                        <p><i class="fas fa-envelope"></i> info@agritech.com</p>
-                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
-                        <p><i class="fas fa-map-marker-alt"></i> 123 Farming Street, Agricultural District, AG 12345</p>
-                    </div>
-                    <div class="social-media">
-                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="footer-right">
-                    <form class="contact-form" id="contactForm">
-                        <input type="text" placeholder="First Name" required>
-                        <input type="text" placeholder="Last Name" required>
-                        <div class="phone-input">
-                            <select class="country-code">
-                                <option value="+1">+1 (USA)</option>
-                                <option value="+44">+44 (UK)</option>
-                                <option value="+91">+91 (India)</option>
-                                <!-- Add more country codes as needed -->
-                            </select>
-                            <input type="tel" placeholder="Phone Number" required>
+                <div class="product-list">
+                    <!-- Product Items -->
+                    <div class="product-item">
+                        <div class="product-tile">
+                            <i class="fas fa-apple-alt"></i>
+                            <h3>Fresh Fruits</h3>
+                            <p>From succulent mangoes to crisp apples, we offer a variety of fresh, juicy fruits sourced from local farms.</p>
                         </div>
-                        <input type="email" placeholder="Email" required>
-                        <textarea placeholder="Your Message" rows="4" required></textarea>
-                        <button type="submit">Send Message</button>
-                    </form>
-                    <div class="thank-you-message">
-                        Thank you! We will get back to you soon.
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-tile">
+                            <i class="fas fa-carrot"></i>
+                            <h3>Fresh Vegetables</h3>
+                            <p>We bring a wide selection of fresh, nutritious vegetables, ensuring high quality from farm to fork.</p>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-tile">
+                            <i class="fas fa-seedling"></i>
+                            <h3>Food Grains</h3>
+                            <p>Premium quality food grains sourced directly from farmers, ensuring the highest standards of purity and nutrition.</p>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-tile">
+                            <i class="fas fa-bowl-rice"></i>
+                            <h3>Premium Rice</h3>
+                            <p>Extensive variety of rice including Basmati, Jasmine, and specialized thick rice for African markets. Quality graded for international standards.</p>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-tile">
+                            <i class="fas fa-mortar-pestle"></i>
+                            <h3>Pulses & Legumes</h3>
+                            <p>Complete range of pulses and legumes, cleaned and sorted to meet international quality standards.</p>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-tile">
+                            <i class="fas fa-pepper-hot"></i>
+                            <h3>Spices</h3>
+                            <p>Premium quality whole and ground spices, bringing authentic flavors from the finest growing regions.</p>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-tile">
+                            <i class="fas fa-mug-hot"></i>
+                            <h3>Premium Coffee</h3>
+                            <p>Finest Arabica and Robusta coffee in various forms - beans, grounds, and crushes. Available in both premium and value segments.</p>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-tile">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Organic Products</h3>
+                            <p>Certified organic produce grown without harmful chemicals, promoting health and environmental care.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials animate-on-scroll">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial-list">
+                    <div class="testimonial-item">
+                        <p>"Agri Tech provides the best quality produce I've ever received. Fresh, clean, and always on time! Highly recommend." - John D.</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"We have been sourcing our organic vegetables from Agri Tech for a year now. Their commitment to quality is unmatched." - Priya R.</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"Not only are the fruits and vegetables fresh, but they also support local farmers, making every purchase a meaningful one." - Carlos S.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sustainability Section -->
+        <section id="sustainability" class="sustainability animate-on-scroll">
+            <div class="container">
+                <h2>Our Sustainability Commitment</h2>
+                <p>At Agri Tech, we believe in a sustainable future for all. We work directly with farmers to ensure fair pricing and promote eco-friendly farming practices. By reducing intermediaries and supporting our farmers, we help make agriculture a profitable and lasting livelihood while keeping the quality of produce at its peak. Together, we are striving for a greener future.</p>
+            </div>
+        </section>
+
+        <!-- Farmers Support Section -->
+        <section id="farmers-support" class="farmers-support animate-on-scroll">
+            <div class="container">
+                <h2>Supporting Our Farmers</h2>
+                <p>We believe that the heart of agriculture is the hardworking farmer. By sourcing our produce directly from them, we ensure fair compensation and a sustainable income for our partners in the field. Together, we create a positive impact by fostering community growth and agricultural innovation.</p>
+            </div>
+        </section>
+
+        <!-- Mission Statement Section -->
+        <section id="mission" class="mission-statement animate-on-scroll">
+            <div class="container">
+                <h2>Our Mission</h2>
+                <div class="mission-grid">
+                    <div class="mission-item">
+                        <i class="fas fa-seedling"></i>
+                        <h3>Sustainable Farming</h3>
+                        <p>Supporting eco-friendly agricultural practices</p>
+                    </div>
+                    <div class="mission-item">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Farmer Support</h3>
+                        <p>Ensuring fair compensation for our farmers</p>
+                    </div>
+                    <div class="mission-item">
+                        <i class="fas fa-globe-asia"></i>
+                        <h3>Global Reach</h3>
+                        <p>Connecting local farms to international markets</p>
+                    </div>
+                    <div class="mission-item">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Organic Practices</h3>
+                        <p>Promoting chemical-free farming methods</p>
+                    </div>
+                    <div class="mission-item">
+                        <i class="fas fa-truck"></i>
+                        <h3>Supply Chain</h3>
+                        <p>Efficient farm-to-market distribution network</p>
+                    </div>
+                    <div class="mission-item">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Community Growth</h3>
+                        <p>Building sustainable farming communities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer"></div>
+
+    <!-- JavaScript Files -->
+    <!-- Load the component loader script first -->
+    <script src="../js/loadComponents.js" defer></script>
+    <!-- Main script -->
+    <script src="../js/script.js" defer></script>
 </body>
 
 </html>

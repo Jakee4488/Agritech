@@ -1,0 +1,31 @@
+/* ../css/variables.css */
+
+:root {
+    /* Color Palette */
+    --primary-color: #2E8B57; /* SeaGreen - Represents growth, nature, and sustainability */
+    --primary-dark: #1E5F40; /* Darker SeaGreen - For accents and hover states */
+    --secondary-color: #FFA500; /* Orange - Adds vibrancy and draws attention */
+    --accent-color: #023407; /* Gold - Highlights and calls to action */
+    --background-color: #F0FFF0; /* Honeydew - Soft and fresh background */
+    --section-bg: #FFFFFF; /* White - Clean sections background */
+    --text-color: #2F4F4F; /* DarkSlateGray - Readable and professional text */
+    --text-secondary: #696969; /* DimGray - Subtle secondary text */
+
+    /* Footer Colors */
+    --footer-bg-color: #2E8B57; /* Set to primary color or your preferred color */
+    --footer-text-color: #06402B; /* White text for contrast */
+
+    /* Spacing */
+    --container-padding: 20px;
+    --section-padding: 80px 20px;
+
+    /* Fonts */
+    --font-family: 'Poppins', sans-serif;
+
+    /* Transition */
+    --transition-speed: 0.3s;
+
+    /* Button Colors */
+    --button-bg: #007BFF; /* Blue */
+    --button-hover-bg: #0056b3; /* Darker Blue */
+}

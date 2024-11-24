@@ -1,0 +1,208 @@
+/* css/footer.css */
+
+/* ===========================
+   1. Footer Styles
+=========================== */
+footer {
+    background: rgba(var(--footer-bg-color), 0.5);
+    color: var(--footer-text-color, #FFFFFF);
+    padding: 80px 0 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 50px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    padding: 40px;
+    backdrop-filter: blur(10px);
+    box-shadow: var(--box-shadow, 0 2px 15px rgba(0, 0, 0, 0.1));
+}
+
+.footer-left {
+    padding-right: 40px;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: var(--footer-text-color, #FFFFFF);
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.contact-info i {
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.social-media a {
+    color: var(--footer-text-color, #FFFFFF);
+    text-decoration: none;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    transition: all 0.3s ease;
+}
+
+.social-media a:hover {
+    transform: translateY(-5px) rotate(360deg);
+    background: var(--primary-color, #2E8B57);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.footer-right {
+    padding: 30px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 15px;
+}
+
+.contact-form {
+    display: grid;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.9);
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--primary-color, #2E8B57);
+    transform: translateY(-2px);
+}
+
+.phone-input {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+}
+
+.contact-form button {
+    background: var(--button-bg, #007BFF);
+    color: var(--footer-text-color, #FFFFFF);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: var(--button-hover-bg, #0056b3);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.thank-you-message {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background: rgba(46, 204, 113, 0.2);
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+/* ===========================
+   7. Responsive Footer Styles
+=========================== */
+@media (max-width: 992px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-left {
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        padding-bottom: 30px;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        padding: 20px;
+    }
+
+    .contact-form {
+        padding: 10px 0;
+    }
+
+    .phone-input {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===========================
+   8. Animations
+=========================== */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
