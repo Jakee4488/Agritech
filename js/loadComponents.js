@@ -58,8 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function initComponents() {
         // Load Header and Footer
         Promise.all([
-            loadHTML('header', '../html/header.html'), // Adjust path if necessary
-            loadHTML('footer', '../html/footer.html')  // Adjust path if necessary
+            loadHTML('header', 'header.html'), // Adjust path if necessary
+            loadHTML('footer', 'footer.html')  // Adjust path if necessary
         ]).then(() => {
             // Dispatch an event indicating components have been loaded
             document.dispatchEvent(new Event('componentsLoaded'));
