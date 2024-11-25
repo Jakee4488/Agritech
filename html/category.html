@@ -1,0 +1,78 @@
+<!-- category.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category - Agri Tech</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="../css/variables.css"> <!-- Must be first -->
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/category.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- Google Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   
+</head>
+
+<body>
+    <!-- Header Placeholder -->
+    <div id="header"></div>
+
+    <!-- Breadcrumb Navigation -->
+    <nav aria-label="breadcrumb" class="agri-breadcrumb">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li aria-current="page" id="current-category-name">Fruits</li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="agri-hero-section" id="hero-section">
+        <div class="agri-hero-overlay"></div>
+        <div class="agri-hero-content" data-aos="fade-up">
+            <h1>Fruits</h1>
+            <p class="hero-subtitle">Nature’s sweetest offerings, fresh and juicy.</p>
+        </div>
+    </section>
+
+    <!-- Search Box -->
+    <section class="agri-products-showcase">
+        <div class="agri-products-container">
+            <div class="agri-search-box" data-aos="fade-up">
+                <input type="text" id="searchInput" placeholder="Search products..." />
+                <button class="agri-clear-search" id="clearSearch"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="section-header" data-aos="fade-up">
+                <h2>Fruits Collection</h2>
+                <p>Explore our premium selection of fresh and organic fruits.</p>
+            </div>
+            <div id="category-product-cards" class="agri-products-grid" data-aos="fade-up">
+                <!-- Product Cards will be injected here by products_list.js -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Placeholder -->
+    <div id="footer"></div>
+
+    <!-- JavaScript Files -->
+    <!-- Load the component loader script first -->
+    <script src="../js/loadComponents.js" defer></script>
+    <!-- Load products_data.js before other scripts -->
+    <script src="../js/products_data.js" defer></script>
+    <!-- Page-specific scripts -->
+    <script src="../js/products.js" defer></script>
+    <script src="../js/product_list.js" defer></script>
+   
+</body>
+
+</html>
