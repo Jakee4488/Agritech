@@ -115,12 +115,42 @@ body {
         font-size: 1rem;
     }
 }
+/* General Video Section Styling */
+.video-section {
+    padding: 30px 0;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: var(--section-bg);
+}
 
-/* ../css/main.css */
+.responsive-video {
+    width: 100%; /* Video occupies 80% of the container width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 1200px; /* Prevent overly large videos on wide screens */
+    object-fit: contain; /* Ensure the video fits without cropping */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better aesthetics */
+    margin: 0 auto; /* Center the video */
+    display: block; /* Treat the video as a block element */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .responsive-video {
+        width: 100%; /* Slightly wider on tablets for better viewability */
+    }
+}
+
+@media (max-width: 576px) {
+    .responsive-video {
+        width: 100%; /* Full width for very small devices */
+        border-radius: 5px; /* Reduce rounded corners on smaller screens */
+    }
+}
 
 /* Carousel Section */
 .carousel {
-    padding: var(--section-padding) 0;
+    padding: 20px 0; /* Adjusted padding for smaller devices */
     background-color: var(--section-bg);
     position: relative;
 }
@@ -139,23 +169,20 @@ body {
     box-sizing: border-box;  /* Prevent padding/border issues */
 }
 
-
 .carousel-slide video {
-    width: 70%;
-    height: auto;
-    max-height: 100%;
-    object-fit: contain;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform var(--transition-speed) ease;
-    display: block;
-    margin: 0 auto;
+    width: 80%; /* 80% of the parent container's width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 1200px; /* Optional: Set a maximum width to prevent over-scaling */
+    object-fit: contain; /* Ensure the video fits within the dimensions without distortion */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better aesthetics */
+    margin: 0 auto; /* Center the video */
+    display: block; /* Ensure it's treated as a block element */
 }
-
-
 
 .carousel-slide video:hover {
     transform: scale(1.02);
+    transition: transform var(--transition-speed) ease;
 }
 
 .carousel-navigation {
@@ -194,16 +221,21 @@ body {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .carousel-slide video {
-        width: 90%; /* Increase width on smaller screens */
+        width: 90%; /* Increase width slightly for better visibility on tablets */
+    }
+}
+@media (max-width: 576px) {
+    .carousel-slide video {
+        width: 100%; /* Full width for small screens */
+        border-radius: 5px; /* Reduced border-radius for small devices */
     }
 }
 
 @media (max-width: 480px) {
     .carousel-slide video {
-        width: 100%; /* Full width on very small screens */
+        width: 100%; /* Full width for very small devices */
     }
 }
-
 
 @media (max-width: 768px) {
     .carousel-navigation button {
@@ -473,7 +505,6 @@ body {
     animation: fadeInUp 0.5s forwards;
 }
 
-
 .mission-item:nth-child(2) {
     animation-delay: 0.2s;
 }
@@ -515,7 +546,6 @@ body {
     font-size: 1rem;
     color: var(--text-secondary);
 }
-
 
 /* Animations */
 @keyframes fadeInUp {
@@ -593,5 +623,18 @@ body {
     }
     .mission-grid {
         grid-template-columns: 1fr; /* 1 column on small screens */
+    }
+}
+
+/* Responsive Videos */
+@media (max-width: 768px) {
+    .carousel-slide video {
+        width: 90%; /* Increase width slightly for better visibility on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-slide video {
+        width: 100%; /* Full width for very small devices */
     }
 }
