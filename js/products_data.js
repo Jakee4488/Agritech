@@ -17,7 +17,7 @@ const products = [
                 name: "Kashmiri Apples",
                 shortDescription: "Crisp and flavorful apples nurtured in the pristine orchards of Jammu and Kashmir.",
                 detailedDescription: "Grown in high-altitude regions with minimal pesticide usage. Handpicked for quality, these apples offer a perfect balance of sweetness and tartness.",
-                image: "../assets/images/apple-kashmir.png",
+                image: "assets/images/frutis/apple.jpg",
                 category: "Fruits"
             },
             {
@@ -25,7 +25,7 @@ const products = [
                 name: "Assamese Oranges",
                 shortDescription: "Juicy and vibrant oranges from the lush orchards of Assam, harvested sustainably.",
                 detailedDescription: "Rich in Vitamin C, these oranges are grown using eco-friendly farming practices ensuring seasonal freshness and exceptional flavor.",
-                image: "../assets/images/products/assamese-oranges.jpg",
+                image: "assets/images/frutis/oranges.jpg",
                 category: "Fruits"
             },
             {
@@ -33,7 +33,7 @@ const products = [
                 name: "Hyderabadi Grapes",
                 shortDescription: "Sweet and succulent grapes cultivated in the fertile soils of Hyderabad.",
                 detailedDescription: "Water-efficient irrigation and the use of organic fertilizers result in export-grade quality grapes with a rich sugar content.",
-                image: "../assets/images/products/hyderabadi-grapes.jpg",
+                image: "assets/images/frutis/grapes.jpg",
                 category: "Fruits"
             },
             {
@@ -41,7 +41,7 @@ const products = [
                 name: "Goan Pineapples",
                 shortDescription: "Tropical pineapples from Goa, grown with respect for nature and local ecosystems.",
                 detailedDescription: "No synthetic chemicals are used in the cultivation process, ensuring sustainably harvested pineapples bursting with flavor.",
-                image: "../assets/images/products/goan-pineapples.jpg",
+                image: "assets/images/frutis/pineapple.jpg",
                 category: "Fruits"
             },
             {
@@ -49,7 +49,7 @@ const products = [
                 name: "Coorg Bananas",
                 shortDescription: "Creamy and rich bananas from the verdant plantations of Coorg.",
                 detailedDescription: "Eco-friendly cultivation methods and high potassium content make these freshly harvested bananas a nutritious choice.",
-                image: "../assets/images/products/coorg-bananas.jpg",
+                image: "assets/images/frutis/banana.jpg",
                 category: "Fruits"
             },
             {
@@ -57,7 +57,7 @@ const products = [
                 name: "Kanyakumari Papayas",
                 shortDescription: "Sweet and buttery papayas from the southern tip of India, grown organically.",
                 detailedDescription: "Pesticide-free farming ensures rich in antioxidants and locally sourced papayas with a smooth and sweet taste.",
-                image: "../assets/images/products/kanyakumari-papayas.jpg",
+                image: "assets/images/frutis/papaya.jpg",
                 category: "Fruits"
             },
             {
@@ -65,7 +65,7 @@ const products = [
                 name: "Punjab Guavas",
                 shortDescription: "Fragrant and fiber-rich guavas from the fertile lands of Punjab.",
                 detailedDescription: "Sustainable farming practices result in high vitamin content guavas, handpicked for ripeness to ensure the best quality.",
-                image: "../assets/images/products/punjab-guavas.jpg",
+                image: "assets/images/frutis/guava.jpg",
                 category: "Fruits"
             },
             {
@@ -73,7 +73,7 @@ const products = [
                 name: "Maharashtrian Mangoes",
                 shortDescription: "Luscious mangoes from Maharashtra, offering a taste of tradition and purity.",
                 detailedDescription: "Rich in flavor and sustainably harvested, these diverse varieties of mangoes provide a premium selection for mango enthusiasts.",
-                image: "../assets/images/products/maharashtrian-mangoes.jpg",
+                image: "assets/images/frutis/mango.jpg",
                 category: "Fruits"
             },
             {
@@ -81,7 +81,7 @@ const products = [
                 name: "Rajasthani Pomegranates",
                 shortDescription: "Juicy and tangy pomegranates from the arid regions of Rajasthan.",
                 detailedDescription: "Drought-resistant farming techniques and minimal water usage result in high antioxidant levels in these flavorful pomegranates.",
-                image: "../assets/images/products/rajasthani-pomegranates.jpg",
+                image: "assets/images/frutis/pomegranate.jpg",
                 category: "Fruits"
             },
             {
@@ -89,7 +89,7 @@ const products = [
                 name: "Uttarakhand Plums",
                 shortDescription: "Delicious plums from the hilly terrains of Uttarakhand, grown sustainably.",
                 detailedDescription: "Organic farming methods and handpicked for quality ensure rich in vitamins, these plums are perfect for a healthy diet.",
-                image: "../assets/images/products/uttarakhand-plums.jpg",
+                image: "assets/images/frutis/plumns.jpg",
                 category: "Fruits"
             },
             {
@@ -97,7 +97,7 @@ const products = [
                 name: "Tamil Nadu Lychees",
                 shortDescription: "Exquisite lychees from Tamil Nadu, known for their sweet and aromatic flavor.",
                 detailedDescription: "Eco-friendly cultivation and limited pesticide use make these freshly harvested lychees a delightful and healthy treat.",
-                image: "../assets/images/products/tamil-nadu-lychees.jpg",
+                image: "assets/images/frutis/lychees.jpg",
                 category: "Fruits"
             },
             {
@@ -105,23 +105,23 @@ const products = [
                 name: "Kerala Jackfruits",
                 shortDescription: "Massive and nutrient-packed jackfruits from the lush landscapes of Kerala.",
                 detailedDescription: "Sustainable harvesting practices and high dietary fiber content make these jackfruits versatile for various culinary uses.",
-                image: "../assets/images/products/kerala-jackfruits.jpg",
+                image: "assets/images/frutis/jackfruit.jpg",
                 category: "Fruits"
             },
             {
-                id: "bengali-litchis",
-                name: "Bengali Litchis",
-                shortDescription: "Sweet and juicy litchis from the fertile regions of West Bengal.",
-                detailedDescription: "Organic farming practices and handpicked for sweetness ensure rich in Vitamin C, these litchis are a delightful addition to any meal.",
-                image: "../assets/images/products/bengali-litchis.jpg",
+                id: "custard-apple",
+                name: "Custard Apple",
+                shortDescription: "Creamy and flavorful custard apples from the lush orchards of India.",
+                detailedDescription: "Grown using organic practices, these custard apples are rich in natural sweetness and packed with essential nutrients. A perfect tropical delight for any occasion.",
+                image: "assets/images/frutis/custard_apple.jpg",
                 category: "Fruits"
-            },
+            },            
             {
                 id: "andhra-pradesh-watermelons",
                 name: "Andhra Pradesh Watermelons",
                 shortDescription: "Refreshing watermelons from Andhra Pradesh, grown with care for the environment.",
                 detailedDescription: "Sustainable irrigation and eco-friendly packaging, along with seedless varieties, make these watermelons perfect for hydrating and healthy snacking.",
-                image: "../assets/images/products/andhra-pradesh-watermelons.jpg",
+                image: "assets/images/frutis/watermelon.jpg",
                 category: "Fruits"
             },
             {
@@ -129,7 +129,7 @@ const products = [
                 name: "Himachali Strawberries",
                 shortDescription: "Bright and sweet strawberries from the cool valleys of Himachal Pradesh.",
                 detailedDescription: "Organic cultivation and handpicked for freshness ensure these strawberries are rich in antioxidants, perfect for a healthy lifestyle.",
-                image: "../assets/images/products/himachali-strawberries.jpg",
+                image: "assets/images/frutis/strawberry.jpg",
                 category: "Fruits"
             }
         ]
@@ -143,14 +143,14 @@ const products = [
             "Sustainably Harvested",
             "Pesticide-Free Farming"
         ],
-        backgroundImage: "../assets/images/fruits.jpg",
+        backgroundImage: "../assets/images/organic_fruits.jpg",
         products: [
             {
                 id: "organic-kinnaur-apples",
                 name: "Organic Kinnaur Apples",
                 shortDescription: "Premium organic apples from Kinnaur, cultivated without pesticides for pure taste.",
                 detailedDescription: "Certified organic and sustainably harvested, these crisp and juicy apples are grown in harmony with nature, ensuring a pure and refreshing flavor.",
-                image: "../assets/images/products/organic-kinnaur-apples.jpg",
+                image: "assets/images/frutis/apple.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -158,7 +158,7 @@ const products = [
                 name: "Organic Nagpur Oranges",
                 shortDescription: "Vibrant organic oranges from Nagpur, ensuring natural sweetness and quality.",
                 detailedDescription: "Grown with organic practices, these oranges are rich in essential nutrients and come in environmentally friendly packaging, providing a naturally sweet and high-quality product.",
-                image: "../assets/images/products/organic-nagpur-oranges.jpg",
+                image: "assets/images/frutis/oranges.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -166,7 +166,7 @@ const products = [
                 name: "Organic Nashik Grapes",
                 shortDescription: "Premium organic grapes from Nashik, nurtured with eco-friendly methods.",
                 detailedDescription: "No chemical pesticides are used in the cultivation of these organic grapes, resulting in sustainably farmed, sweet grapes with a high sugar content.",
-                image: "../assets/images/products/organic-nashik-grapes.jpg",
+                image: "assets/images/frutis/grapes.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -174,7 +174,7 @@ const products = [
                 name: "Organic Kerala Bananas",
                 shortDescription: "Handpicked organic bananas from Kerala, offering natural goodness.",
                 detailedDescription: "Certified organic farming ensures that these bananas are rich in vitamins and grown with eco-friendly methods, providing a fresh and healthy choice.",
-                image: "../assets/images/products/organic-kerala-bananas.jpg",
+                image: "assets/images/frutis/banana.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -182,7 +182,7 @@ const products = [
                 name: "Organic Tamil Nadu Mangoes",
                 shortDescription: "Delicious organic mangoes from Tamil Nadu, grown with care for the environment.",
                 detailedDescription: "Pesticide-free farming, handpicked for flavor, and eco-friendly packaging ensure that these organic mangoes are both delicious and environmentally responsible.",
-                image: "../assets/images/products/organic-tamil-nadu-mangoes.jpg",
+                image: "assets/images/frutis/mango.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -190,7 +190,7 @@ const products = [
                 name: "Organic Maharashtra Figs",
                 shortDescription: "Exquisite organic figs from Maharashtra, harvested sustainably for premium quality.",
                 detailedDescription: "Organic certification and rich in fiber, these sustainably sourced figs are perfect for a healthy diet and gourmet culinary creations.",
-                image: "../assets/images/products/organic-maharashtra-figs.jpg",
+                image: "assets/images/frutis/fig.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -198,7 +198,7 @@ const products = [
                 name: "Organic Sikkim Apples",
                 shortDescription: "Crisp organic apples from Sikkim, cultivated in harmony with nature.",
                 detailedDescription: "Pesticide-free farming and handpicked for quality ensure these organic apples are sustainably harvested, offering a fresh and pure taste.",
-                image: "../assets/images/products/organic-sikkim-apples.jpg",
+                image: "assets/images/frutis/apples.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -206,7 +206,7 @@ const products = [
                 name: "Organic Gujarat Custard Apples",
                 shortDescription: "Creamy custard apples from Gujarat, grown organically for a sweet and smooth taste.",
                 detailedDescription: "Organic farming practices and rich in vitamins make these custard apples a sustainable and delicious choice for health-conscious consumers.",
-                image: "../assets/images/products/organic-gujarat-custard-apples.jpg",
+                image: "assets/images/frutis/custard_apple.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -214,7 +214,7 @@ const products = [
                 name: "Organic Odisha Bananas",
                 shortDescription: "Sweet organic bananas from Odisha, cultivated with eco-friendly methods.",
                 detailedDescription: "Certified organic bananas with high potassium content are freshly harvested using sustainable practices, ensuring both taste and health benefits.",
-                image: "../assets/images/products/organic-odisha-bananas.jpg",
+                image: "assets/images/frutis/banana.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -222,7 +222,7 @@ const products = [
                 name: "Organic Himachal Pradesh Cherries",
                 shortDescription: "Juicy organic cherries from Himachal Pradesh, offering a burst of natural sweetness.",
                 detailedDescription: "Organic certification and handpicked for ripeness ensure that these cherries are rich in antioxidants and sustainably harvested.",
-                image: "../assets/images/products/organic-himachal-pradesh-cherries.jpg",
+                image: "assets/images/frutis/cherries.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -230,7 +230,7 @@ const products = [
                 name: "Organic Punjab Peaches",
                 shortDescription: "Succulent organic peaches from Punjab, grown without synthetic chemicals.",
                 detailedDescription: "Sustainable farming and freshly harvested practices result in organically grown peaches that are rich in vitamins and perfect for fresh consumption.",
-                image: "../assets/images/products/organic-punjab-peaches.jpg",
+                image: "assets/images/frutis/peaches.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -238,7 +238,7 @@ const products = [
                 name: "Organic Karnataka Papayas",
                 shortDescription: "Delicious organic papayas from Karnataka, nurtured with sustainable practices.",
                 detailedDescription: "Pesticide-free cultivation and high antioxidant content make these organically grown papayas a healthy and environmentally friendly choice.",
-                image: "../assets/images/products/organic-karnataka-papayas.jpg",
+                image: "assets/images/frutis/papaya.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -246,7 +246,7 @@ const products = [
                 name: "Organic Bihar Guavas",
                 shortDescription: "Fragrant organic guavas from Bihar, offering natural sweetness and fiber.",
                 detailedDescription: "Certified organic guavas, sustainably harvested and rich in vitamins, provide a nutritious and tasty option for health-conscious individuals.",
-                image: "../assets/images/products/organic-bihar-guavas.jpg",
+                image: "assets/images/frutis/guava.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -254,7 +254,7 @@ const products = [
                 name: "Organic Rajasthan Figs",
                 shortDescription: "Tangy organic figs from Rajasthan, grown in arid climates with sustainable methods.",
                 detailedDescription: "Organic farming practices and rich in dietary fiber make these figs from Rajasthan a healthy and sustainably sourced fruit option.",
-                image: "../assets/images/products/organic-rajasthan-figs.jpg",
+                image: "assets/images/frutis/fig.jpg",
                 category: "Organic Fruits"
             },
             {
@@ -262,7 +262,7 @@ const products = [
                 name: "Organic West Bengal Mangoes",
                 shortDescription: "Sweet and juicy organic mangoes from West Bengal, cultivated with care.",
                 detailedDescription: "Pesticide-free farming, handpicked for flavor, and eco-friendly packaging ensure that these organic mangoes are both delicious and environmentally responsible.",
-                image: "../assets/images/products/organic-west-bengal-mangoes.jpg",
+                image: "assets/images/frutis/mango.jpg",
                 category: "Organic Fruits"
             }
         ]
@@ -276,14 +276,14 @@ const products = [
             "Export Grade Quality",
             "Environmentally Friendly Packaging"
         ],
-        backgroundImage: "../assets/images/fruits.jpg",
+        backgroundImage: "assets/images/allvegetables.jpg",
         products: [
             {
                 id: "punjab-potatoes",
                 name: "Punjab Potatoes",
                 shortDescription: "Starchy and versatile potatoes from the fertile fields of Punjab.",
                 detailedDescription: "High yield varieties with minimal pesticide use, these fresh potatoes are harvested at peak freshness, ensuring excellent quality for all your culinary needs.",
-                image: "../assets/images/products/punjab-potatoes.jpg",
+                image: "assets/images/Vegetables/Potatoes.jpg",
                 category: "Vegetables"
             },
             {
@@ -291,7 +291,7 @@ const products = [
                 name: "Madhya Pradesh Onions",
                 shortDescription: "Flavorful onions from Madhya Pradesh, perfect for every culinary need.",
                 detailedDescription: "Sustainable farming practices ensure long shelf-life and rich flavor in these onions, freshly harvested for superior quality.",
-                image: "../assets/images/products/madhya-pradesh-onions.jpg",
+                image: "assets/images/Vegetables/onions.jpg",
                 category: "Vegetables"
             },
             {
@@ -299,7 +299,7 @@ const products = [
                 name: "Uttar Pradesh Tomatoes",
                 shortDescription: "Juicy and ripe tomatoes from Uttar Pradesh, cultivated with care.",
                 detailedDescription: "Eco-friendly farming methods and high vitamin C content make these tomatoes freshly picked and perfect for a variety of healthy and delicious dishes.",
-                image: "../assets/images/products/uttar-pradesh-tomatoes.jpg",
+                image: "assets/images/Vegetables/Tomatoes.jpg",
                 category: "Vegetables"
             },
             {
@@ -307,7 +307,7 @@ const products = [
                 name: "Gujarat Okra (Lady's Finger)",
                 shortDescription: "Tender and crisp okra from Gujarat, ideal for a variety of dishes.",
                 detailedDescription: "Sustainable cultivation and minimal water usage result in rich dietary fiber okra, perfect for healthy and delicious meals.",
-                image: "../assets/images/products/gujarat-okra.jpg",
+                image: "assets/images/Vegetables/Okra.jpg",
                 category: "Vegetables"
             },
             {
@@ -315,7 +315,7 @@ const products = [
                 name: "Karnataka Brinjals (Eggplants)",
                 shortDescription: "Smooth and glossy brinjals from Karnataka, perfect for diverse recipes.",
                 detailedDescription: "Organic farming options and freshly harvested brinjals are high in antioxidants, making them a nutritious addition to any meal.",
-                image: "../assets/images/products/karnataka-brinjals.jpg",
+                image: "assets/images/Vegetables/Brinjal.png",
                 category: "Vegetables"
             },
             {
@@ -323,7 +323,7 @@ const products = [
                 name: "Bihar Cauliflower",
                 shortDescription: "White and crunchy cauliflower from Bihar, a staple in many households.",
                 detailedDescription: "Sustainable farming practices and minimal pesticide use ensure that these freshly picked cauliflowers are perfect for a variety of culinary uses.",
-                image: "../assets/images/products/bihar-cauliflower.jpg",
+                image: "assets/images/Vegetables/cauliflower.jpg",
                 category: "Vegetables"
             },
             {
@@ -331,7 +331,7 @@ const products = [
                 name: "West Bengal Cabbages",
                 shortDescription: "Crisp and green cabbages from West Bengal, perfect for salads and stir-fries.",
                 detailedDescription: "Eco-friendly cultivation and high in vitamins K and C, these freshly harvested cabbages are ideal for healthy and flavorful meals.",
-                image: "../assets/images/products/west-bengal-cabbages.jpg",
+                image: "assets/images/Vegetables/cabbages.jpg",
                 category: "Vegetables"
             },
             {
@@ -339,7 +339,7 @@ const products = [
                 name: "Tamil Nadu Beans",
                 shortDescription: "Fresh green beans from Tamil Nadu, perfect for healthy meals.",
                 detailedDescription: "Sustainable farming and rich in protein, these handpicked green beans are fresh and nutritious for a variety of dishes.",
-                image: "../assets/images/products/tamil-nadu-beans.jpg",
+                image: "assets/images/Vegetables/beans.jpg",
                 category: "Vegetables"
             },
             {
@@ -347,7 +347,7 @@ const products = [
                 name: "Himachal Pradesh Carrots",
                 shortDescription: "Sweet and crunchy carrots from Himachal Pradesh, grown in cool climates.",
                 detailedDescription: "Organic farming methods and high in beta-carotene, these freshly harvested carrots are perfect for a healthy diet.",
-                image: "../assets/images/products/himachal-pradesh-carrots.jpg",
+                image: "assets/images/Vegetables/carrots.jpg",
                 category: "Vegetables"
             },
             {
@@ -355,7 +355,7 @@ const products = [
                 name: "Rajasthan Spinach",
                 shortDescription: "Nutritious spinach from Rajasthan, cultivated with minimal resources.",
                 detailedDescription: "Drought-resistant farming and high in iron and calcium make this sustainably harvested spinach a healthy choice for your meals.",
-                image: "../assets/images/products/rajasthan-spinach.jpg",
+                image: "assets/images/Vegetables/spinach.jpg",
                 category: "Vegetables"
             },
             {
@@ -363,7 +363,7 @@ const products = [
                 name: "Sikkim Green Peas",
                 shortDescription: "Tender green peas from Sikkim, perfect for soups and side dishes.",
                 detailedDescription: "Organic farming methods and rich in protein, these sustainably harvested green peas are ideal for a variety of culinary uses.",
-                image: "../assets/images/products/sikkim-green-peas.jpg",
+                image: "assets/images/Vegetables/Green-peas.jpg",
                 category: "Vegetables"
             },
             {
@@ -371,7 +371,7 @@ const products = [
                 name: "Andhra Pradesh Cucumber",
                 shortDescription: "Refreshing cucumbers from Andhra Pradesh, ideal for salads and beverages.",
                 detailedDescription: "Eco-friendly cultivation and high water content make these freshly harvested cucumbers perfect for hydrating and healthy recipes.",
-                image: "../assets/images/products/andhra-pradesh-cucumber.jpg",
+                image: "assets/images/Vegetables/cucumbers.jpg",
                 category: "Vegetables"
             },
             {
@@ -379,7 +379,7 @@ const products = [
                 name: "Jharkhand Pumpkins",
                 shortDescription: "Versatile pumpkins from Jharkhand, perfect for savory and sweet dishes.",
                 detailedDescription: "Sustainable farming practices and rich in vitamins A and C ensure these freshly picked pumpkins are both nutritious and delicious.",
-                image: "../assets/images/products/jharkhand-pumpkins.jpg",
+                image: "assets/images/Vegetables/pumpkins.jpg",
                 category: "Vegetables"
             },
             {
@@ -387,7 +387,7 @@ const products = [
                 name: "Mizoram Bell Peppers",
                 shortDescription: "Colorful bell peppers from Mizoram, adding vibrant flavors to your meals.",
                 detailedDescription: "Organic farming options and rich in antioxidants make these freshly harvested bell peppers a healthy and flavorful addition to any dish.",
-                image: "../assets/images/products/mizoram-bell-peppers.jpg",
+                image: "assets/images/Vegetables/bellpeppers.jpg",
                 category: "Vegetables"
             },
             {
@@ -395,7 +395,7 @@ const products = [
                 name: "Chhattisgarh Bitter Gourd",
                 shortDescription: "Health-packed bitter gourd from Chhattisgarh, known for its medicinal benefits.",
                 detailedDescription: "Sustainable cultivation and rich in vitamins and minerals, these freshly picked bitter gourds are perfect for a healthy and nutritious diet.",
-                image: "../assets/images/products/chhattisgarh-bitter-gourd.jpg",
+                image: "assets/images/Vegetables/bitter-gourd.jpg",
                 category: "Vegetables"
             }
         ]
@@ -409,14 +409,14 @@ const products = [
             "Sustainably Harvested",
             "Pesticide-Free Farming"
         ],
-        backgroundImage: "../assets/images/fruits.jpg",
+        backgroundImage: "assets/images/organicvegetables.jpg",
         products: [
             {
                 id: "organic-punjab-potatoes",
                 name: "Organic Punjab Potatoes",
                 shortDescription: "Organic potatoes from Punjab, cultivated without synthetic pesticides for pure taste.",
                 detailedDescription: "Certified organic and sustainable farming practices ensure these freshly harvested potatoes are free from synthetic pesticides, offering a pure and delicious flavor.",
-                image: "../assets/images/products/organic-punjab-potatoes.jpg",
+                image: "assets/images/Vegetables/potatoes.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -424,7 +424,7 @@ const products = [
                 name: "Organic Madhya Pradesh Onions",
                 shortDescription: "Flavorful organic onions from Madhya Pradesh, grown with natural methods.",
                 detailedDescription: "Pesticide-free cultivation and long shelf-life practices make these organic onions a rich and flavorful addition to your kitchen.",
-                image: "../assets/images/products/organic-madhya-pradesh-onions.jpg",
+                image: "assets/images/Vegetables/onions.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -432,7 +432,7 @@ const products = [
                 name: "Organic Uttar Pradesh Tomatoes",
                 shortDescription: "Juicy organic tomatoes from Uttar Pradesh, ensuring natural sweetness and quality.",
                 detailedDescription: "Grown organically with high vitamin C content and freshly picked, these tomatoes are perfect for a variety of healthy and delicious recipes.",
-                image: "../assets/images/products/organic-uttar-pradesh-tomatoes.jpg",
+                image: "assets/images/Vegetables/tomatoes.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -440,7 +440,7 @@ const products = [
                 name: "Organic Gujarat Okra (Lady's Finger)",
                 shortDescription: "Tender organic okra from Gujarat, perfect for a variety of dishes.",
                 detailedDescription: "Certified organic and minimally water-used cultivation results in rich dietary fiber okra, sustainably harvested for premium quality.",
-                image: "../assets/images/products/organic-gujarat-okra.jpg",
+                image: "assets/images/Vegetables/okra.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -448,7 +448,7 @@ const products = [
                 name: "Organic Karnataka Brinjals (Eggplants)",
                 shortDescription: "Glossy organic brinjals from Karnataka, cultivated sustainably for premium quality.",
                 detailedDescription: "Pesticide-free farming and freshly harvested practices make these organic brinjals high in antioxidants and perfect for a healthy diet.",
-                image: "../assets/images/products/organic-karnataka-brinjals.jpg",
+                image: "assets/images/Vegetables/brinjal.png",
                 category: "Organic Vegetables"
             },
             {
@@ -456,7 +456,7 @@ const products = [
                 name: "Organic Bihar Cauliflower",
                 shortDescription: "White organic cauliflower from Bihar, a staple in many households.",
                 detailedDescription: "Certified organic and sustainable farming practices ensure these freshly picked cauliflowers are free from harmful chemicals, perfect for a variety of culinary uses.",
-                image: "../assets/images/products/organic-bihar-cauliflower.jpg",
+                image: "assets/images/Vegetables/cauliflower.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -464,7 +464,7 @@ const products = [
                 name: "Organic West Bengal Cabbages",
                 shortDescription: "Crisp organic cabbages from West Bengal, perfect for salads and stir-fries.",
                 detailedDescription: "Eco-friendly cultivation and high in vitamins K and C, these freshly harvested organic cabbages are ideal for healthy and flavorful meals.",
-                image: "../assets/images/products/organic-west-bengal-cabbages.jpg",
+                image: "assets/images/Vegetables/cabbages.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -472,7 +472,7 @@ const products = [
                 name: "Organic Tamil Nadu Beans",
                 shortDescription: "Fresh organic green beans from Tamil Nadu, perfect for healthy meals.",
                 detailedDescription: "Certified organic and rich in protein, these handpicked green beans are fresh and nutritious for a variety of dishes.",
-                image: "../assets/images/products/organic-tamil-nadu-beans.jpg",
+                image: "assets/images/Vegetables/beans.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -480,7 +480,7 @@ const products = [
                 name: "Organic Himachal Pradesh Carrots",
                 shortDescription: "Sweet organic carrots from Himachal Pradesh, grown in cool climates.",
                 detailedDescription: "Pesticide-free farming and high in beta-carotene make these freshly harvested organic carrots a healthy and delicious choice for your diet.",
-                image: "../assets/images/products/organic-himachal-pradesh-carrots.jpg",
+                image: "assets/images/Vegetables/carrots.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -488,7 +488,7 @@ const products = [
                 name: "Organic Rajasthan Spinach",
                 shortDescription: "Nutritious organic spinach from Rajasthan, cultivated sustainably.",
                 detailedDescription: "Certified organic and drought-resistant farming practices ensure that this freshly picked spinach is rich in iron and calcium, perfect for a healthy diet.",
-                image: "../assets/images/products/organic-rajasthan-spinach.jpg",
+                image: "assets/images/Vegetables/spinach.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -496,7 +496,7 @@ const products = [
                 name: "Organic Sikkim Green Peas",
                 shortDescription: "Tender organic green peas from Sikkim, perfect for soups and side dishes.",
                 detailedDescription: "Organic farming methods and rich in protein, these sustainably harvested green peas are ideal for a variety of culinary uses.",
-                image: "../assets/images/products/organic-sikkim-green-peas.jpg",
+                image: "assets/images/Vegetables/green-peas.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -504,7 +504,7 @@ const products = [
                 name: "Organic Andhra Pradesh Cucumber",
                 shortDescription: "Refreshing organic cucumbers from Andhra Pradesh, ideal for salads and beverages.",
                 detailedDescription: "Certified organic cultivation and high water content make these freshly harvested organic cucumbers perfect for hydrating and healthy recipes.",
-                image: "../assets/images/products/organic-andhra-pradesh-cucumber.jpg",
+                image: "assets/images/Vegetables/cucumbers.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -512,7 +512,7 @@ const products = [
                 name: "Organic Jharkhand Pumpkins",
                 shortDescription: "Versatile organic pumpkins from Jharkhand, perfect for savory and sweet dishes.",
                 detailedDescription: "Pesticide-free cultivation and rich in vitamins A and C ensure these freshly picked organic pumpkins are both nutritious and delicious.",
-                image: "../assets/images/products/organic-jharkhand-pumpkins.jpg",
+                image: "assets/images/Vegetables/pumpkins.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -520,7 +520,7 @@ const products = [
                 name: "Organic Mizoram Bell Peppers",
                 shortDescription: "Colorful organic bell peppers from Mizoram, adding vibrant flavors to your meals.",
                 detailedDescription: "Certified organic and rich in antioxidants, these freshly harvested bell peppers are a healthy and flavorful addition to any dish.",
-                image: "../assets/images/products/organic-mizoram-bell-peppers.jpg",
+                image: "assets/images/Vegetables/bellpeppers.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -528,7 +528,7 @@ const products = [
                 name: "Organic Chhattisgarh Bitter Gourd",
                 shortDescription: "Health-packed organic bitter gourd from Chhattisgarh, known for its medicinal benefits.",
                 detailedDescription: "Organic farming practices and rich in vitamins and minerals, these freshly picked bitter gourds are perfect for a healthy and nutritious diet.",
-                image: "../assets/images/products/organic-chhattisgarh-bitter-gourd.jpg",
+                image: "assets/images/Vegetables/bitter-gourd.jpg",
                 category: "Organic Vegetables"
             }
         ]
