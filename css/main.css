@@ -331,6 +331,9 @@ body {
 
 .product-tile {
     text-align: center;
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 
 .product-tile i {
@@ -341,7 +344,8 @@ body {
 }
 
 .product-item:hover .product-tile i {
-    transform: scale(1.1);
+    transform: scale(1.2);
+    color: #f56b2a;
 }
 
 .product-tile h3 {

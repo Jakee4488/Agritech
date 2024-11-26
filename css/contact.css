@@ -120,95 +120,6 @@ body {
     color: var(--text-secondary, #555555);
     margin: 5px 0;
 }
-
-.sustainability-highlights {
-    margin-top: 15px;
-}
-
-.sustainability-highlights h4 {
-    font-size: 1.2rem;
-    color: var(--text-color, #333333);
-    margin-bottom: 10px;
-}
-
-.sustainability-highlights ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sustainability-highlights ul li {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 5px;
-    color: var(--text-secondary, #555555);
-}
-
-.sustainability-highlights ul li i {
-    color: var(--primary-color, #2E8B57);
-}
-
-/* ===========================
-   4. Sustainability Information Section Styles
-=========================== */
-.sustainability-info {
-    padding: 60px 0;
-    background: #ffffff;
-}
-
-.sustainability-info .section-header {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.sustainability-info .section-header h2 {
-    font-size: 2.5rem;
-    color: var(--text-color, #333333);
-    margin-bottom: 10px;
-}
-
-.sustainability-info .section-header p {
-    font-size: 1.2rem;
-    color: var(--text-secondary, #555555);
-}
-
-.info-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-}
-
-.info-card {
-    background: #f9f9f9;
-    border-radius: 15px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.info-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
-
-.info-icon {
-    font-size: 2rem;
-    color: var(--primary-color, #2E8B57);
-    margin-bottom: 15px;
-}
-
-.info-card h3 {
-    font-size: 1.5rem;
-    color: var(--text-color, #333333);
-    margin-bottom: 10px;
-}
-
-.info-card p {
-    font-size: 1rem;
-    color: var(--text-secondary, #555555);
-}
-
 /* ===========================
    5. Contact Form Section Styles (Updated for Responsiveness)
 =========================== */
@@ -377,67 +288,6 @@ body {
 }
 
 /* ===========================
-   6. Sustainability Highlights Section Styles
-=========================== */
-.sustainability-highlights {
-    padding: 60px 0;
-    background: #ffffff;
-}
-
-.sustainability-highlights .section-header {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.sustainability-highlights .section-header h2 {
-    font-size: 2.5rem;
-    color: var(--text-color, #333333);
-    margin-bottom: 10px;
-}
-
-.sustainability-highlights .section-header p {
-    font-size: 1.2rem;
-    color: var(--text-secondary, #555555);
-}
-
-.highlights-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-}
-
-.highlight-item {
-    background: #f9f9f9;
-    border-radius: 15px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.highlight-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
-
-.highlight-icon {
-    font-size: 2rem;
-    color: var(--primary-color, #2E8B57);
-    margin-bottom: 15px;
-}
-
-.highlight-item h3 {
-    font-size: 1.5rem;
-    color: var(--text-color, #333333);
-    margin-bottom: 10px;
-}
-
-.highlight-item p {
-    font-size: 1rem;
-    color: var(--text-secondary, #555555);
-}
-
-/* ===========================
    7. Responsive Design Enhancements
 =========================== */
 @media (max-width: 1024px) {
@@ -493,18 +343,6 @@ body {
         font-size: 1.1rem;
     }
 
-    .sustainability-highlights .section-header h2,
-    .global-offices .section-header h2,
-    .sustainability-info .section-header h2 {
-        font-size: 2rem;
-    }
-
-    .sustainability-highlights .section-header p,
-    .global-offices .section-header p,
-    .sustainability-info .section-header p {
-        font-size: 1rem;
-    }
-
     .contact-form-section .form-wrapper {
         padding: 20px;
     }
@@ -539,20 +377,6 @@ body {
     .info-card h3,
     .office-card h3 {
         font-size: 1.2rem;
-    }
-
-    .highlight-item p,
-    .info-card p,
-    .office-details p,
-    .contact-form p,
-    .sustainability-highlights p {
-        font-size: 0.9rem;
-    }
-
-    .sustainability-highlights .highlights-grid,
-    .global-offices .offices-grid,
-    .sustainability-info .info-grid {
-        grid-template-columns: 1fr;
     }
 
     .contact-form-section .form-wrapper {
