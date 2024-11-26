@@ -268,271 +268,273 @@ const products = [
         ]
     },
     {
-        title: "Vegetables",
-        icon: "fas fa-carrot",
-        category: "Farm-fresh greens for every plate.",
-        features: [
+        "title": "Vegetables",
+        "icon": "fas fa-carrot",
+        "category": "Farm-fresh greens for every plate.",
+        "features": [
             "Seasonal & Year-Round Availability",
             "Export Grade Quality",
             "Environmentally Friendly Packaging"
         ],
-        backgroundImage: "assets/images/allvegetables.jpg",
-        products: [
+        "backgroundImage": "assets/images/allvegetables.jpg",
+        "products": [
             {
-                id: "punjab-potatoes",
-                name: "Punjab Potatoes",
-                shortDescription: "Starchy and versatile potatoes from the fertile fields of Punjab.",
-                detailedDescription: "High yield varieties with minimal pesticide use, these fresh potatoes are harvested at peak freshness, ensuring excellent quality for all your culinary needs.",
-                image: "assets/images/Vegetables/Potatoes.jpg",
-                category: "Vegetables"
+                "id": "potatoes",
+                "name": "Potatoes",
+                "shortDescription": "Starchy and versatile potatoes from the fertile fields.",
+                "detailedDescription": "High yield varieties with minimal pesticide use, these fresh potatoes are harvested at peak freshness, ensuring excellent quality for all your culinary needs.",
+                "image": "assets/images/Vegetables/Potatoes.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "madhya-pradesh-onions",
-                name: "Madhya Pradesh Onions",
-                shortDescription: "Flavorful onions from Madhya Pradesh, perfect for every culinary need.",
-                detailedDescription: "Sustainable farming practices ensure long shelf-life and rich flavor in these onions, freshly harvested for superior quality.",
-                image: "assets/images/Vegetables/onions.jpg",
-                category: "Vegetables"
+                "id": "onions",
+                "name": "Onions",
+                "shortDescription": "Flavorful onions, perfect for every culinary need.",
+                "detailedDescription": "Sustainable farming practices ensure long shelf-life and rich flavor in these onions, freshly harvested for superior quality.",
+                "image": "assets/images/Vegetables/onions.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "uttar-pradesh-tomatoes",
-                name: "Uttar Pradesh Tomatoes",
-                shortDescription: "Juicy and ripe tomatoes from Uttar Pradesh, cultivated with care.",
-                detailedDescription: "Eco-friendly farming methods and high vitamin C content make these tomatoes freshly picked and perfect for a variety of healthy and delicious dishes.",
-                image: "assets/images/Vegetables/Tomatoes.jpg",
-                category: "Vegetables"
+                "id": "tomatoes",
+                "name": "Tomatoes",
+                "shortDescription": "Juicy and ripe tomatoes cultivated with care.",
+                "detailedDescription": "Eco-friendly farming methods and high vitamin C content make these tomatoes freshly picked and perfect for a variety of healthy and delicious dishes.",
+                "image": "assets/images/Vegetables/Tomatoes.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "gujarat-okra",
-                name: "Gujarat Okra (Lady's Finger)",
-                shortDescription: "Tender and crisp okra from Gujarat, ideal for a variety of dishes.",
-                detailedDescription: "Sustainable cultivation and minimal water usage result in rich dietary fiber okra, perfect for healthy and delicious meals.",
-                image: "assets/images/Vegetables/Okra.jpg",
-                category: "Vegetables"
+                "id": "okra",
+                "name": "Okra (Lady's Finger)",
+                "shortDescription": "Tender and crisp okra, ideal for a variety of dishes.",
+                "detailedDescription": "Sustainable cultivation and minimal water usage result in rich dietary fiber okra, perfect for healthy and delicious meals.",
+                "image": "assets/images/Vegetables/Okra.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "karnataka-brinjals",
-                name: "Karnataka Brinjals (Eggplants)",
-                shortDescription: "Smooth and glossy brinjals from Karnataka, perfect for diverse recipes.",
-                detailedDescription: "Organic farming options and freshly harvested brinjals are high in antioxidants, making them a nutritious addition to any meal.",
-                image: "assets/images/Vegetables/Brinjal.png",
-                category: "Vegetables"
+                "id": "brinjals",
+                "name": "Brinjals (Eggplants)",
+                "shortDescription": "Smooth and glossy brinjals, perfect for diverse recipes.",
+                "detailedDescription": "Organic farming options and freshly harvested brinjals are high in antioxidants, making them a nutritious addition to any meal.",
+                "image": "assets/images/Vegetables/Brinjal.png",
+                "category": "Vegetables"
             },
             {
-                id: "bihar-cauliflower",
-                name: "Bihar Cauliflower",
-                shortDescription: "White and crunchy cauliflower from Bihar, a staple in many households.",
-                detailedDescription: "Sustainable farming practices and minimal pesticide use ensure that these freshly picked cauliflowers are perfect for a variety of culinary uses.",
-                image: "assets/images/Vegetables/cauliflower.jpg",
-                category: "Vegetables"
+                "id": "cauliflower",
+                "name": "Cauliflower",
+                "shortDescription": "White and crunchy cauliflower, a staple in many households.",
+                "detailedDescription": "Sustainable farming practices and minimal pesticide use ensure that these freshly picked cauliflowers are perfect for a variety of culinary uses.",
+                "image": "assets/images/Vegetables/cauliflower.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "west-bengal-cabbages",
-                name: "West Bengal Cabbages",
-                shortDescription: "Crisp and green cabbages from West Bengal, perfect for salads and stir-fries.",
-                detailedDescription: "Eco-friendly cultivation and high in vitamins K and C, these freshly harvested cabbages are ideal for healthy and flavorful meals.",
-                image: "assets/images/Vegetables/cabbages.jpg",
-                category: "Vegetables"
+                "id": "cabbages",
+                "name": "Cabbages",
+                "shortDescription": "Crisp and green cabbages, perfect for salads and stir-fries.",
+                "detailedDescription": "Eco-friendly cultivation and high in vitamins K and C, these freshly harvested cabbages are ideal for healthy and flavorful meals.",
+                "image": "assets/images/Vegetables/cabbages.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "tamil-nadu-beans",
-                name: "Tamil Nadu Beans",
-                shortDescription: "Fresh green beans from Tamil Nadu, perfect for healthy meals.",
-                detailedDescription: "Sustainable farming and rich in protein, these handpicked green beans are fresh and nutritious for a variety of dishes.",
-                image: "assets/images/Vegetables/beans.jpg",
-                category: "Vegetables"
+                "id": "beans",
+                "name": "Beans",
+                "shortDescription": "Fresh green beans, perfect for healthy meals.",
+                "detailedDescription": "Sustainable farming and rich in protein, these handpicked green beans are fresh and nutritious for a variety of dishes.",
+                "image": "assets/images/Vegetables/beans.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "himachal-pradesh-carrots",
-                name: "Himachal Pradesh Carrots",
-                shortDescription: "Sweet and crunchy carrots from Himachal Pradesh, grown in cool climates.",
-                detailedDescription: "Organic farming methods and high in beta-carotene, these freshly harvested carrots are perfect for a healthy diet.",
-                image: "assets/images/Vegetables/carrots.jpg",
-                category: "Vegetables"
+                "id": "carrots",
+                "name": "Carrots",
+                "shortDescription": "Sweet and crunchy carrots, grown in cool climates.",
+                "detailedDescription": "Organic farming methods and high in beta-carotene, these freshly harvested carrots are perfect for a healthy diet.",
+                "image": "assets/images/Vegetables/carrots.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "rajasthan-spinach",
-                name: "Rajasthan Spinach",
-                shortDescription: "Nutritious spinach from Rajasthan, cultivated with minimal resources.",
-                detailedDescription: "Drought-resistant farming and high in iron and calcium make this sustainably harvested spinach a healthy choice for your meals.",
-                image: "assets/images/Vegetables/spinach.jpg",
-                category: "Vegetables"
+                "id": "spinach",
+                "name": "Spinach",
+                "shortDescription": "Nutritious spinach cultivated with minimal resources.",
+                "detailedDescription": "Drought-resistant farming and high in iron and calcium make this sustainably harvested spinach a healthy choice for your meals.",
+                "image": "assets/images/Vegetables/spinach.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "sikkim-green-peas",
-                name: "Sikkim Green Peas",
-                shortDescription: "Tender green peas from Sikkim, perfect for soups and side dishes.",
-                detailedDescription: "Organic farming methods and rich in protein, these sustainably harvested green peas are ideal for a variety of culinary uses.",
-                image: "assets/images/Vegetables/Green-peas.jpg",
-                category: "Vegetables"
+                "id": "green-peas",
+                "name": "Green Peas",
+                "shortDescription": "Tender green peas, perfect for soups and side dishes.",
+                "detailedDescription": "Organic farming methods and rich in protein, these sustainably harvested green peas are ideal for a variety of culinary uses.",
+                "image": "assets/images/Vegetables/Green-peas.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "andhra-pradesh-cucumber",
-                name: "Andhra Pradesh Cucumber",
-                shortDescription: "Refreshing cucumbers from Andhra Pradesh, ideal for salads and beverages.",
-                detailedDescription: "Eco-friendly cultivation and high water content make these freshly harvested cucumbers perfect for hydrating and healthy recipes.",
-                image: "assets/images/Vegetables/cucumbers.jpg",
-                category: "Vegetables"
+                "id": "cucumber",
+                "name": "Cucumber",
+                "shortDescription": "Refreshing cucumbers, ideal for salads and beverages.",
+                "detailedDescription": "Eco-friendly cultivation and high water content make these freshly harvested cucumbers perfect for hydrating and healthy recipes.",
+                "image": "assets/images/Vegetables/cucumbers.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "jharkhand-pumpkins",
-                name: "Jharkhand Pumpkins",
-                shortDescription: "Versatile pumpkins from Jharkhand, perfect for savory and sweet dishes.",
-                detailedDescription: "Sustainable farming practices and rich in vitamins A and C ensure these freshly picked pumpkins are both nutritious and delicious.",
-                image: "assets/images/Vegetables/pumpkins.jpg",
-                category: "Vegetables"
+                "id": "pumpkins",
+                "name": "Pumpkins",
+                "shortDescription": "Versatile pumpkins, perfect for savory and sweet dishes.",
+                "detailedDescription": "Sustainable farming practices and rich in vitamins A and C ensure these freshly picked pumpkins are both nutritious and delicious.",
+                "image": "assets/images/Vegetables/pumpkins.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "mizoram-bell-peppers",
-                name: "Mizoram Bell Peppers",
-                shortDescription: "Colorful bell peppers from Mizoram, adding vibrant flavors to your meals.",
-                detailedDescription: "Organic farming options and rich in antioxidants make these freshly harvested bell peppers a healthy and flavorful addition to any dish.",
-                image: "assets/images/Vegetables/bellpeppers.jpg",
-                category: "Vegetables"
+                "id": "bell-peppers",
+                "name": "Bell Peppers",
+                "shortDescription": "Colorful bell peppers, adding vibrant flavors to your meals.",
+                "detailedDescription": "Organic farming options and rich in antioxidants make these freshly harvested bell peppers a healthy and flavorful addition to any dish.",
+                "image": "assets/images/Vegetables/bellpeppers.jpg",
+                "category": "Vegetables"
             },
             {
-                id: "chhattisgarh-bitter-gourd",
-                name: "Chhattisgarh Bitter Gourd",
-                shortDescription: "Health-packed bitter gourd from Chhattisgarh, known for its medicinal benefits.",
-                detailedDescription: "Sustainable cultivation and rich in vitamins and minerals, these freshly picked bitter gourds are perfect for a healthy and nutritious diet.",
-                image: "assets/images/Vegetables/bitter-gourd.jpg",
-                category: "Vegetables"
+                "id": "bitter-gourd",
+                "name": "Bitter Gourd",
+                "shortDescription": "Health-packed bitter gourd, known for its medicinal benefits.",
+                "detailedDescription": "Sustainable cultivation and rich in vitamins and minerals, these freshly picked bitter gourds are perfect for a healthy and nutritious diet.",
+                "image": "assets/images/Vegetables/bitter-gourd.jpg",
+                "category": "Vegetables"
             }
         ]
     },
+    
     {
-        title: "Organic Vegetables",
-        icon: "fas fa-seedling",
-        category: "Eco-friendly and pesticide-free vegetables.",
-        features: [
+        "title": "Organic Vegetables",
+        "icon": "fas fa-seedling",
+        "category": "Eco-friendly and pesticide-free vegetables.",
+        "features": [
             "Certified Organic",
             "Sustainably Harvested",
             "Pesticide-Free Farming"
         ],
-        backgroundImage: "assets/images/organicvegetables.jpg",
-        products: [
+        "backgroundImage": "assets/images/organicvegetables.jpg",
+        "products": [
             {
-                id: "organic-punjab-potatoes",
-                name: "Organic Punjab Potatoes",
-                shortDescription: "Organic potatoes from Punjab, cultivated without synthetic pesticides for pure taste.",
-                detailedDescription: "Certified organic and sustainable farming practices ensure these freshly harvested potatoes are free from synthetic pesticides, offering a pure and delicious flavor.",
-                image: "assets/images/Vegetables/potatoes.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-potatoes",
+                "name": "Organic Potatoes",
+                "shortDescription": "Organic potatoes cultivated without synthetic pesticides for pure taste.",
+                "detailedDescription": "Certified organic and sustainable farming practices ensure these freshly harvested potatoes are free from synthetic pesticides, offering a pure and delicious flavor.",
+                "image": "assets/images/Vegetables/potatoes.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-madhya-pradesh-onions",
-                name: "Organic Madhya Pradesh Onions",
-                shortDescription: "Flavorful organic onions from Madhya Pradesh, grown with natural methods.",
-                detailedDescription: "Pesticide-free cultivation and long shelf-life practices make these organic onions a rich and flavorful addition to your kitchen.",
-                image: "assets/images/Vegetables/onions.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-onions",
+                "name": "Organic Onions",
+                "shortDescription": "Flavorful organic onions grown with natural methods.",
+                "detailedDescription": "Pesticide-free cultivation and long shelf-life practices make these organic onions a rich and flavorful addition to your kitchen.",
+                "image": "assets/images/Vegetables/onions.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-uttar-pradesh-tomatoes",
-                name: "Organic Uttar Pradesh Tomatoes",
-                shortDescription: "Juicy organic tomatoes from Uttar Pradesh, ensuring natural sweetness and quality.",
-                detailedDescription: "Grown organically with high vitamin C content and freshly picked, these tomatoes are perfect for a variety of healthy and delicious recipes.",
-                image: "assets/images/Vegetables/tomatoes.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-tomatoes",
+                "name": "Organic Tomatoes",
+                "shortDescription": "Juicy organic tomatoes ensuring natural sweetness and quality.",
+                "detailedDescription": "Grown organically with high vitamin C content and freshly picked, these tomatoes are perfect for a variety of healthy and delicious recipes.",
+                "image": "assets/images/Vegetables/tomatoes.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-gujarat-okra",
-                name: "Organic Gujarat Okra (Lady's Finger)",
-                shortDescription: "Tender organic okra from Gujarat, perfect for a variety of dishes.",
-                detailedDescription: "Certified organic and minimally water-used cultivation results in rich dietary fiber okra, sustainably harvested for premium quality.",
-                image: "assets/images/Vegetables/okra.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-okra",
+                "name": "Organic Okra (Lady's Finger)",
+                "shortDescription": "Tender organic okra perfect for a variety of dishes.",
+                "detailedDescription": "Certified organic and minimally water-used cultivation results in rich dietary fiber okra, sustainably harvested for premium quality.",
+                "image": "assets/images/Vegetables/okra.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-karnataka-brinjals",
-                name: "Organic Karnataka Brinjals (Eggplants)",
-                shortDescription: "Glossy organic brinjals from Karnataka, cultivated sustainably for premium quality.",
-                detailedDescription: "Pesticide-free farming and freshly harvested practices make these organic brinjals high in antioxidants and perfect for a healthy diet.",
-                image: "assets/images/Vegetables/brinjal.png",
-                category: "Organic Vegetables"
+                "id": "organic-brinjals",
+                "name": "Organic Brinjals (Eggplants)",
+                "shortDescription": "Glossy organic brinjals cultivated sustainably for premium quality.",
+                "detailedDescription": "Pesticide-free farming and freshly harvested practices make these organic brinjals high in antioxidants and perfect for a healthy diet.",
+                "image": "assets/images/Vegetables/brinjal.png",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-bihar-cauliflower",
-                name: "Organic Bihar Cauliflower",
-                shortDescription: "White organic cauliflower from Bihar, a staple in many households.",
-                detailedDescription: "Certified organic and sustainable farming practices ensure these freshly picked cauliflowers are free from harmful chemicals, perfect for a variety of culinary uses.",
-                image: "assets/images/Vegetables/cauliflower.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-cauliflower",
+                "name": "Organic Cauliflower",
+                "shortDescription": "White organic cauliflower, a staple in many households.",
+                "detailedDescription": "Certified organic and sustainable farming practices ensure these freshly picked cauliflowers are free from harmful chemicals, perfect for a variety of culinary uses.",
+                "image": "assets/images/Vegetables/cauliflower.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-west-bengal-cabbages",
-                name: "Organic West Bengal Cabbages",
-                shortDescription: "Crisp organic cabbages from West Bengal, perfect for salads and stir-fries.",
-                detailedDescription: "Eco-friendly cultivation and high in vitamins K and C, these freshly harvested organic cabbages are ideal for healthy and flavorful meals.",
-                image: "assets/images/Vegetables/cabbages.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-cabbages",
+                "name": "Organic Cabbages",
+                "shortDescription": "Crisp organic cabbages, perfect for salads and stir-fries.",
+                "detailedDescription": "Eco-friendly cultivation and high in vitamins K and C, these freshly harvested organic cabbages are ideal for healthy and flavorful meals.",
+                "image": "assets/images/Vegetables/cabbages.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-tamil-nadu-beans",
-                name: "Organic Tamil Nadu Beans",
-                shortDescription: "Fresh organic green beans from Tamil Nadu, perfect for healthy meals.",
-                detailedDescription: "Certified organic and rich in protein, these handpicked green beans are fresh and nutritious for a variety of dishes.",
-                image: "assets/images/Vegetables/beans.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-beans",
+                "name": "Organic Beans",
+                "shortDescription": "Fresh organic green beans, perfect for healthy meals.",
+                "detailedDescription": "Certified organic and rich in protein, these handpicked green beans are fresh and nutritious for a variety of dishes.",
+                "image": "assets/images/Vegetables/beans.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-himachal-pradesh-carrots",
-                name: "Organic Himachal Pradesh Carrots",
-                shortDescription: "Sweet organic carrots from Himachal Pradesh, grown in cool climates.",
-                detailedDescription: "Pesticide-free farming and high in beta-carotene make these freshly harvested organic carrots a healthy and delicious choice for your diet.",
-                image: "assets/images/Vegetables/carrots.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-carrots",
+                "name": "Organic Carrots",
+                "shortDescription": "Sweet organic carrots, grown in cool climates.",
+                "detailedDescription": "Pesticide-free farming and high in beta-carotene make these freshly harvested organic carrots a healthy and delicious choice for your diet.",
+                "image": "assets/images/Vegetables/carrots.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-rajasthan-spinach",
-                name: "Organic Rajasthan Spinach",
-                shortDescription: "Nutritious organic spinach from Rajasthan, cultivated sustainably.",
-                detailedDescription: "Certified organic and drought-resistant farming practices ensure that this freshly picked spinach is rich in iron and calcium, perfect for a healthy diet.",
-                image: "assets/images/Vegetables/spinach.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-spinach",
+                "name": "Organic Spinach",
+                "shortDescription": "Nutritious organic spinach cultivated sustainably.",
+                "detailedDescription": "Certified organic and drought-resistant farming practices ensure that this freshly picked spinach is rich in iron and calcium, perfect for a healthy diet.",
+                "image": "assets/images/Vegetables/spinach.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-sikkim-green-peas",
-                name: "Organic Sikkim Green Peas",
-                shortDescription: "Tender organic green peas from Sikkim, perfect for soups and side dishes.",
-                detailedDescription: "Organic farming methods and rich in protein, these sustainably harvested green peas are ideal for a variety of culinary uses.",
-                image: "assets/images/Vegetables/green-peas.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-green-peas",
+                "name": "Organic Green Peas",
+                "shortDescription": "Tender organic green peas, perfect for soups and side dishes.",
+                "detailedDescription": "Organic farming methods and rich in protein, these sustainably harvested green peas are ideal for a variety of culinary uses.",
+                "image": "assets/images/Vegetables/green-peas.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-andhra-pradesh-cucumber",
-                name: "Organic Andhra Pradesh Cucumber",
-                shortDescription: "Refreshing organic cucumbers from Andhra Pradesh, ideal for salads and beverages.",
-                detailedDescription: "Certified organic cultivation and high water content make these freshly harvested organic cucumbers perfect for hydrating and healthy recipes.",
-                image: "assets/images/Vegetables/cucumbers.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-cucumber",
+                "name": "Organic Cucumber",
+                "shortDescription": "Refreshing organic cucumbers, ideal for salads and beverages.",
+                "detailedDescription": "Certified organic cultivation and high water content make these freshly harvested organic cucumbers perfect for hydrating and healthy recipes.",
+                "image": "assets/images/Vegetables/cucumbers.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-jharkhand-pumpkins",
-                name: "Organic Jharkhand Pumpkins",
-                shortDescription: "Versatile organic pumpkins from Jharkhand, perfect for savory and sweet dishes.",
-                detailedDescription: "Pesticide-free cultivation and rich in vitamins A and C ensure these freshly picked organic pumpkins are both nutritious and delicious.",
-                image: "assets/images/Vegetables/pumpkins.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-pumpkins",
+                "name": "Organic Pumpkins",
+                "shortDescription": "Versatile organic pumpkins, perfect for savory and sweet dishes.",
+                "detailedDescription": "Pesticide-free cultivation and rich in vitamins A and C ensure these freshly picked organic pumpkins are both nutritious and delicious.",
+                "image": "assets/images/Vegetables/pumpkins.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-mizoram-bell-peppers",
-                name: "Organic Mizoram Bell Peppers",
-                shortDescription: "Colorful organic bell peppers from Mizoram, adding vibrant flavors to your meals.",
-                detailedDescription: "Certified organic and rich in antioxidants, these freshly harvested bell peppers are a healthy and flavorful addition to any dish.",
-                image: "assets/images/Vegetables/bellpeppers.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-bell-peppers",
+                "name": "Organic Bell Peppers",
+                "shortDescription": "Colorful organic bell peppers, adding vibrant flavors to your meals.",
+                "detailedDescription": "Certified organic and rich in antioxidants, these freshly harvested bell peppers are a healthy and flavorful addition to any dish.",
+                "image": "assets/images/Vegetables/bellpeppers.jpg",
+                "category": "Organic Vegetables"
             },
             {
-                id: "organic-chhattisgarh-bitter-gourd",
-                name: "Organic Chhattisgarh Bitter Gourd",
-                shortDescription: "Health-packed organic bitter gourd from Chhattisgarh, known for its medicinal benefits.",
-                detailedDescription: "Organic farming practices and rich in vitamins and minerals, these freshly picked bitter gourds are perfect for a healthy and nutritious diet.",
-                image: "assets/images/Vegetables/bitter-gourd.jpg",
-                category: "Organic Vegetables"
+                "id": "organic-bitter-gourd",
+                "name": "Organic Bitter Gourd",
+                "shortDescription": "Health-packed organic bitter gourd, known for its medicinal benefits.",
+                "detailedDescription": "Organic farming practices and rich in vitamins and minerals, these freshly picked bitter gourds are perfect for a healthy and nutritious diet.",
+                "image": "assets/images/Vegetables/bitter-gourd.jpg",
+                "category": "Organic Vegetables"
             }
         ]
     },
+    
     {
         title: "Food Grains",
         icon: "fas fa-seedling",
@@ -755,14 +757,6 @@ const products = [
                 category: "Coffee"
             },
             {
-                id: "babbar-south-coast",
-                name: "Babbar South Coast",
-                shortDescription: "Distinctive Babbar South Coast coffee from Karnataka, known for its smooth finish.",
-                detailedDescription: "Grown along the coastal regions, Babbar South Coast coffee beans are harvested sustainably, offering a balanced flavor with hints of chocolate and nuts.",
-                image: "../assets/images/products/babbar-south-coast.jpg",
-                category: "Coffee"
-            },
-            {
                 id: "araku-coffee",
                 name: "Araku Coffee",
                 shortDescription: "Organic Araku coffee from Andhra Pradesh, rich in flavor and aroma.",
@@ -920,15 +914,15 @@ const products = [
                 id: "larvicides",
                 name: "Larvicides",
                 shortDescription: "Effective larvicides for controlling harmful larvae.",
-                detailedDescription: "Our range of larvicides includes specialized solutions for pests such as Helicoverpa, Spodoptera, Cutworms, Stem Borer, Fruit Borer, and Rootgrub. These products are formulated to target and eliminate larvae stages, preventing them from causing extensive damage to your crops.",
+                detailedDescription: "Our range of larvicides includes specialized solutions for pests such as Helicoverpa, Spodoptera, Cutworms, Stem Borer, Fruit Borer, Tobacoo caterpillar, Rootgrub and etc. These products are formulated to target and eliminate larvae stages, preventing them from causing extensive damage to your crops.",
                 image: "../assets/images/products/larvicides.jpg",
                 category: "Insecticides"
             },
             {
                 id: "miticides-sucking-pests",
-                name: "Miticides & Sucking Pest Insecticides",
-                shortDescription: "Miticides and insecticides targeting sucking pests.",
-                detailedDescription: "Designed to combat red mites, white mites, thrips, leaf miners, spider mites, aphids, jashids, and millybugs, our miticides and sucking pest insecticides offer robust protection against these destructive pests. They ensure the health and vitality of your crops by effectively reducing pest populations.",
+                name: "Miticides & Sucking Pesticides",
+                shortDescription: "Miticides and Pesticides targeting sucking pests.",
+                detailedDescription: "Designed to combat red mites, white mites, thrips, leaf miners, spider mites, aphids, jashids, and millybugs, our miticides and sucking Pesticides offer robust protection against these destructive pests. They ensure the health and vitality of your crops by effectively reducing pest populations.",
                 image: "../assets/images/products/miticides-sucking-pests.jpg",
                 category: "Insecticides"
             },
@@ -936,7 +930,7 @@ const products = [
                 id: "fungicides",
                 name: "Fungicides",
                 shortDescription: "Advanced fungicides for preventing and treating fungal diseases.",
-                detailedDescription: "Our fungicides are formulated to combat a wide range of fungal diseases including Tikka Leaf Spot, Rice Blast, Anthracnose, Late Blight, Early Blight, Powdery Mildew, Wilt, and Root Rot. These products ensure your crops remain healthy and free from debilitating fungal infections.",
+                detailedDescription: "Our fungicides are formulated to combat a wide range of fungal diseases including Tikka Leaf Spot, Rice Blast, Anthracnose, Late Blight, Early Blight, Powdery Mildew, Wilt, Apple scab, Lime canker, Root Rot and etc. These products ensure your crops remain healthy and free from debilitating fungal infections.",
                 image: "../assets/images/products/fungicides.jpg",
                 category: "Insecticides"
             },
@@ -954,22 +948,6 @@ const products = [
                 shortDescription: "Organic neem oil pesticide effective against a wide range of pests.",
                 detailedDescription: "Derived from neem seeds, this oil acts as a natural pesticide, repelling insects and preventing fungal diseases without harming beneficial organisms.",
                 image: "../assets/images/products/neem-oil.jpg",
-                category: "Insecticides"
-            },
-            {
-                id: "pyrethrum-powder",
-                name: "Pyrethrum Powder",
-                shortDescription: "Natural pyrethrum powder derived from chrysanthemum flowers.",
-                detailedDescription: "A potent natural insecticide that quickly knocks down pests on contact, ideal for organic farming and safe for beneficial insects.",
-                image: "../assets/images/products/pyrethrum-powder.jpg",
-                category: "Insecticides"
-            },
-            {
-                id: "spinosad",
-                name: "Spinosad",
-                shortDescription: "Biopesticide spinosad effective against caterpillars and thrips.",
-                detailedDescription: "A microbial insecticide derived from soil bacteria, spinosad targets specific pests without affecting beneficial insects, ensuring balanced ecosystem health.",
-                image: "../assets/images/products/spinosad.jpg",
                 category: "Insecticides"
             },
             {
@@ -997,30 +975,6 @@ const products = [
                 category: "Insecticides"
             },
             {
-                id: "rotamix-spray",
-                name: "Rotamix Spray",
-                shortDescription: "Eco-friendly Rotamix spray for broad-spectrum pest control.",
-                detailedDescription: "A versatile spray that targets a wide range of pests, including beetles, caterpillars, and mites, while being safe for beneficial insects and the environment.",
-                image: "../assets/images/products/rotamix-spray.jpg",
-                category: "Insecticides"
-            },
-            {
-                id: "spinosad-dust",
-                name: "Spinosad Dust",
-                shortDescription: "Fine spinosad dust for treating soil and foliage pests.",
-                detailedDescription: "An effective formulation for controlling pests in both soil and on plant surfaces, spinosad dust provides long-lasting protection without harming beneficial organisms.",
-                image: "../assets/images/products/spinosad-dust.jpg",
-                category: "Insecticides"
-            },
-            {
-                id: "pyrethrin-liquids",
-                name: "Pyrethrin Liquids",
-                shortDescription: "Fast-acting pyrethrin liquids for immediate pest knockdown.",
-                detailedDescription: "Derived from chrysanthemum flowers, pyrethrin liquids provide rapid pest control, suitable for use in gardens, greenhouses, and agricultural fields.",
-                image: "../assets/images/products/pyrethrin-liquids.jpg",
-                category: "Insecticides"
-            },
-            {
                 id: "horticultural-oil",
                 name: "Horticultural Oil",
                 shortDescription: "Mineral-based horticultural oil for smothering insect pests.",
@@ -1041,62 +995,6 @@ const products = [
         ],
         backgroundImage: "../assets/images/fruits.jpg",
         products: [
-            {
-                id: "urea-fertilizer",
-                name: "Urea Fertilizer",
-                shortDescription: "High-nitrogen urea fertilizer for robust crop growth.",
-                detailedDescription: "Urea fertilizer is a key nitrogen source for crops, promoting vigorous growth and high yields. Ideal for a variety of agricultural applications, it enhances plant metabolism and overall health.",
-                image: "../assets/images/products/urea-fertilizer.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "dap-fertilizer",
-                name: "DAP Fertilizer (Diammonium Phosphate)",
-                shortDescription: "Balanced DAP fertilizer for optimal phosphorus and nitrogen supply.",
-                detailedDescription: "DAP fertilizer provides essential phosphorus and nitrogen, enhancing root development and overall plant health. Suitable for a wide range of crops, it ensures balanced nutrient availability.",
-                image: "../assets/images/products/dap-fertilizer.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "potash-fertilizer",
-                name: "Potash Fertilizer",
-                shortDescription: "Rich potash fertilizer for improved fruit and flower production.",
-                detailedDescription: "Potash fertilizer enhances the quality and size of fruits and flowers, strengthening plant stems and improving overall crop resilience. It plays a crucial role in water regulation and disease resistance.",
-                image: "../assets/images/products/potash-fertilizer.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "muriate-of-potash",
-                name: "Muriate of Potash",
-                shortDescription: "Soluble potassium chloride fertilizer for better nutrient uptake.",
-                detailedDescription: "Muriate of Potash provides readily available potassium, essential for plant metabolism and stress resistance, ensuring healthy and productive crops. It aids in enzyme activation and photosynthesis.",
-                image: "../assets/images/products/muriate-of-potash.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "phosphatic-fertilizer",
-                name: "Phosphatic Fertilizer",
-                shortDescription: "Phosphorus-rich fertilizer for enhanced root and seed development.",
-                detailedDescription: "Phosphatic fertilizers support strong root systems and improve seed quality, crucial for the early stages of plant growth and development. They facilitate energy transfer within plants, promoting overall vitality.",
-                image: "../assets/images/products/phosphatic-fertilizer.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "nitrogen-fertilizer",
-                name: "Nitrogen Fertilizer",
-                shortDescription: "High-quality nitrogen fertilizer for lush vegetative growth.",
-                detailedDescription: "Nitrogen fertilizers are vital for leafy growth and overall plant vigor, ensuring healthy and green crops throughout the growing season. They enhance protein synthesis and chlorophyll formation.",
-                image: "../assets/images/products/nitrogen-fertilizer.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "super-phosphate",
-                name: "Super Phosphate",
-                shortDescription: "Concentrated super phosphate fertilizer for robust crop development.",
-                detailedDescription: "Super phosphate enhances phosphorus availability in the soil, promoting strong root systems and improved crop yield and quality. It supports energy transfer and genetic transfer within plants.",
-                image: "../assets/images/products/super-phosphate.jpg",
-                category: "Fertilizers"
-            },
             {
                 id: "calcium-nitrate",
                 name: "Calcium Nitrate",
@@ -1177,33 +1075,9 @@ const products = [
             {
                 id: "seaweed-extract",
                 name: "Seaweed Extract",
-                shortDescription: "Organic seaweed extract fertilizer rich in micronutrients.",
-                detailedDescription: "Enhances plant growth and resilience by providing essential micronutrients and growth hormones, promoting overall plant health and productivity. It improves soil fertility and stress tolerance in plants.",
+                shortDescription: "Organic seaweed extract fertilizer rich in micronutrients, derived from Ascophyllum nodosum.",
+                detailedDescription: "Enhances plant growth and resilience by providing essential micronutrients and growth hormones, promoting overall plant health and productivity. Derived from Ascophyllum nodosum, it improves soil fertility and stress tolerance in plants.",
                 image: "../assets/images/products/seaweed-extract.jpg",
-                category: "Organic Fertilizers"
-            },
-            {
-                id: "kelp-fertilizer",
-                name: "Kelp Fertilizer",
-                shortDescription: "Natural kelp-based fertilizer promoting vigorous plant growth.",
-                detailedDescription: "Derived from seaweed, kelp fertilizer provides essential nutrients and growth stimulants, enhancing plant vigor and stress tolerance. It supports healthy root development and improves soil microbiology.",
-                image: "../assets/images/products/kelp-fertilizer.jpg",
-                category: "Organic Fertilizers"
-            },
-            {
-                id: "bat-guano",
-                name: "Bat Guano",
-                shortDescription: "Highly effective bat guano fertilizer rich in nitrogen and phosphorus.",
-                detailedDescription: "An organic fertilizer with excellent nutrient content, bat guano boosts plant growth, improves soil structure, and enhances microbial activity. It increases plant resistance to diseases and pests.",
-                image: "../assets/images/products/bat-guano.jpg",
-                category: "Organic Fertilizers"
-            },
-            {
-                id: "rock-phosphate",
-                name: "Rock Phosphate",
-                shortDescription: "Organic rock phosphate for slow-release phosphorus in soil.",
-                detailedDescription: "Provides a long-term source of phosphorus, essential for energy transfer and root development in plants, promoting sustainable soil fertility. It aids in strengthening plant structures and enhancing overall crop quality.",
-                image: "../assets/images/products/rock-phosphate.jpg",
                 category: "Organic Fertilizers"
             },
             {

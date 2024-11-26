@@ -267,7 +267,7 @@ body {
 }
 /* Farmers Tribute Section */
 .farmers-tribute {
-    padding: 60px 20px;
+    padding: 50px 0px;
     background: #f9f9f9;
     text-align: center;
     border-top: 1px solid #e0e0e0;
@@ -301,7 +301,7 @@ body {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
+    margin-left: 30px ;
     width: 100%; /* Video takes up 80% of the screen width */
 }
 
