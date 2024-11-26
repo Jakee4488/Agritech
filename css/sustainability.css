@@ -764,6 +764,67 @@ body {
         font-size: 0.9rem;
     }
 }
+/* ===========================
+   4. Sustainability Information Section Styles
+=========================== */
+.sustainability-info {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+.sustainability-info .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sustainability-info .section-header h2 {
+    font-size: 2.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.sustainability-info .section-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary, #555555);
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.info-card {
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.info-icon {
+    font-size: 2rem;
+    color: var(--primary-color, #2E8B57);
+    margin-bottom: 15px;
+}
+
+.info-card h3 {
+    font-size: 1.5rem;
+    color: var(--text-color, #333333);
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 1rem;
+    color: var(--text-secondary, #555555);
+}
+
 
 @media (max-width: 768px) {
     .page-hero.sustainability-hero {
@@ -826,6 +887,17 @@ body {
         padding: 8px 16px;
         font-size: 0.8rem;
     }
+    .sustainability-highlights .section-header h2,
+    .global-offices .section-header h2,
+    .sustainability-info .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .sustainability-highlights .section-header p,
+    .global-offices .section-header p,
+    .sustainability-info .section-header p {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -883,6 +955,11 @@ body {
     .cta-button {
         padding: 6px 12px;
         font-size: 0.8rem;
+    }
+    .sustainability-highlights .highlights-grid,
+    .global-offices .offices-grid,
+    .sustainability-info .info-grid {
+        grid-template-columns: 1fr;
     }
 }
 /* ===========================

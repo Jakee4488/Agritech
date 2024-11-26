@@ -661,3 +661,133 @@ body {
     }
 
 }
+/* ===========================
+   Sustainability Section Styles
+=========================== */
+.sustainability-section {
+    padding: 60px 20px;
+    background: #ffffff;
+}
+
+.sustainability-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sustainability-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sustainability-title {
+    font-size: 2.5rem;
+    color: #333333;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.sustainability-subtitle {
+    font-size: 1.2rem;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.sustainability-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.sustainability-item {
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sustainability-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sustainability-icon {
+    font-size: 2.5rem;
+    color: #2E8B57;
+    margin-bottom: 15px;
+}
+
+.sustainability-item-title {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.sustainability-item-text {
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.6;
+}
+
+/* Responsive Design for Sustainability Section */
+@media (max-width: 1024px) {
+    .sustainability-title {
+        font-size: 2rem;
+    }
+
+    .sustainability-subtitle {
+        font-size: 1rem;
+    }
+
+    .sustainability-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .sustainability-section {
+        padding: 40px 15px;
+    }
+
+    .sustainability-item-title {
+        font-size: 1.5rem;
+    }
+
+    .sustainability-item-text {
+        font-size: 1rem;
+    }
+
+    .sustainability-icon {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sustainability-section {
+        padding: 30px 10px;
+    }
+
+    .sustainability-title {
+        font-size: 1.8rem;
+    }
+
+    .sustainability-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .sustainability-item-title {
+        font-size: 1.3rem;
+    }
+
+    .sustainability-item-text {
+        font-size: 0.9rem;
+    }
+
+    .sustainability-icon {
+        font-size: 2rem;
+    }
+}
