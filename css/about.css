@@ -29,7 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/hero-bg.jpg') center/cover no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../assets/images/hero-bg.jpg') center/cover no-repeat;
 }
 
 .hero-media {
@@ -192,7 +192,7 @@ body {
     position: relative;
     height: 100vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-        url('../images/hero-bg.jpg') center/cover no-repeat;
+        url('../assets/images/hero-bg.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -267,7 +267,7 @@ body {
 }
 /* Farmers Tribute Section */
 .farmers-tribute {
-    padding: 60px 20px;
+    padding: 50px 0px;
     background: #f9f9f9;
     text-align: center;
     border-top: 1px solid #e0e0e0;
@@ -301,7 +301,7 @@ body {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
+    margin-left: 30px ;
     width: 100%; /* Video takes up 80% of the screen width */
 }
 

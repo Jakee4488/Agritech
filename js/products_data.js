@@ -279,127 +279,128 @@ const products = [
         backgroundImage: "assets/images/allvegetables.jpg",
         products: [
             {
-                id: "punjab-potatoes",
-                name: "Punjab Potatoes",
-                shortDescription: "Starchy and versatile potatoes from the fertile fields of Punjab.",
+                id: "potatoes",
+                name: "Potatoes",
+                shortDescription: "Starchy and versatile potatoes from the fertile fields.",
                 detailedDescription: "High yield varieties with minimal pesticide use, these fresh potatoes are harvested at peak freshness, ensuring excellent quality for all your culinary needs.",
                 image: "assets/images/Vegetables/Potatoes.jpg",
                 category: "Vegetables"
             },
             {
-                id: "madhya-pradesh-onions",
-                name: "Madhya Pradesh Onions",
-                shortDescription: "Flavorful onions from Madhya Pradesh, perfect for every culinary need.",
+                id: "onions",
+                name: "Onions",
+                shortDescription: "Flavorful onions, perfect for every culinary need.",
                 detailedDescription: "Sustainable farming practices ensure long shelf-life and rich flavor in these onions, freshly harvested for superior quality.",
                 image: "assets/images/Vegetables/onions.jpg",
                 category: "Vegetables"
             },
             {
-                id: "uttar-pradesh-tomatoes",
-                name: "Uttar Pradesh Tomatoes",
-                shortDescription: "Juicy and ripe tomatoes from Uttar Pradesh, cultivated with care.",
+                id: "tomatoes",
+                name: "Tomatoes",
+                shortDescription: "Juicy and ripe tomatoes cultivated with care.",
                 detailedDescription: "Eco-friendly farming methods and high vitamin C content make these tomatoes freshly picked and perfect for a variety of healthy and delicious dishes.",
                 image: "assets/images/Vegetables/Tomatoes.jpg",
                 category: "Vegetables"
             },
             {
-                id: "gujarat-okra",
-                name: "Gujarat Okra (Lady's Finger)",
-                shortDescription: "Tender and crisp okra from Gujarat, ideal for a variety of dishes.",
+                id: "okra",
+                name: "Okra (Lady's Finger)",
+                shortDescription: "Tender and crisp okra, ideal for a variety of dishes.",
                 detailedDescription: "Sustainable cultivation and minimal water usage result in rich dietary fiber okra, perfect for healthy and delicious meals.",
                 image: "assets/images/Vegetables/Okra.jpg",
                 category: "Vegetables"
             },
             {
-                id: "karnataka-brinjals",
-                name: "Karnataka Brinjals (Eggplants)",
-                shortDescription: "Smooth and glossy brinjals from Karnataka, perfect for diverse recipes.",
+                id: "brinjals",
+                name: "Brinjals (Eggplants)",
+                shortDescription: "Smooth and glossy brinjals, perfect for diverse recipes.",
                 detailedDescription: "Organic farming options and freshly harvested brinjals are high in antioxidants, making them a nutritious addition to any meal.",
                 image: "assets/images/Vegetables/Brinjal.png",
                 category: "Vegetables"
             },
             {
-                id: "bihar-cauliflower",
-                name: "Bihar Cauliflower",
-                shortDescription: "White and crunchy cauliflower from Bihar, a staple in many households.",
+                id: "cauliflower",
+                name: "Cauliflower",
+                shortDescription: "White and crunchy cauliflower, a staple in many households.",
                 detailedDescription: "Sustainable farming practices and minimal pesticide use ensure that these freshly picked cauliflowers are perfect for a variety of culinary uses.",
                 image: "assets/images/Vegetables/cauliflower.jpg",
                 category: "Vegetables"
             },
             {
-                id: "west-bengal-cabbages",
-                name: "West Bengal Cabbages",
-                shortDescription: "Crisp and green cabbages from West Bengal, perfect for salads and stir-fries.",
+                id: "cabbages",
+                name: "Cabbages",
+                shortDescription: "Crisp and green cabbages, perfect for salads and stir-fries.",
                 detailedDescription: "Eco-friendly cultivation and high in vitamins K and C, these freshly harvested cabbages are ideal for healthy and flavorful meals.",
                 image: "assets/images/Vegetables/cabbages.jpg",
                 category: "Vegetables"
             },
             {
-                id: "tamil-nadu-beans",
-                name: "Tamil Nadu Beans",
-                shortDescription: "Fresh green beans from Tamil Nadu, perfect for healthy meals.",
+                id: "beans",
+                name: "Beans",
+                shortDescription: "Fresh green beans, perfect for healthy meals.",
                 detailedDescription: "Sustainable farming and rich in protein, these handpicked green beans are fresh and nutritious for a variety of dishes.",
                 image: "assets/images/Vegetables/beans.jpg",
                 category: "Vegetables"
             },
             {
-                id: "himachal-pradesh-carrots",
-                name: "Himachal Pradesh Carrots",
-                shortDescription: "Sweet and crunchy carrots from Himachal Pradesh, grown in cool climates.",
+                id: "carrots",
+                name: "Carrots",
+                shortDescription: "Sweet and crunchy carrots, grown in cool climates.",
                 detailedDescription: "Organic farming methods and high in beta-carotene, these freshly harvested carrots are perfect for a healthy diet.",
                 image: "assets/images/Vegetables/carrots.jpg",
                 category: "Vegetables"
             },
             {
-                id: "rajasthan-spinach",
-                name: "Rajasthan Spinach",
-                shortDescription: "Nutritious spinach from Rajasthan, cultivated with minimal resources.",
+                id: "spinach",
+                name: "Spinach",
+                shortDescription: "Nutritious spinach cultivated with minimal resources.",
                 detailedDescription: "Drought-resistant farming and high in iron and calcium make this sustainably harvested spinach a healthy choice for your meals.",
                 image: "assets/images/Vegetables/spinach.jpg",
                 category: "Vegetables"
             },
             {
-                id: "sikkim-green-peas",
-                name: "Sikkim Green Peas",
-                shortDescription: "Tender green peas from Sikkim, perfect for soups and side dishes.",
+                id: "green-peas",
+                name: "Green Peas",
+                shortDescription: "Tender green peas, perfect for soups and side dishes.",
                 detailedDescription: "Organic farming methods and rich in protein, these sustainably harvested green peas are ideal for a variety of culinary uses.",
                 image: "assets/images/Vegetables/Green-peas.jpg",
                 category: "Vegetables"
             },
             {
-                id: "andhra-pradesh-cucumber",
-                name: "Andhra Pradesh Cucumber",
-                shortDescription: "Refreshing cucumbers from Andhra Pradesh, ideal for salads and beverages.",
+                id: "cucumber",
+                name: "Cucumber",
+                shortDescription: "Refreshing cucumbers, ideal for salads and beverages.",
                 detailedDescription: "Eco-friendly cultivation and high water content make these freshly harvested cucumbers perfect for hydrating and healthy recipes.",
                 image: "assets/images/Vegetables/cucumbers.jpg",
                 category: "Vegetables"
             },
             {
-                id: "jharkhand-pumpkins",
-                name: "Jharkhand Pumpkins",
-                shortDescription: "Versatile pumpkins from Jharkhand, perfect for savory and sweet dishes.",
+                id: "pumpkins",
+                name: "Pumpkins",
+                shortDescription: "Versatile pumpkins, perfect for savory and sweet dishes.",
                 detailedDescription: "Sustainable farming practices and rich in vitamins A and C ensure these freshly picked pumpkins are both nutritious and delicious.",
                 image: "assets/images/Vegetables/pumpkins.jpg",
                 category: "Vegetables"
             },
             {
-                id: "mizoram-bell-peppers",
-                name: "Mizoram Bell Peppers",
-                shortDescription: "Colorful bell peppers from Mizoram, adding vibrant flavors to your meals.",
+                id: "bell-peppers",
+                name: "Bell Peppers",
+                shortDescription: "Colorful bell peppers, adding vibrant flavors to your meals.",
                 detailedDescription: "Organic farming options and rich in antioxidants make these freshly harvested bell peppers a healthy and flavorful addition to any dish.",
                 image: "assets/images/Vegetables/bellpeppers.jpg",
                 category: "Vegetables"
             },
             {
-                id: "chhattisgarh-bitter-gourd",
-                name: "Chhattisgarh Bitter Gourd",
-                shortDescription: "Health-packed bitter gourd from Chhattisgarh, known for its medicinal benefits.",
+                id: "bitter-gourd",
+                name: "Bitter Gourd",
+                shortDescription: "Health-packed bitter gourd, known for its medicinal benefits.",
                 detailedDescription: "Sustainable cultivation and rich in vitamins and minerals, these freshly picked bitter gourds are perfect for a healthy and nutritious diet.",
                 image: "assets/images/Vegetables/bitter-gourd.jpg",
                 category: "Vegetables"
             }
         ]
     },
+    
     {
         title: "Organic Vegetables",
         icon: "fas fa-seedling",
@@ -412,127 +413,128 @@ const products = [
         backgroundImage: "assets/images/organicvegetables.jpg",
         products: [
             {
-                id: "organic-punjab-potatoes",
-                name: "Organic Punjab Potatoes",
-                shortDescription: "Organic potatoes from Punjab, cultivated without synthetic pesticides for pure taste.",
+                id: "organic-potatoes",
+                name: "Organic Potatoes",
+                shortDescription: "Organic potatoes cultivated without synthetic pesticides for pure taste.",
                 detailedDescription: "Certified organic and sustainable farming practices ensure these freshly harvested potatoes are free from synthetic pesticides, offering a pure and delicious flavor.",
                 image: "assets/images/Vegetables/potatoes.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-madhya-pradesh-onions",
-                name: "Organic Madhya Pradesh Onions",
-                shortDescription: "Flavorful organic onions from Madhya Pradesh, grown with natural methods.",
+                id: "organic-onions",
+                name: "Organic Onions",
+                shortDescription: "Flavorful organic onions grown with natural methods.",
                 detailedDescription: "Pesticide-free cultivation and long shelf-life practices make these organic onions a rich and flavorful addition to your kitchen.",
                 image: "assets/images/Vegetables/onions.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-uttar-pradesh-tomatoes",
-                name: "Organic Uttar Pradesh Tomatoes",
-                shortDescription: "Juicy organic tomatoes from Uttar Pradesh, ensuring natural sweetness and quality.",
+                id: "organic-tomatoes",
+                name: "Organic Tomatoes",
+                shortDescription: "Juicy organic tomatoes ensuring natural sweetness and quality.",
                 detailedDescription: "Grown organically with high vitamin C content and freshly picked, these tomatoes are perfect for a variety of healthy and delicious recipes.",
                 image: "assets/images/Vegetables/tomatoes.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-gujarat-okra",
-                name: "Organic Gujarat Okra (Lady's Finger)",
-                shortDescription: "Tender organic okra from Gujarat, perfect for a variety of dishes.",
+                id: "organic-okra",
+                name: "Organic Okra (Lady's Finger)",
+                shortDescription: "Tender organic okra perfect for a variety of dishes.",
                 detailedDescription: "Certified organic and minimally water-used cultivation results in rich dietary fiber okra, sustainably harvested for premium quality.",
                 image: "assets/images/Vegetables/okra.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-karnataka-brinjals",
-                name: "Organic Karnataka Brinjals (Eggplants)",
-                shortDescription: "Glossy organic brinjals from Karnataka, cultivated sustainably for premium quality.",
+                id: "organic-brinjals",
+                name: "Organic Brinjals (Eggplants)",
+                shortDescription: "Glossy organic brinjals cultivated sustainably for premium quality.",
                 detailedDescription: "Pesticide-free farming and freshly harvested practices make these organic brinjals high in antioxidants and perfect for a healthy diet.",
                 image: "assets/images/Vegetables/brinjal.png",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-bihar-cauliflower",
-                name: "Organic Bihar Cauliflower",
-                shortDescription: "White organic cauliflower from Bihar, a staple in many households.",
+                id: "organic-cauliflower",
+                name: "Organic Cauliflower",
+                shortDescription: "White organic cauliflower, a staple in many households.",
                 detailedDescription: "Certified organic and sustainable farming practices ensure these freshly picked cauliflowers are free from harmful chemicals, perfect for a variety of culinary uses.",
                 image: "assets/images/Vegetables/cauliflower.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-west-bengal-cabbages",
-                name: "Organic West Bengal Cabbages",
-                shortDescription: "Crisp organic cabbages from West Bengal, perfect for salads and stir-fries.",
+                id: "organic-cabbages",
+                name: "Organic Cabbages",
+                shortDescription: "Crisp organic cabbages, perfect for salads and stir-fries.",
                 detailedDescription: "Eco-friendly cultivation and high in vitamins K and C, these freshly harvested organic cabbages are ideal for healthy and flavorful meals.",
                 image: "assets/images/Vegetables/cabbages.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-tamil-nadu-beans",
-                name: "Organic Tamil Nadu Beans",
-                shortDescription: "Fresh organic green beans from Tamil Nadu, perfect for healthy meals.",
+                id: "organic-beans",
+                name: "Organic Beans",
+                shortDescription: "Fresh organic green beans, perfect for healthy meals.",
                 detailedDescription: "Certified organic and rich in protein, these handpicked green beans are fresh and nutritious for a variety of dishes.",
                 image: "assets/images/Vegetables/beans.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-himachal-pradesh-carrots",
-                name: "Organic Himachal Pradesh Carrots",
-                shortDescription: "Sweet organic carrots from Himachal Pradesh, grown in cool climates.",
+                id: "organic-carrots",
+                name: "Organic Carrots",
+                shortDescription: "Sweet organic carrots, grown in cool climates.",
                 detailedDescription: "Pesticide-free farming and high in beta-carotene make these freshly harvested organic carrots a healthy and delicious choice for your diet.",
                 image: "assets/images/Vegetables/carrots.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-rajasthan-spinach",
-                name: "Organic Rajasthan Spinach",
-                shortDescription: "Nutritious organic spinach from Rajasthan, cultivated sustainably.",
+                id: "organic-spinach",
+                name: "Organic Spinach",
+                shortDescription: "Nutritious organic spinach cultivated sustainably.",
                 detailedDescription: "Certified organic and drought-resistant farming practices ensure that this freshly picked spinach is rich in iron and calcium, perfect for a healthy diet.",
                 image: "assets/images/Vegetables/spinach.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-sikkim-green-peas",
-                name: "Organic Sikkim Green Peas",
-                shortDescription: "Tender organic green peas from Sikkim, perfect for soups and side dishes.",
+                id: "organic-green-peas",
+                name: "Organic Green Peas",
+                shortDescription: "Tender organic green peas, perfect for soups and side dishes.",
                 detailedDescription: "Organic farming methods and rich in protein, these sustainably harvested green peas are ideal for a variety of culinary uses.",
                 image: "assets/images/Vegetables/green-peas.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-andhra-pradesh-cucumber",
-                name: "Organic Andhra Pradesh Cucumber",
-                shortDescription: "Refreshing organic cucumbers from Andhra Pradesh, ideal for salads and beverages.",
+                id: "organic-cucumber",
+                name: "Organic Cucumber",
+                shortDescription: "Refreshing organic cucumbers, ideal for salads and beverages.",
                 detailedDescription: "Certified organic cultivation and high water content make these freshly harvested organic cucumbers perfect for hydrating and healthy recipes.",
                 image: "assets/images/Vegetables/cucumbers.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-jharkhand-pumpkins",
-                name: "Organic Jharkhand Pumpkins",
-                shortDescription: "Versatile organic pumpkins from Jharkhand, perfect for savory and sweet dishes.",
+                id: "organic-pumpkins",
+                name: "Organic Pumpkins",
+                shortDescription: "Versatile organic pumpkins, perfect for savory and sweet dishes.",
                 detailedDescription: "Pesticide-free cultivation and rich in vitamins A and C ensure these freshly picked organic pumpkins are both nutritious and delicious.",
                 image: "assets/images/Vegetables/pumpkins.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-mizoram-bell-peppers",
-                name: "Organic Mizoram Bell Peppers",
-                shortDescription: "Colorful organic bell peppers from Mizoram, adding vibrant flavors to your meals.",
+                id: "organic-bell-peppers",
+                name: "Organic Bell Peppers",
+                shortDescription: "Colorful organic bell peppers, adding vibrant flavors to your meals.",
                 detailedDescription: "Certified organic and rich in antioxidants, these freshly harvested bell peppers are a healthy and flavorful addition to any dish.",
                 image: "assets/images/Vegetables/bellpeppers.jpg",
                 category: "Organic Vegetables"
             },
             {
-                id: "organic-chhattisgarh-bitter-gourd",
-                name: "Organic Chhattisgarh Bitter Gourd",
-                shortDescription: "Health-packed organic bitter gourd from Chhattisgarh, known for its medicinal benefits.",
+                id: "organic-bitter-gourd",
+                name: "Organic Bitter Gourd",
+                shortDescription: "Health-packed organic bitter gourd, known for its medicinal benefits.",
                 detailedDescription: "Organic farming practices and rich in vitamins and minerals, these freshly picked bitter gourds are perfect for a healthy and nutritious diet.",
                 image: "assets/images/Vegetables/bitter-gourd.jpg",
                 category: "Organic Vegetables"
             }
         ]
     },
+    
     {
         title: "Food Grains",
         icon: "fas fa-seedling",
@@ -549,7 +551,7 @@ const products = [
                 name: "Basmati Rice",
                 shortDescription: "Aromatic and long-grained basmati rice from India, perfect for special occasions.",
                 detailedDescription: "Grown in the fertile plains of Punjab and Haryana, this basmati rice is known for its distinctive fragrance and fluffy texture upon cooking. Ideal for biryanis and pilafs.",
-                image: "../assets/images/products/basmati-rice.jpg",
+                image: "../assets/images/foodgrains/basmati-rice.jpg",
                 category: "Food Grains"
             },
             {
@@ -557,63 +559,47 @@ const products = [
                 name: "Sona Masuri Rice",
                 shortDescription: "Medium-grain Sona Masuri rice from Karnataka, versatile for daily use.",
                 detailedDescription: "Light and non-sticky, Sona Masuri rice is a staple in South Indian households. Perfect for steamed rice, upma, and various curries.",
-                image: "../assets/images/products/sona-masuri-rice.jpg",
+                image: "../assets/images/foodgrains/sona-masuri-rice.jpg",
                 category: "Food Grains"
             },
             {
-                id: "red-chana",
-                name: "Red Chana",
-                shortDescription: "Nutritious red chickpeas from Rajasthan, rich in protein and fiber.",
-                detailedDescription: "Ideal for making chana masala, salads, and snacks, red chana is sustainably farmed and harvested to maintain its quality and nutritional value.",
-                image: "../assets/images/products/red-chana.jpg",
+                id: "jasmine-rice",
+                name: "Jasmine Rice",
+                shortDescription: "Fragrant jasmine rice ideal for Asian dishes.",
+                detailedDescription: "Known for its subtle floral aroma and sticky texture when cooked, jasmine rice is perfect for stir-fries, curries, and Southeast Asian recipes.",
+                image: "../assets/images/foodgrains/jasmine-rice.jpg",
                 category: "Food Grains"
             },
             {
-                id: "black-gram",
-                name: "Black Gram (Urad Dal)",
-                shortDescription: "Premium black gram from Uttar Pradesh, essential for South Indian cuisine.",
-                detailedDescription: "High in protein and essential nutrients, black gram is perfect for making dosas, idlis, and various lentil-based dishes.",
-                image: "../assets/images/products/black-gram.jpg",
+                id: "red-rice",
+                name: "Red Rice",
+                shortDescription: "Nutrient-rich red rice with a nutty flavor.",
+                detailedDescription: "Packed with antioxidants and essential nutrients, red rice is a healthy alternative to white rice, suitable for salads, rice bowls, and more.",
+                image: "../assets/images/foodgrains/red-rice.jpg",
                 category: "Food Grains"
             },
             {
-                id: "sambar-puli-rice",
-                name: "Sambar Puli Rice",
-                shortDescription: "Tangy flavored rice from Tamil Nadu, perfect for sambar and other curries.",
-                detailedDescription: "Infused with tamarind and spices, Sambar Puli Rice adds a unique flavor to traditional South Indian dishes, enhancing the overall taste profile.",
-                image: "../assets/images/products/sambar-puli-rice.jpg",
+                id: "chittimutyalu-rice",
+                name: "Chittimutyalu Rice",
+                shortDescription: "Soft-textured Chittimutyalu rice ideal for traditional recipes.",
+                detailedDescription: "A specialty rice known for its delicate texture and versatility in various dishes, including pulao, biryani, and South Indian meals.",
+                image: "../assets/images/foodgrains/chittimutyalu-rice.jpg",
                 category: "Food Grains"
             },
             {
-                id: "mung-dal",
-                name: "Mung Dal",
-                shortDescription: "Soft and split mung dal from Gujarat, versatile for various recipes.",
-                detailedDescription: "Rich in protein and easy to digest, mung dal is perfect for soups, stews, and making delicious dal-based dishes.",
-                image: "../assets/images/products/mung-dal.jpg",
+                id: "black-rice",
+                name: "Black Rice",
+                shortDescription: "Exotic black rice packed with antioxidants.",
+                detailedDescription: "Rich in nutrients and a striking dark hue, black rice is perfect for desserts, salads, and unique rice-based dishes.",
+                image: "../assets/images/foodgrains/black-rice.jpg",
                 category: "Food Grains"
             },
             {
-                id: "jowar-flour",
-                name: "Jowar Flour",
-                shortDescription: "Gluten-free jowar (sorghum) flour from Maharashtra, ideal for healthy baking.",
-                detailedDescription: "High in fiber and essential minerals, jowar flour is perfect for making rotis, bhakris, and various baked goods, catering to health-conscious consumers.",
-                image: "../assets/images/products/jowar-flour.jpg",
-                category: "Food Grains"
-            },
-            {
-                id: "bajra-flour",
-                name: "Bajra Flour",
-                shortDescription: "Nutty-flavored bajra (pearl millet) flour from Rajasthan, great for hearty rotis.",
-                detailedDescription: "Rich in iron and calcium, bajra flour is a staple in North Indian diets, perfect for making nutritious and filling rotis and other traditional breads.",
-                image: "../assets/images/products/bajra-flour.jpg",
-                category: "Food Grains"
-            },
-            {
-                id: "tuber-vegetables",
-                name: "Tuber Vegetables Mix",
-                shortDescription: "A mix of premium tuber vegetables from India, perfect for versatile cooking.",
-                detailedDescription: "Includes varieties like sweet potatoes, yams, and taro, all sustainably farmed and harvested to maintain their freshness and nutritional value.",
-                image: "../assets/images/products/tuber-vegetables.jpg",
+                id: "foxtail-millet",
+                name: "Foxtail Millet",
+                shortDescription: "Healthy and gluten-free foxtail millet.",
+                detailedDescription: "A versatile and nutritious grain, foxtail millet is ideal for porridge, upma, and gluten-free baking. It is high in protein and dietary fiber.",
+                image: "../assets/images/foodgrains/foxtail-millet.jpg",
                 category: "Food Grains"
             },
             {
@@ -621,11 +607,76 @@ const products = [
                 name: "Finger Millet (Ragi)",
                 shortDescription: "Nutritious finger millet from Karnataka, rich in calcium and iron.",
                 detailedDescription: "Perfect for making ragi dosa, ragi roti, and other traditional recipes, finger millet is a staple for health-conscious households.",
-                image: "../assets/images/products/finger-millet.jpg",
+                image: "../assets/images/foodgrains/finger-millet.jpg",
+                category: "Food Grains"
+            },
+            {
+                id: "jowar-flour",
+                name: "Jowar Flour",
+                shortDescription: "Gluten-free jowar (sorghum) flour from Maharashtra, ideal for healthy baking.",
+                detailedDescription: "High in fiber and essential minerals, jowar flour is perfect for making rotis, bhakris, and various baked goods, catering to health-conscious consumers.",
+                image: "../assets/images/foodgrains/jowar-flour.jpg",
+                category: "Food Grains"
+            },
+            {
+                id: "bansi-rava",
+                name: "Bansi Rava",
+                shortDescription: "Coarse bansi rava ideal for traditional Indian dishes.",
+                detailedDescription: "Popular for making upma, sheera, and savory snacks, bansi rava is made from high-quality durum wheat and has a rich texture.",
+                image: "../assets/images/foodgrains/bansi-rava.jpg",
+                category: "Food Grains"
+            },
+            {
+                id: "atta",
+                name: "Atta (Whole Wheat Flour)",
+                shortDescription: "Premium whole wheat atta for soft and fluffy rotis.",
+                detailedDescription: "Stone-ground for a rich taste and texture, atta is perfect for traditional Indian breads such as rotis, parathas, and puris.",
+                image: "../assets/images/foodgrains/atta.jpg",
+                category: "Food Grains"
+            },
+            {
+                id: "idli-rava",
+                name: "Idli Rava",
+                shortDescription: "Coarse idli rava for making soft and fluffy idlis.",
+                detailedDescription: "Specially processed for idli batter, this rava ensures the perfect texture and taste for traditional South Indian idlis.",
+                image: "../assets/images/foodgrains/idli-rava.jpg",
+                category: "Food Grains"
+            },
+            {
+                id: "bajra-flour",
+                name: "Bajra Flour",
+                shortDescription: "Nutty-flavored bajra (pearl millet) flour from Rajasthan, great for hearty rotis.",
+                detailedDescription: "Rich in iron and calcium, bajra flour is a staple in North Indian diets, perfect for making nutritious and filling rotis and other traditional breads.",
+                image: "../assets/images/foodgrains/bajra-flour.jpg",
+                category: "Food Grains"
+            },
+            {
+                id: "red-chana",
+                name: "Red Chana",
+                shortDescription: "Nutritious red chickpeas from Rajasthan, rich in protein and fiber.",
+                detailedDescription: "Ideal for making chana masala, salads, and snacks, red chana is sustainably farmed and harvested to maintain its quality and nutritional value.",
+                image: "../assets/images/foodgrains/red-chana.jpg",
+                category: "Food Grains"
+            },
+            {
+                id: "black-gram",
+                name: "Black Gram (Urad Dal)",
+                shortDescription: "Premium black gram from Uttar Pradesh, essential for South Indian cuisine.",
+                detailedDescription: "High in protein and essential nutrients, black gram is perfect for making dosas, idlis, and various lentil-based dishes.",
+                image: "../assets/images/foodgrains/black-gram.jpg",
+                category: "Food Grains"
+            },
+            {
+                id: "mung-dal",
+                name: "Mung Dal",
+                shortDescription: "Soft and split mung dal from Gujarat, versatile for various recipes.",
+                detailedDescription: "Rich in protein and easy to digest, mung dal is perfect for soups, stews, and making delicious dal-based dishes.",
+                image: "../assets/images/foodgrains/mung-dal.jpg",
                 category: "Food Grains"
             }
         ]
     },
+    
     {
         title: "Pulses & Legumes",
         icon: "fas fa-drumstick-bite",
@@ -642,7 +693,7 @@ const products = [
                 name: "Toor Dal (Pigeon Pea)",
                 shortDescription: "High-protein toor dal from Maharashtra, essential for daily meals.",
                 detailedDescription: "Rich in protein and fiber, toor dal is perfect for making sambar, dal fry, and various lentil-based dishes, catering to a healthy and balanced diet.",
-                image: "../assets/images/products/toor-dal.jpg",
+                image: "../assets/images/pulses/toor-dal.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -650,7 +701,7 @@ const products = [
                 name: "Chana Dal",
                 shortDescription: "Nutritious chana dal from Uttar Pradesh, versatile for snacks and curries.",
                 detailedDescription: "Packed with protein and essential nutrients, chana dal is ideal for making besan chilla, dal tadka, and various Indian snacks, enhancing the nutritional value of meals.",
-                image: "../assets/images/products/chana-dal.jpg",
+                image: "../assets/images/pulses/chana-dal.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -658,63 +709,79 @@ const products = [
                 name: "Masoor Dal (Red Lentils)",
                 shortDescription: "Quick-cooking masoor dal from Punjab, perfect for soups and stews.",
                 detailedDescription: "Light and flavorful, masoor dal cooks quickly and is rich in protein, making it a favorite for hearty soups, stews, and nutritious lentil-based dishes.",
-                image: "../assets/images/products/masoor-dal.jpg",
+                image: "../assets/images/pulses/masoor-dal.jpg",
                 category: "Pulses & Legumes"
             },
             {
-                id: "green-mung-dal",
-                name: "Green Mung Dal",
-                shortDescription: "Fresh green mung dal from Gujarat, ideal for sprouting and salads.",
-                detailedDescription: "High in vitamins and minerals, green mung dal is perfect for sprouting, making salads, and preparing light, nutritious dishes that are easy on the digestive system.",
-                image: "../assets/images/products/green-mung-dal.jpg",
+                id: "green-gram",
+                name: "Green Gram (Mung Bean)",
+                shortDescription: "Fresh green gram, versatile for sprouting and salads.",
+                detailedDescription: "High in vitamins and minerals, green gram is perfect for sprouting, making salads, and preparing light, nutritious dishes that are easy on the digestive system.",
+                image: "../assets/images/pulses/green-mung-dal.jpg",
                 category: "Pulses & Legumes"
             },
             {
                 id: "black-gram-dal",
                 name: "Black Gram Dal (Urad Dal)",
-                shortDescription: "Protein-rich black gram dal from West Bengal, essential for South Indian cuisine.",
+                shortDescription: "Protein-rich black gram dal, essential for South Indian cuisine.",
                 detailedDescription: "High in protein and essential amino acids, black gram dal is perfect for making dosa, idli, vada, and various lentil-based curries, enhancing the protein intake of meals.",
-                image: "../assets/images/products/black-gram-dal.jpg",
+                image: "../assets/images/pulses/black-gram-dal.jpg",
+                category: "Pulses & Legumes"
+            },
+            {
+                id: "fried-gram",
+                name: "Fried Gram (Roasted Chana)",
+                shortDescription: "Crunchy and versatile fried gram for snacks and curries.",
+                detailedDescription: "Fried gram is a quick and healthy snack option. It is also a key ingredient in chutneys, masala powders, and protein-rich recipes.",
+                image: "../assets/images/pulses/fried-gram.jpg",
+                category: "Pulses & Legumes"
+            },
+            {
+                id: "besan-flour",
+                name: "Besan Flour (Gram Flour)",
+                shortDescription: "Fine gram flour, perfect for savory and sweet recipes.",
+                detailedDescription: "Made from ground chana dal, besan flour is ideal for making pakoras, chillas, laddoos, and other traditional Indian recipes. It’s high in protein and adds a nutty flavor to dishes.",
+                image: "../assets/images/pulses/besan-flour.jpg",
                 category: "Pulses & Legumes"
             },
             {
                 id: "rajma",
                 name: "Rajma (Kidney Beans)",
-                shortDescription: "Delicious rajma from Himachal Pradesh, perfect for hearty curries.",
+                shortDescription: "Delicious rajma, perfect for hearty curries.",
                 detailedDescription: "Rich in protein and fiber, rajma is ideal for making flavorful rajma masala, providing a nutritious and satisfying meal option.",
-                image: "../assets/images/products/rajma.jpg",
+                image: "../assets/images/pulses/rajma.jpg",
                 category: "Pulses & Legumes"
             },
             {
                 id: "black-chana",
                 name: "Black Chana",
-                shortDescription: "Crunchy black chana from Rajasthan, great for snacks and salads.",
+                shortDescription: "Crunchy black chana, great for snacks and salads.",
                 detailedDescription: "High in protein and fiber, black chana is perfect for making chaat, salads, and healthy snacks, providing a nutritious crunch to meals.",
-                image: "../assets/images/products/black-chana.jpg",
+                image: "../assets/images/pulses/black-chana.jpg",
                 category: "Pulses & Legumes"
             },
             {
                 id: "kabuli-chickpeas",
                 name: "Kabuli Chickpeas",
-                shortDescription: "Premium kabuli chickpeas from Uttar Pradesh, ideal for hummus and curries.",
+                shortDescription: "Premium kabuli chickpeas, ideal for hummus and curries.",
                 detailedDescription: "Rich in protein and essential nutrients, kabuli chickpeas are perfect for making hummus, chana masala, and various Middle Eastern and Indian dishes, enhancing the culinary diversity.",
-                image: "../assets/images/products/kabuli-chickpeas.jpg",
+                image: "../assets/images/pulses/kabuli-chickpeas.jpg",
                 category: "Pulses & Legumes"
             },
             {
                 id: "soy-beans",
                 name: "Soy Beans",
-                shortDescription: "Nutrient-dense soy beans from Karnataka, versatile for various uses.",
+                shortDescription: "Nutrient-dense soy beans, versatile for various uses.",
                 detailedDescription: "High in protein and essential fatty acids, soy beans are perfect for making tofu, soy milk, and various other plant-based products, catering to vegetarian and vegan diets.",
-                image: "../assets/images/products/soy-beans.jpg",
+                image: "../assets/images/pulses/soy-beans.jpg",
                 category: "Pulses & Legumes"
             },
             {
                 id: "lima-beans",
                 name: "Lima Beans",
-                shortDescription: "Tender lima beans from Madhya Pradesh, perfect for soups and salads.",
+                shortDescription: "Tender lima beans, perfect for soups and salads.",
                 detailedDescription: "Rich in protein and fiber, lima beans are ideal for making hearty soups, stews, and nutritious salads, adding a creamy texture to dishes.",
-                image: "../assets/images/products/lima-beans.jpg",
+                image: "../assets/images/pulses/lima-beans.jpg",
                 category: "Pulses & Legumes"
             }
         ]
@@ -747,19 +814,27 @@ const products = [
                 category: "Coffee"
             },
             {
+                id: "chikmagalur-arabica-coffee",
+                name: "Chikmagalur Arabica Coffee",
+                shortDescription: "Premium Arabica coffee from Chikmagalur, Karnataka.",
+                detailedDescription: "Renowned for its smooth and balanced flavor, this Arabica coffee is grown in the lush plantations of Chikmagalur, offering a delightful and aromatic coffee experience.",
+                image: "../assets/images/products/chikmagalur-arabica.jpg",
+                category: "Coffee"
+            },
+            {
+                id: "chikmagalur-robusta-coffee",
+                name: "Chikmagalur Robusta Coffee",
+                shortDescription: "Robusta coffee beans from Chikmagalur, Karnataka, known for their bold taste.",
+                detailedDescription: "Grown at high altitudes in Chikmagalur, these Robusta beans are handpicked for their rich flavor, delivering a strong and full-bodied cup of coffee.",
+                image: "../assets/images/products/chikmagalur-robusta.jpg",
+                category: "Coffee"
+            },
+            {
                 id: "mysore-nuggets",
                 name: "Mysore Nuggets",
                 shortDescription: "High-grade Mysore Nuggets from Karnataka, celebrated for their full-bodied flavor.",
                 detailedDescription: "Known for their large bean size and exceptional flavor profile, Mysore Nuggets are perfect for gourmet coffee enthusiasts seeking a strong and aromatic brew.",
                 image: "../assets/images/products/mysore-nuggets.jpg",
-                category: "Coffee"
-            },
-            {
-                id: "babbar-south-coast",
-                name: "Babbar South Coast",
-                shortDescription: "Distinctive Babbar South Coast coffee from Karnataka, known for its smooth finish.",
-                detailedDescription: "Grown along the coastal regions, Babbar South Coast coffee beans are harvested sustainably, offering a balanced flavor with hints of chocolate and nuts.",
-                image: "../assets/images/products/babbar-south-coast.jpg",
                 category: "Coffee"
             },
             {
@@ -813,7 +888,7 @@ const products = [
         ]
     },
     {
-        title: "Spices",
+        title: "Spices & Condiments",
         icon: "fas fa-pepper-hot",
         category: "A pinch of spice, a world of flavor.",
         features: [
@@ -824,87 +899,207 @@ const products = [
         backgroundImage: "../assets/images/fruits.jpg",
         products: [
             {
-                id: "valentine-cardamom",
-                name: "Valentine Cardamom",
-                shortDescription: "Premium cardamom pods from Kerala, known for their rich aroma.",
-                detailedDescription: "Handpicked and sun-dried, Valentine Cardamom offers an intense and sweet flavor, perfect for culinary and medicinal uses.",
-                image: "../assets/images/products/valentine-cardamom.jpg",
-                category: "Spices"
+                id: "cardamom",
+                name: "Cardamom",
+                shortDescription: "Premium cardamom pods known for their rich aroma.",
+                detailedDescription: "Handpicked and sun-dried, these cardamom pods offer an intense and sweet flavor, perfect for culinary and medicinal uses.",
+                image: "../assets/images/spices/valentine-cardamom.jpg",
+                category: "Spices & Condiments"
             },
             {
-                id: "kashmiri-black-pepper",
-                name: "Kashmiri Black Pepper",
-                shortDescription: "Freshly ground black pepper from Kashmir, adding heat and flavor.",
-                detailedDescription: "High-quality black peppercorns from the fertile valleys of Kashmir, ground to perfection for a pungent and spicy kick in dishes.",
-                image: "../assets/images/products/kashmiri-black-pepper.jpg",
-                category: "Spices"
+                id: "black-pepper",
+                name: "Black Pepper",
+                shortDescription: "Freshly ground black pepper, adding heat and flavor.",
+                detailedDescription: "High-quality black peppercorns ground to perfection for a pungent and spicy kick in dishes.",
+                image: "../assets/images/spices/kashmiri-black-pepper.jpg",
+                category: "Spices & Condiments"
             },
             {
                 id: "malabar-cinnamon",
                 name: "Malabar Cinnamon",
-                shortDescription: "Authentic Malabar cinnamon sticks from Kerala, enhancing sweet and savory dishes.",
+                shortDescription: "Authentic Malabar cinnamon sticks, enhancing sweet and savory dishes.",
                 detailedDescription: "Harvested from the Malabar Coast, these cinnamon sticks are known for their strong and sweet aroma, perfect for baking, beverages, and marinades.",
-                image: "../assets/images/products/malabar-cinnamon.jpg",
-                category: "Spices"
+                image: "../assets/images/spices/malabar-cinnamon.jpg",
+                category: "Spices & Condiments"
             },
             {
                 id: "haldi-turmeric",
                 name: "Haldi Turmeric",
-                shortDescription: "Organic haldi (turmeric) powder from Rajasthan, rich in color and flavor.",
+                shortDescription: "Organic haldi (turmeric) powder, rich in color and flavor.",
                 detailedDescription: "Certified organic turmeric is packed with antioxidants and offers a vibrant color and earthy flavor, essential for Indian curries and health supplements.",
-                image: "../assets/images/products/haldi-turmeric.jpg",
-                category: "Spices"
+                image: "../assets/images/spices/haldi-turmeric.jpg",
+                category: "Spices & Condiments"
             },
             {
                 id: "red-chili-powder",
                 name: "Red Chili Powder",
-                shortDescription: "Hot and vibrant red chili powder from Andhra Pradesh, perfect for spicy dishes.",
+                shortDescription: "Hot and vibrant red chili powder, perfect for spicy dishes.",
                 detailedDescription: "Made from sun-dried chilies, this red chili powder adds heat and color to a variety of Indian and global cuisines, enhancing the flavor profile of dishes.",
-                image: "../assets/images/products/red-chili-powder.jpg",
-                category: "Spices"
+                image: "../assets/images/spices/red-chili-powder.jpg",
+                category: "Spices & Condiments"
             },
             {
                 id: "jeera-cumin",
                 name: "Jeera (Cumin)",
-                shortDescription: "Freshly ground jeera (cumin) from Gujarat, essential for aromatic cooking.",
+                shortDescription: "Freshly ground jeera (cumin), essential for aromatic cooking.",
                 detailedDescription: "Rich in earthy flavor and essential oils, jeera is a staple in Indian spice blends, perfect for curries, stews, and marinades.",
-                image: "../assets/images/products/jeera-cumin.jpg",
-                category: "Spices"
+                image: "../assets/images/spices/jeera-cumin.png",
+                category: "Spices & Condiments"
             },
             {
                 id: "fennel-seeds",
                 name: "Fennel Seeds",
-                shortDescription: "Sweet and aromatic fennel seeds from Tamil Nadu, aiding digestion.",
+                shortDescription: "Sweet and aromatic fennel seeds, aiding digestion.",
                 detailedDescription: "Used in various Indian sweets and savory dishes, fennel seeds offer a sweet, licorice-like flavor and are known for their digestive benefits.",
-                image: "../assets/images/products/fennel-seeds.jpg",
-                category: "Spices"
-            },
-            {
-                id: "cloves-bhune",
-                name: "Cloves Bhune",
-                shortDescription: "Ground cloves from Karnataka, enhancing rich and flavorful dishes.",
-                detailedDescription: "Known for their intense aroma and flavor, cloves Bhune are perfect for biryanis, desserts, and spice blends, adding depth to both sweet and savory dishes.",
-                image: "../assets/images/products/cloves-bhune.jpg",
-                category: "Spices"
+                image: "../assets/images/spices/fennel-seeds.jpg",
+                category: "Spices & Condiments"
             },
             {
                 id: "mustard-seeds",
                 name: "Mustard Seeds",
-                shortDescription: "Pungent mustard seeds from Bihar, essential for pickles and tempering.",
+                shortDescription: "Pungent mustard seeds, essential for pickles and tempering.",
                 detailedDescription: "Mustard seeds add a spicy kick to dishes and are widely used in Indian pickles and tempering, providing both flavor and nutritional benefits.",
-                image: "../assets/images/products/mustard-seeds.jpg",
-                category: "Spices"
+                image: "../assets/images/spices/mustard-seeds.png",
+                category: "Spices & Condiments"
             },
             {
-                id: "asafoetida-hing",
-                name: "Asafoetida (Hing)",
-                shortDescription: "Strong-flavored asafoetida from Uttar Pradesh, aiding digestion.",
-                detailedDescription: "Known for its pungent aroma, asafoetida is essential in Indian cooking for adding umami and aiding digestion, especially in lentil dishes.",
-                image: "../assets/images/products/asafoetida-hing.jpg",
-                category: "Spices"
+                id: "bay-leaves",
+                name: "Bay Leaves",
+                shortDescription: "Aromatic bay leaves for soups and curries.",
+                detailedDescription: "Bay leaves add a subtle depth of flavor and fragrance, perfect for stews, curries, and slow-cooked dishes.",
+                image: "../assets/images/spices/bay-leaves.png",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "mace-japatri",
+                name: "Mace (Japatri)",
+                shortDescription: "Aromatic mace for bold and warm flavors.",
+                detailedDescription: "Mace, derived from the nutmeg seed covering, adds a distinctive and bold flavor to desserts, curries, and soups.",
+                image: "../assets/images/spices/japatri.png",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "honey",
+                name: "Honey",
+                shortDescription: "Pure and natural honey, perfect for sweetening.",
+                detailedDescription: "Collected from organic farms, this honey is a natural sweetener rich in antioxidants, ideal for beverages, desserts, and health remedies.",
+                image: "../assets/images/spices/honey.png",
+                category: "Spices & Condiments"
+            },            
+            {
+                id: "coriander-powder",
+                name: "Coriander Powder",
+                shortDescription: "Freshly ground coriander powder, full of flavor.",
+                detailedDescription: "Made from high-quality coriander seeds, this powder offers a fresh, citrusy flavor and is a staple in Indian cooking.",
+                image: "../assets/images/spices/coriander-powder.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "non-iodized-salt",
+                name: "Non-Iodized Salt",
+                shortDescription: "Pure and natural non-iodized salt for cooking.",
+                detailedDescription: "Ideal for preserving pickles and enhancing flavors, non-iodized salt is a versatile ingredient in any kitchen.",
+                image: "../assets/images/spices/non-iodized-salt.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "clove",
+                name: "Clove",
+                shortDescription: "Whole cloves for a warm, spicy flavor.",
+                detailedDescription: "Handpicked cloves are perfect for adding aromatic warmth to curries, teas, and baked goods.",
+                image: "../assets/images/spices/clove.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "star-anise",
+                name: "Star Anise",
+                shortDescription: "Star-shaped spice with a licorice flavor.",
+                detailedDescription: "Star anise is a key ingredient in masala chai and biryani, offering a sweet and aromatic touch.",
+                image: "../assets/images/spices/star-anise.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "fenugreek-seeds",
+                name: "Fenugreek Seeds",
+                shortDescription: "Bitter and aromatic fenugreek seeds for cooking.",
+                detailedDescription: "Used in curries and spice blends, fenugreek seeds add a unique bitter-sweet flavor and are known for their health benefits.",
+                image: "../assets/images/spices/fenugreek-seeds.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "groundnut-oil",
+                name: "Groundnut Oil",
+                shortDescription: "Rich and flavorful groundnut oil for cooking and frying.",
+                detailedDescription: "Known for its high smoking point and nutty flavor, groundnut oil is ideal for deep-frying, sautéing, and adding flavor to dishes.",
+                image: "../assets/images/spices/groundnut-oil.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "sunflower-oil",
+                name: "Sunflower Oil",
+                shortDescription: "Light and healthy sunflower oil for daily cooking.",
+                detailedDescription: "Rich in vitamin E and essential fatty acids, sunflower oil is perfect for frying, baking, and light cooking.",
+                image: "../assets/images/spices/sunflower-oil.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "cashew",
+                name: "Cashew",
+                shortDescription: "Rich and creamy cashews for snacking and cooking.",
+                detailedDescription: "High-quality cashews are perfect for snacks, desserts, and adding creaminess to savory dishes like gravies and stir-fries.",
+                image: "../assets/images/spices/cashew.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "ghee",
+                name: "Ghee",
+                shortDescription: "Pure clarified butter for authentic Indian flavors.",
+                detailedDescription: "Rich in aroma and taste, ghee is a staple in Indian cooking, ideal for frying, sautéing, and making desserts.",
+                image: "../assets/images/spices/ghee.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "flaxseed",
+                name: "Flaxseed",
+                shortDescription: "Nutrient-packed flaxseeds for baking and snacking.",
+                detailedDescription: "A rich source of omega-3 fatty acids, flaxseeds are ideal for smoothies, salads, and baking healthy treats.",
+                image: "../assets/images/spices/flaxseed.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "tamarind",
+                name: "Tamarind",
+                shortDescription: "Tangy and versatile tamarind for chutneys and curries.",
+                detailedDescription: "A key ingredient in Indian and Southeast Asian cuisines, tamarind adds a tangy depth of flavor to curries, soups, and desserts.",
+                image: "../assets/images/spices/tamarind.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "jaggery",
+                name: "Jaggery",
+                shortDescription: "Natural and unrefined jaggery for sweetening and desserts.",
+                detailedDescription: "Rich in minerals and a healthy alternative to sugar, jaggery is perfect for sweets, beverages, and traditional dishes.",
+                image: "../assets/images/spices/jaggery.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "nutmeg",
+                name: "Nutmeg",
+                shortDescription: "Aromatic nutmeg for sweet and savory dishes.",
+                detailedDescription: "Nutmeg adds a warm, nutty flavor to baked goods, curries, and beverages, making it a versatile spice for culinary uses.",
+                image: "../assets/images/spices/nutmeg.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "papad",
+                name: "Papad",
+                shortDescription: "Crispy and flavorful papad for snacking and meals.",
+                detailedDescription: "Made from lentils and spices, papad is a versatile accompaniment to meals or a standalone snack.",
+                image: "../assets/images/spices/papad.jpg",
+                category: "Spices & Condiments"
             }
         ]
-    },
+    },    
     {
         title: "Insecticides",
         icon: "fas fa-bug",
@@ -920,15 +1115,15 @@ const products = [
                 id: "larvicides",
                 name: "Larvicides",
                 shortDescription: "Effective larvicides for controlling harmful larvae.",
-                detailedDescription: "Our range of larvicides includes specialized solutions for pests such as Helicoverpa, Spodoptera, Cutworms, Stem Borer, Fruit Borer, and Rootgrub. These products are formulated to target and eliminate larvae stages, preventing them from causing extensive damage to your crops.",
+                detailedDescription: "Our range of larvicides includes specialized solutions for pests such as Helicoverpa, Spodoptera, Cutworms, Stem Borer, Fruit Borer, Tobacco caterpillar, Rootgrub, etc. These products are formulated to target and eliminate larvae stages, preventing them from causing extensive damage to your crops.",
                 image: "../assets/images/products/larvicides.jpg",
                 category: "Insecticides"
             },
             {
                 id: "miticides-sucking-pests",
-                name: "Miticides & Sucking Pest Insecticides",
-                shortDescription: "Miticides and insecticides targeting sucking pests.",
-                detailedDescription: "Designed to combat red mites, white mites, thrips, leaf miners, spider mites, aphids, jashids, and millybugs, our miticides and sucking pest insecticides offer robust protection against these destructive pests. They ensure the health and vitality of your crops by effectively reducing pest populations.",
+                name: "Miticides & Sucking Pesticides",
+                shortDescription: "Miticides and Pesticides targeting sucking pests.",
+                detailedDescription: "Designed to combat pests such as red mites, white mites, thrips, leaf miners, spider mites, aphids, jashids, mealybugs, etc., our miticides and sucking pesticides offer robust protection against these destructive pests. They ensure the health and vitality of your crops by effectively reducing pest populations.",
                 image: "../assets/images/products/miticides-sucking-pests.jpg",
                 category: "Insecticides"
             },
@@ -936,7 +1131,7 @@ const products = [
                 id: "fungicides",
                 name: "Fungicides",
                 shortDescription: "Advanced fungicides for preventing and treating fungal diseases.",
-                detailedDescription: "Our fungicides are formulated to combat a wide range of fungal diseases including Tikka Leaf Spot, Rice Blast, Anthracnose, Late Blight, Early Blight, Powdery Mildew, Wilt, and Root Rot. These products ensure your crops remain healthy and free from debilitating fungal infections.",
+                detailedDescription: "Our fungicides are formulated to combat a wide range of fungal diseases, including Tikka Leaf Spot, Rice Blast, Anthracnose, Late Blight, Early Blight, Powdery Mildew, Wilt, Apple scab, Lime canker, Root Rot, etc. These products ensure your crops remain healthy and free from debilitating fungal infections.",
                 image: "../assets/images/products/fungicides.jpg",
                 category: "Insecticides"
             },
@@ -944,7 +1139,7 @@ const products = [
                 id: "weedicides",
                 name: "Weedicides",
                 shortDescription: "Selective and general weedicides for all crop types.",
-                detailedDescription: "Our weedicides are available in both selective and general formulations, catering to a diverse range of crops. They effectively eliminate unwanted weeds without harming your valuable crops, ensuring optimal growth and yield.",
+                detailedDescription: "Our weedicides are available in both selective and general formulations, catering to a diverse range of crops. They effectively eliminate unwanted weeds such as sedges, broadleaf weeds, grasses, etc., without harming your valuable crops, ensuring optimal growth and yield.",
                 image: "../assets/images/products/weedicides.jpg",
                 category: "Insecticides"
             },
@@ -952,31 +1147,31 @@ const products = [
                 id: "neem-oil",
                 name: "Neem Oil",
                 shortDescription: "Organic neem oil pesticide effective against a wide range of pests.",
-                detailedDescription: "Derived from neem seeds, this oil acts as a natural pesticide, repelling insects and preventing fungal diseases without harming beneficial organisms.",
+                detailedDescription: "Derived from neem seeds, this oil acts as a natural pesticide, repelling pests such as aphids, whiteflies, caterpillars, nematodes, etc., and preventing fungal diseases without harming beneficial organisms.",
                 image: "../assets/images/products/neem-oil.jpg",
                 category: "Insecticides"
             },
             {
-                id: "pyrethrum-powder",
-                name: "Pyrethrum Powder",
-                shortDescription: "Natural pyrethrum powder derived from chrysanthemum flowers.",
-                detailedDescription: "A potent natural insecticide that quickly knocks down pests on contact, ideal for organic farming and safe for beneficial insects.",
-                image: "../assets/images/products/pyrethrum-powder.jpg",
+                id: "karanja-oil",
+                name: "Karanja Oil",
+                shortDescription: "Natural pesticide extracted from Karanja seeds.",
+                detailedDescription: "Rich in bioactive compounds, Karanja Oil provides excellent pest control by repelling insects such as whiteflies, mites, aphids, mealybugs, etc., and inhibiting their growth without harming the environment.",
+                image: "../assets/images/products/karanja-oil.jpg",
                 category: "Insecticides"
             },
             {
-                id: "spinosad",
-                name: "Spinosad",
-                shortDescription: "Biopesticide spinosad effective against caterpillars and thrips.",
-                detailedDescription: "A microbial insecticide derived from soil bacteria, spinosad targets specific pests without affecting beneficial insects, ensuring balanced ecosystem health.",
-                image: "../assets/images/products/spinosad.jpg",
+                id: "custard-apple-seed-oil",
+                name: "Custard Apple Seed Oil",
+                shortDescription: "Eco-friendly oil extracted from custard apple seeds for pest control.",
+                detailedDescription: "A natural pesticide that targets pests such as aphids, whiteflies, mealybugs, caterpillars, etc., and prevents insect infestations, ensuring healthy crop growth.",
+                image: "../assets/images/products/custard-apple-seed-oil.jpg",
                 category: "Insecticides"
             },
             {
                 id: "insecticidal-soap",
                 name: "Insecticidal Soap",
                 shortDescription: "Gentle insecticidal soap for controlling soft-bodied insects.",
-                detailedDescription: "An eco-friendly solution that disrupts the cell membranes of soft-bodied pests like aphids and mites, providing effective control without environmental harm.",
+                detailedDescription: "An eco-friendly solution that disrupts the cell membranes of soft-bodied pests such as aphids, whiteflies, spider mites, etc., providing effective control without environmental harm.",
                 image: "../assets/images/products/insecticidal-soap.jpg",
                 category: "Insecticides"
             },
@@ -984,7 +1179,7 @@ const products = [
                 id: "bacillus-thuringiensis",
                 name: "Bacillus Thuringiensis (Bt)",
                 shortDescription: "Biological insecticide Bt effective against caterpillars and beetles.",
-                detailedDescription: "A naturally occurring bacterium that targets and kills specific insect pests, Bt is safe for humans, animals, and beneficial insects when used correctly.",
+                detailedDescription: "A naturally occurring bacterium that targets and kills specific insect pests such as caterpillars, beetles, and mosquito larvae, etc. Bt is safe for humans, animals, and beneficial insects when used correctly.",
                 image: "../assets/images/products/bacillus-thuringiensis.jpg",
                 category: "Insecticides"
             },
@@ -992,39 +1187,15 @@ const products = [
                 id: "kaolin-clay",
                 name: "Kaolin Clay",
                 shortDescription: "Mineral-based kaolin clay repels a variety of insect pests.",
-                detailedDescription: "Creates a protective barrier on plant surfaces, deterring pests by causing discomfort and preventing them from feeding or laying eggs.",
+                detailedDescription: "Creates a protective barrier on plant surfaces, deterring pests such as aphids, leafhoppers, grasshoppers, etc., by causing discomfort and preventing them from feeding or laying eggs.",
                 image: "../assets/images/products/kaolin-clay.jpg",
-                category: "Insecticides"
-            },
-            {
-                id: "rotamix-spray",
-                name: "Rotamix Spray",
-                shortDescription: "Eco-friendly Rotamix spray for broad-spectrum pest control.",
-                detailedDescription: "A versatile spray that targets a wide range of pests, including beetles, caterpillars, and mites, while being safe for beneficial insects and the environment.",
-                image: "../assets/images/products/rotamix-spray.jpg",
-                category: "Insecticides"
-            },
-            {
-                id: "spinosad-dust",
-                name: "Spinosad Dust",
-                shortDescription: "Fine spinosad dust for treating soil and foliage pests.",
-                detailedDescription: "An effective formulation for controlling pests in both soil and on plant surfaces, spinosad dust provides long-lasting protection without harming beneficial organisms.",
-                image: "../assets/images/products/spinosad-dust.jpg",
-                category: "Insecticides"
-            },
-            {
-                id: "pyrethrin-liquids",
-                name: "Pyrethrin Liquids",
-                shortDescription: "Fast-acting pyrethrin liquids for immediate pest knockdown.",
-                detailedDescription: "Derived from chrysanthemum flowers, pyrethrin liquids provide rapid pest control, suitable for use in gardens, greenhouses, and agricultural fields.",
-                image: "../assets/images/products/pyrethrin-liquids.jpg",
                 category: "Insecticides"
             },
             {
                 id: "horticultural-oil",
                 name: "Horticultural Oil",
                 shortDescription: "Mineral-based horticultural oil for smothering insect pests.",
-                detailedDescription: "Acts by suffocating pests such as scales, mites, and whiteflies, horticultural oil is an effective and environmentally friendly option for pest management.",
+                detailedDescription: "Acts by suffocating pests such as scales, mites, whiteflies, aphids, etc. Horticultural oil is an effective and environmentally friendly option for pest management.",
                 image: "../assets/images/products/horticultural-oil.jpg",
                 category: "Insecticides"
             }
@@ -1042,62 +1213,6 @@ const products = [
         backgroundImage: "../assets/images/fruits.jpg",
         products: [
             {
-                id: "urea-fertilizer",
-                name: "Urea Fertilizer",
-                shortDescription: "High-nitrogen urea fertilizer for robust crop growth.",
-                detailedDescription: "Urea fertilizer is a key nitrogen source for crops, promoting vigorous growth and high yields. Ideal for a variety of agricultural applications, it enhances plant metabolism and overall health.",
-                image: "../assets/images/products/urea-fertilizer.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "dap-fertilizer",
-                name: "DAP Fertilizer (Diammonium Phosphate)",
-                shortDescription: "Balanced DAP fertilizer for optimal phosphorus and nitrogen supply.",
-                detailedDescription: "DAP fertilizer provides essential phosphorus and nitrogen, enhancing root development and overall plant health. Suitable for a wide range of crops, it ensures balanced nutrient availability.",
-                image: "../assets/images/products/dap-fertilizer.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "potash-fertilizer",
-                name: "Potash Fertilizer",
-                shortDescription: "Rich potash fertilizer for improved fruit and flower production.",
-                detailedDescription: "Potash fertilizer enhances the quality and size of fruits and flowers, strengthening plant stems and improving overall crop resilience. It plays a crucial role in water regulation and disease resistance.",
-                image: "../assets/images/products/potash-fertilizer.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "muriate-of-potash",
-                name: "Muriate of Potash",
-                shortDescription: "Soluble potassium chloride fertilizer for better nutrient uptake.",
-                detailedDescription: "Muriate of Potash provides readily available potassium, essential for plant metabolism and stress resistance, ensuring healthy and productive crops. It aids in enzyme activation and photosynthesis.",
-                image: "../assets/images/products/muriate-of-potash.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "phosphatic-fertilizer",
-                name: "Phosphatic Fertilizer",
-                shortDescription: "Phosphorus-rich fertilizer for enhanced root and seed development.",
-                detailedDescription: "Phosphatic fertilizers support strong root systems and improve seed quality, crucial for the early stages of plant growth and development. They facilitate energy transfer within plants, promoting overall vitality.",
-                image: "../assets/images/products/phosphatic-fertilizer.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "nitrogen-fertilizer",
-                name: "Nitrogen Fertilizer",
-                shortDescription: "High-quality nitrogen fertilizer for lush vegetative growth.",
-                detailedDescription: "Nitrogen fertilizers are vital for leafy growth and overall plant vigor, ensuring healthy and green crops throughout the growing season. They enhance protein synthesis and chlorophyll formation.",
-                image: "../assets/images/products/nitrogen-fertilizer.jpg",
-                category: "Fertilizers"
-            },
-            {
-                id: "super-phosphate",
-                name: "Super Phosphate",
-                shortDescription: "Concentrated super phosphate fertilizer for robust crop development.",
-                detailedDescription: "Super phosphate enhances phosphorus availability in the soil, promoting strong root systems and improved crop yield and quality. It supports energy transfer and genetic transfer within plants.",
-                image: "../assets/images/products/super-phosphate.jpg",
-                category: "Fertilizers"
-            },
-            {
                 id: "calcium-nitrate",
                 name: "Calcium Nitrate",
                 shortDescription: "Calcium nitrate fertilizer for improved soil structure and plant health.",
@@ -1107,9 +1222,9 @@ const products = [
             },
             {
                 id: "macro-nutrients",
-                name: "Macro Nutrients Blend",
-                shortDescription: "Balanced macro nutrients blend for comprehensive crop nutrition.",
-                detailedDescription: "This blend provides essential macro nutrients like nitrogen, phosphorus, and potassium, ensuring balanced and healthy plant growth across various crop types. It supports overall plant metabolism and structural integrity.",
+                name: "Macro Nutrients Blend (Water Soluble)",
+                shortDescription: "Balanced water-soluble macro nutrients blend for comprehensive crop nutrition.",
+                detailedDescription: "This water-soluble blend provides essential macro nutrients like nitrogen, phosphorus, and potassium in an easily absorbable form. It ensures balanced and healthy plant growth across various crop types, supporting overall plant metabolism and structural integrity while being easy to apply through irrigation systems.",
                 image: "../assets/images/products/macro-nutrients.jpg",
                 category: "Fertilizers"
             },
@@ -1120,9 +1235,33 @@ const products = [
                 detailedDescription: "Enhances soil structure and fertility naturally, promoting healthy plant growth without the use of synthetic chemicals. Organic compost improves water retention and supports beneficial soil microorganisms.",
                 image: "../assets/images/products/organic-compost.jpg",
                 category: "Fertilizers"
+            },
+            {
+                id: "neem-cake",
+                name: "Neem Cake",
+                shortDescription: "Natural neem cake for improving soil fertility and pest control.",
+                detailedDescription: "Derived from neem seeds, neem cake is a natural soil conditioner that provides essential nutrients while repelling soil-based pests. It enhances soil fertility and supports sustainable crop growth.",
+                image: "../assets/images/products/neem-cake.jpg",
+                category: "Fertilizers"
+            },
+            {
+                id: "karanja-cake",
+                name: "Karanja Cake",
+                shortDescription: "Organic karanja cake for nutrient-rich soil and natural pest control.",
+                detailedDescription: "Extracted from Karanja seeds, this organic fertilizer improves soil quality and acts as a natural pest repellent. It is rich in nitrogen, phosphorus, and potassium, ensuring healthy plant growth.",
+                image: "../assets/images/products/karanja-cake.jpg",
+                category: "Fertilizers"
+            },
+            {
+                id: "castor-cake",
+                name: "Castor Cake",
+                shortDescription: "Organic castor cake for enhanced soil fertility and crop protection.",
+                detailedDescription: "Castor cake is a by-product of castor oil production, rich in organic nutrients. It conditions the soil, provides essential nutrients, and helps in natural pest management.",
+                image: "../assets/images/products/castor-cake.jpg",
+                category: "Fertilizers"
             }
         ]
-    },
+    },    
     {
         title: "Organic Fertilizers",
         icon: "fas fa-seedling",
@@ -1177,33 +1316,9 @@ const products = [
             {
                 id: "seaweed-extract",
                 name: "Seaweed Extract",
-                shortDescription: "Organic seaweed extract fertilizer rich in micronutrients.",
-                detailedDescription: "Enhances plant growth and resilience by providing essential micronutrients and growth hormones, promoting overall plant health and productivity. It improves soil fertility and stress tolerance in plants.",
+                shortDescription: "Organic seaweed extract fertilizer rich in micronutrients, derived from Ascophyllum nodosum.",
+                detailedDescription: "Enhances plant growth and resilience by providing essential micronutrients and growth hormones, promoting overall plant health and productivity. Derived from Ascophyllum nodosum, it improves soil fertility and stress tolerance in plants.",
                 image: "../assets/images/products/seaweed-extract.jpg",
-                category: "Organic Fertilizers"
-            },
-            {
-                id: "kelp-fertilizer",
-                name: "Kelp Fertilizer",
-                shortDescription: "Natural kelp-based fertilizer promoting vigorous plant growth.",
-                detailedDescription: "Derived from seaweed, kelp fertilizer provides essential nutrients and growth stimulants, enhancing plant vigor and stress tolerance. It supports healthy root development and improves soil microbiology.",
-                image: "../assets/images/products/kelp-fertilizer.jpg",
-                category: "Organic Fertilizers"
-            },
-            {
-                id: "bat-guano",
-                name: "Bat Guano",
-                shortDescription: "Highly effective bat guano fertilizer rich in nitrogen and phosphorus.",
-                detailedDescription: "An organic fertilizer with excellent nutrient content, bat guano boosts plant growth, improves soil structure, and enhances microbial activity. It increases plant resistance to diseases and pests.",
-                image: "../assets/images/products/bat-guano.jpg",
-                category: "Organic Fertilizers"
-            },
-            {
-                id: "rock-phosphate",
-                name: "Rock Phosphate",
-                shortDescription: "Organic rock phosphate for slow-release phosphorus in soil.",
-                detailedDescription: "Provides a long-term source of phosphorus, essential for energy transfer and root development in plants, promoting sustainable soil fertility. It aids in strengthening plant structures and enhancing overall crop quality.",
-                image: "../assets/images/products/rock-phosphate.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1213,9 +1328,58 @@ const products = [
                 detailedDescription: "Green manure crops improve soil structure, increase organic matter content, and enhance nutrient availability, supporting sustainable agricultural practices. They prevent soil erosion and suppress weed growth naturally.",
                 image: "../assets/images/products/green-manure.jpg",
                 category: "Organic Fertilizers"
+            },
+            {
+                id: "humus",
+                name: "Humus",
+                shortDescription: "Natural humus fertilizer to improve soil structure and fertility.",
+                detailedDescription: "Humus enhances water retention, nutrient availability, and soil aeration while fostering beneficial microbial activity, ensuring healthy crop growth.",
+                image: "../assets/images/products/humus.jpg",
+                category: "Organic Fertilizers"
+            },
+            {
+                id: "fulvic-acid",
+                name: "Fulvic Acid",
+                shortDescription: "Organic fulvic acid to boost nutrient absorption.",
+                detailedDescription: "Fulvic acid improves plant nutrient uptake, enhances root growth, and increases resistance to environmental stress. It is a vital component for sustainable crop nutrition.",
+                image: "../assets/images/products/fulvic-acid.jpg",
+                category: "Organic Fertilizers"
+            },
+            {
+                id: "amino-acids",
+                name: "Amino Acids",
+                shortDescription: "Plant-based amino acid fertilizer for healthy crop development.",
+                detailedDescription: "Amino acids stimulate plant growth by enhancing photosynthesis, stress tolerance, and overall nutrient absorption, promoting robust and vibrant crops.",
+                image: "../assets/images/products/amino-acids.jpg",
+                category: "Organic Fertilizers"
+            },
+            {
+                id: "bio-potash",
+                name: "Bio Potash",
+                shortDescription: "Bio potash fertilizer for improved potassium availability.",
+                detailedDescription: "Bio potash enhances flowering, fruiting, and overall plant vigor by supplying bioavailable potassium through eco-friendly methods.",
+                image: "../assets/images/products/bio-potash.jpg",
+                category: "Organic Fertilizers"
+            },
+            {
+                id: "bio-phosphorus",
+                name: "Bio Phosphorus",
+                shortDescription: "Bio phosphorus fertilizer for efficient phosphorus supply.",
+                detailedDescription: "Promotes strong root development and higher crop yield by enhancing phosphorus availability through natural microbial activity.",
+                image: "../assets/images/products/bio-phosphorus.jpg",
+                category: "Organic Fertilizers"
+            },
+            {
+                id: "bio-nitrogen",
+                name: "Bio Nitrogen",
+                shortDescription: "Nitrogen-fixing bio fertilizer for sustainable farming.",
+                detailedDescription: "Bio nitrogen enhances nitrogen availability in the soil, reducing dependency on chemical nitrogen fertilizers and promoting eco-friendly agriculture.",
+                image: "../assets/images/products/bio-nitrogen.jpg",
+                category: "Organic Fertilizers"
             }
         ]
     }
+    
 ];
 
 window.products = products;
