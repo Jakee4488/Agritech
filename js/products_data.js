@@ -551,7 +551,7 @@ const products = [
                 name: "Basmati Rice",
                 shortDescription: "Aromatic and long-grained basmati rice from India, perfect for special occasions.",
                 detailedDescription: "Grown in the fertile plains of Punjab and Haryana, this basmati rice is known for its distinctive fragrance and fluffy texture upon cooking. Ideal for biryanis and pilafs.",
-                image: "../assets/images/products/basmati-rice.jpg",
+                image: "../assets/images/foodgrains/basmati-rice.jpg",
                 category: "Food Grains"
             },
             {
@@ -559,7 +559,7 @@ const products = [
                 name: "Sona Masuri Rice",
                 shortDescription: "Medium-grain Sona Masuri rice from Karnataka, versatile for daily use.",
                 detailedDescription: "Light and non-sticky, Sona Masuri rice is a staple in South Indian households. Perfect for steamed rice, upma, and various curries.",
-                image: "../assets/images/products/sona-masuri-rice.jpg",
+                image: "../assets/images/foodgrains/sona-masuri-rice.jpg",
                 category: "Food Grains"
             },
             {
@@ -567,7 +567,7 @@ const products = [
                 name: "Jasmine Rice",
                 shortDescription: "Fragrant jasmine rice ideal for Asian dishes.",
                 detailedDescription: "Known for its subtle floral aroma and sticky texture when cooked, jasmine rice is perfect for stir-fries, curries, and Southeast Asian recipes.",
-                image: "../assets/images/products/jasmine-rice.jpg",
+                image: "../assets/images/foodgrains/jasmine-rice.jpg",
                 category: "Food Grains"
             },
             {
@@ -575,7 +575,7 @@ const products = [
                 name: "Red Rice",
                 shortDescription: "Nutrient-rich red rice with a nutty flavor.",
                 detailedDescription: "Packed with antioxidants and essential nutrients, red rice is a healthy alternative to white rice, suitable for salads, rice bowls, and more.",
-                image: "../assets/images/products/red-rice.jpg",
+                image: "../assets/images/foodgrains/red-rice.jpg",
                 category: "Food Grains"
             },
             {
@@ -583,7 +583,7 @@ const products = [
                 name: "Chittimutyalu Rice",
                 shortDescription: "Soft-textured Chittimutyalu rice ideal for traditional recipes.",
                 detailedDescription: "A specialty rice known for its delicate texture and versatility in various dishes, including pulao, biryani, and South Indian meals.",
-                image: "../assets/images/products/chittimutyalu-rice.jpg",
+                image: "../assets/images/foodgrains/chittimutyalu-rice.jpg",
                 category: "Food Grains"
             },
             {
@@ -591,7 +591,7 @@ const products = [
                 name: "Black Rice",
                 shortDescription: "Exotic black rice packed with antioxidants.",
                 detailedDescription: "Rich in nutrients and a striking dark hue, black rice is perfect for desserts, salads, and unique rice-based dishes.",
-                image: "../assets/images/products/black-rice.jpg",
+                image: "../assets/images/foodgrains/black-rice.jpg",
                 category: "Food Grains"
             },
             {
@@ -599,7 +599,7 @@ const products = [
                 name: "Foxtail Millet",
                 shortDescription: "Healthy and gluten-free foxtail millet.",
                 detailedDescription: "A versatile and nutritious grain, foxtail millet is ideal for porridge, upma, and gluten-free baking. It is high in protein and dietary fiber.",
-                image: "../assets/images/products/foxtail-millet.jpg",
+                image: "../assets/images/foodgrains/foxtail-millet.jpg",
                 category: "Food Grains"
             },
             {
@@ -607,7 +607,7 @@ const products = [
                 name: "Finger Millet (Ragi)",
                 shortDescription: "Nutritious finger millet from Karnataka, rich in calcium and iron.",
                 detailedDescription: "Perfect for making ragi dosa, ragi roti, and other traditional recipes, finger millet is a staple for health-conscious households.",
-                image: "../assets/images/products/finger-millet.jpg",
+                image: "../assets/images/foodgrains/finger-millet.jpg",
                 category: "Food Grains"
             },
             {
@@ -615,7 +615,7 @@ const products = [
                 name: "Jowar Flour",
                 shortDescription: "Gluten-free jowar (sorghum) flour from Maharashtra, ideal for healthy baking.",
                 detailedDescription: "High in fiber and essential minerals, jowar flour is perfect for making rotis, bhakris, and various baked goods, catering to health-conscious consumers.",
-                image: "../assets/images/products/jowar-flour.jpg",
+                image: "../assets/images/foodgrains/jowar-flour.jpg",
                 category: "Food Grains"
             },
             {
@@ -623,7 +623,7 @@ const products = [
                 name: "Bansi Rava",
                 shortDescription: "Coarse bansi rava ideal for traditional Indian dishes.",
                 detailedDescription: "Popular for making upma, sheera, and savory snacks, bansi rava is made from high-quality durum wheat and has a rich texture.",
-                image: "../assets/images/products/bansi-rava.jpg",
+                image: "../assets/images/foodgrains/bansi-rava.jpg",
                 category: "Food Grains"
             },
             {
@@ -631,7 +631,7 @@ const products = [
                 name: "Atta (Whole Wheat Flour)",
                 shortDescription: "Premium whole wheat atta for soft and fluffy rotis.",
                 detailedDescription: "Stone-ground for a rich taste and texture, atta is perfect for traditional Indian breads such as rotis, parathas, and puris.",
-                image: "../assets/images/products/atta.jpg",
+                image: "../assets/images/foodgrains/atta.jpg",
                 category: "Food Grains"
             },
             {
@@ -639,7 +639,7 @@ const products = [
                 name: "Idli Rava",
                 shortDescription: "Coarse idli rava for making soft and fluffy idlis.",
                 detailedDescription: "Specially processed for idli batter, this rava ensures the perfect texture and taste for traditional South Indian idlis.",
-                image: "../assets/images/products/idli-rava.jpg",
+                image: "../assets/images/foodgrains/idli-rava.jpg",
                 category: "Food Grains"
             },
             {
@@ -647,7 +647,7 @@ const products = [
                 name: "Bajra Flour",
                 shortDescription: "Nutty-flavored bajra (pearl millet) flour from Rajasthan, great for hearty rotis.",
                 detailedDescription: "Rich in iron and calcium, bajra flour is a staple in North Indian diets, perfect for making nutritious and filling rotis and other traditional breads.",
-                image: "../assets/images/products/bajra-flour.jpg",
+                image: "../assets/images/foodgrains/bajra-flour.jpg",
                 category: "Food Grains"
             },
             {
@@ -655,7 +655,7 @@ const products = [
                 name: "Red Chana",
                 shortDescription: "Nutritious red chickpeas from Rajasthan, rich in protein and fiber.",
                 detailedDescription: "Ideal for making chana masala, salads, and snacks, red chana is sustainably farmed and harvested to maintain its quality and nutritional value.",
-                image: "../assets/images/products/red-chana.jpg",
+                image: "../assets/images/foodgrains/red-chana.jpg",
                 category: "Food Grains"
             },
             {
@@ -663,7 +663,7 @@ const products = [
                 name: "Black Gram (Urad Dal)",
                 shortDescription: "Premium black gram from Uttar Pradesh, essential for South Indian cuisine.",
                 detailedDescription: "High in protein and essential nutrients, black gram is perfect for making dosas, idlis, and various lentil-based dishes.",
-                image: "../assets/images/products/black-gram.jpg",
+                image: "../assets/images/foodgrains/black-gram.jpg",
                 category: "Food Grains"
             },
             {
@@ -671,7 +671,7 @@ const products = [
                 name: "Mung Dal",
                 shortDescription: "Soft and split mung dal from Gujarat, versatile for various recipes.",
                 detailedDescription: "Rich in protein and easy to digest, mung dal is perfect for soups, stews, and making delicious dal-based dishes.",
-                image: "../assets/images/products/mung-dal.jpg",
+                image: "../assets/images/foodgrains/mung-dal.jpg",
                 category: "Food Grains"
             }
         ]
@@ -693,7 +693,7 @@ const products = [
                 name: "Toor Dal (Pigeon Pea)",
                 shortDescription: "High-protein toor dal from Maharashtra, essential for daily meals.",
                 detailedDescription: "Rich in protein and fiber, toor dal is perfect for making sambar, dal fry, and various lentil-based dishes, catering to a healthy and balanced diet.",
-                image: "../assets/images/products/toor-dal.jpg",
+                image: "../assets/images/pulses/toor-dal.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -701,7 +701,7 @@ const products = [
                 name: "Chana Dal",
                 shortDescription: "Nutritious chana dal from Uttar Pradesh, versatile for snacks and curries.",
                 detailedDescription: "Packed with protein and essential nutrients, chana dal is ideal for making besan chilla, dal tadka, and various Indian snacks, enhancing the nutritional value of meals.",
-                image: "../assets/images/products/chana-dal.jpg",
+                image: "../assets/images/pulses/chana-dal.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -709,7 +709,7 @@ const products = [
                 name: "Masoor Dal (Red Lentils)",
                 shortDescription: "Quick-cooking masoor dal from Punjab, perfect for soups and stews.",
                 detailedDescription: "Light and flavorful, masoor dal cooks quickly and is rich in protein, making it a favorite for hearty soups, stews, and nutritious lentil-based dishes.",
-                image: "../assets/images/products/masoor-dal.jpg",
+                image: "../assets/images/pulses/masoor-dal.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -717,7 +717,7 @@ const products = [
                 name: "Green Gram (Mung Bean)",
                 shortDescription: "Fresh green gram, versatile for sprouting and salads.",
                 detailedDescription: "High in vitamins and minerals, green gram is perfect for sprouting, making salads, and preparing light, nutritious dishes that are easy on the digestive system.",
-                image: "../assets/images/products/green-mung-dal.jpg",
+                image: "../assets/images/pulses/green-mung-dal.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -725,7 +725,7 @@ const products = [
                 name: "Black Gram Dal (Urad Dal)",
                 shortDescription: "Protein-rich black gram dal, essential for South Indian cuisine.",
                 detailedDescription: "High in protein and essential amino acids, black gram dal is perfect for making dosa, idli, vada, and various lentil-based curries, enhancing the protein intake of meals.",
-                image: "../assets/images/products/black-gram-dal.jpg",
+                image: "../assets/images/pulses/black-gram-dal.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -733,7 +733,7 @@ const products = [
                 name: "Fried Gram (Roasted Chana)",
                 shortDescription: "Crunchy and versatile fried gram for snacks and curries.",
                 detailedDescription: "Fried gram is a quick and healthy snack option. It is also a key ingredient in chutneys, masala powders, and protein-rich recipes.",
-                image: "../assets/images/products/fried-gram.jpg",
+                image: "../assets/images/pulses/fried-gram.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -741,7 +741,7 @@ const products = [
                 name: "Besan Flour (Gram Flour)",
                 shortDescription: "Fine gram flour, perfect for savory and sweet recipes.",
                 detailedDescription: "Made from ground chana dal, besan flour is ideal for making pakoras, chillas, laddoos, and other traditional Indian recipes. It’s high in protein and adds a nutty flavor to dishes.",
-                image: "../assets/images/products/besan-flour.jpg",
+                image: "../assets/images/pulses/besan-flour.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -749,7 +749,7 @@ const products = [
                 name: "Rajma (Kidney Beans)",
                 shortDescription: "Delicious rajma, perfect for hearty curries.",
                 detailedDescription: "Rich in protein and fiber, rajma is ideal for making flavorful rajma masala, providing a nutritious and satisfying meal option.",
-                image: "../assets/images/products/rajma.jpg",
+                image: "../assets/images/pulses/rajma.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -757,7 +757,7 @@ const products = [
                 name: "Black Chana",
                 shortDescription: "Crunchy black chana, great for snacks and salads.",
                 detailedDescription: "High in protein and fiber, black chana is perfect for making chaat, salads, and healthy snacks, providing a nutritious crunch to meals.",
-                image: "../assets/images/products/black-chana.jpg",
+                image: "../assets/images/pulses/black-chana.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -765,7 +765,7 @@ const products = [
                 name: "Kabuli Chickpeas",
                 shortDescription: "Premium kabuli chickpeas, ideal for hummus and curries.",
                 detailedDescription: "Rich in protein and essential nutrients, kabuli chickpeas are perfect for making hummus, chana masala, and various Middle Eastern and Indian dishes, enhancing the culinary diversity.",
-                image: "../assets/images/products/kabuli-chickpeas.jpg",
+                image: "../assets/images/pulses/kabuli-chickpeas.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -773,7 +773,7 @@ const products = [
                 name: "Soy Beans",
                 shortDescription: "Nutrient-dense soy beans, versatile for various uses.",
                 detailedDescription: "High in protein and essential fatty acids, soy beans are perfect for making tofu, soy milk, and various other plant-based products, catering to vegetarian and vegan diets.",
-                image: "../assets/images/products/soy-beans.jpg",
+                image: "../assets/images/pulses/soy-beans.jpg",
                 category: "Pulses & Legumes"
             },
             {
@@ -781,7 +781,7 @@ const products = [
                 name: "Lima Beans",
                 shortDescription: "Tender lima beans, perfect for soups and salads.",
                 detailedDescription: "Rich in protein and fiber, lima beans are ideal for making hearty soups, stews, and nutritious salads, adding a creamy texture to dishes.",
-                image: "../assets/images/products/lima-beans.jpg",
+                image: "../assets/images/pulses/lima-beans.jpg",
                 category: "Pulses & Legumes"
             }
         ]
@@ -903,7 +903,7 @@ const products = [
                 name: "Cardamom",
                 shortDescription: "Premium cardamom pods known for their rich aroma.",
                 detailedDescription: "Handpicked and sun-dried, these cardamom pods offer an intense and sweet flavor, perfect for culinary and medicinal uses.",
-                image: "../assets/images/products/valentine-cardamom.jpg",
+                image: "../assets/images/spices/valentine-cardamom.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -911,7 +911,7 @@ const products = [
                 name: "Black Pepper",
                 shortDescription: "Freshly ground black pepper, adding heat and flavor.",
                 detailedDescription: "High-quality black peppercorns ground to perfection for a pungent and spicy kick in dishes.",
-                image: "../assets/images/products/kashmiri-black-pepper.jpg",
+                image: "../assets/images/spices/kashmiri-black-pepper.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -919,7 +919,7 @@ const products = [
                 name: "Malabar Cinnamon",
                 shortDescription: "Authentic Malabar cinnamon sticks, enhancing sweet and savory dishes.",
                 detailedDescription: "Harvested from the Malabar Coast, these cinnamon sticks are known for their strong and sweet aroma, perfect for baking, beverages, and marinades.",
-                image: "../assets/images/products/malabar-cinnamon.jpg",
+                image: "../assets/images/spices/malabar-cinnamon.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -927,7 +927,7 @@ const products = [
                 name: "Haldi Turmeric",
                 shortDescription: "Organic haldi (turmeric) powder, rich in color and flavor.",
                 detailedDescription: "Certified organic turmeric is packed with antioxidants and offers a vibrant color and earthy flavor, essential for Indian curries and health supplements.",
-                image: "../assets/images/products/haldi-turmeric.jpg",
+                image: "../assets/images/spices/haldi-turmeric.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -935,7 +935,7 @@ const products = [
                 name: "Red Chili Powder",
                 shortDescription: "Hot and vibrant red chili powder, perfect for spicy dishes.",
                 detailedDescription: "Made from sun-dried chilies, this red chili powder adds heat and color to a variety of Indian and global cuisines, enhancing the flavor profile of dishes.",
-                image: "../assets/images/products/red-chili-powder.jpg",
+                image: "../assets/images/spices/red-chili-powder.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -943,7 +943,7 @@ const products = [
                 name: "Jeera (Cumin)",
                 shortDescription: "Freshly ground jeera (cumin), essential for aromatic cooking.",
                 detailedDescription: "Rich in earthy flavor and essential oils, jeera is a staple in Indian spice blends, perfect for curries, stews, and marinades.",
-                image: "../assets/images/products/jeera-cumin.jpg",
+                image: "../assets/images/spices/jeera-cumin.png",
                 category: "Spices & Condiments"
             },
             {
@@ -951,7 +951,7 @@ const products = [
                 name: "Fennel Seeds",
                 shortDescription: "Sweet and aromatic fennel seeds, aiding digestion.",
                 detailedDescription: "Used in various Indian sweets and savory dishes, fennel seeds offer a sweet, licorice-like flavor and are known for their digestive benefits.",
-                image: "../assets/images/products/fennel-seeds.jpg",
+                image: "../assets/images/spices/fennel-seeds.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -959,7 +959,71 @@ const products = [
                 name: "Mustard Seeds",
                 shortDescription: "Pungent mustard seeds, essential for pickles and tempering.",
                 detailedDescription: "Mustard seeds add a spicy kick to dishes and are widely used in Indian pickles and tempering, providing both flavor and nutritional benefits.",
-                image: "../assets/images/products/mustard-seeds.jpg",
+                image: "../assets/images/spices/mustard-seeds.png",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "bay-leaves",
+                name: "Bay Leaves",
+                shortDescription: "Aromatic bay leaves for soups and curries.",
+                detailedDescription: "Bay leaves add a subtle depth of flavor and fragrance, perfect for stews, curries, and slow-cooked dishes.",
+                image: "../assets/images/spices/bay-leaves.png",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "mace-japatri",
+                name: "Mace (Japatri)",
+                shortDescription: "Aromatic mace for bold and warm flavors.",
+                detailedDescription: "Mace, derived from the nutmeg seed covering, adds a distinctive and bold flavor to desserts, curries, and soups.",
+                image: "../assets/images/spices/japatri.png",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "honey",
+                name: "Honey",
+                shortDescription: "Pure and natural honey, perfect for sweetening.",
+                detailedDescription: "Collected from organic farms, this honey is a natural sweetener rich in antioxidants, ideal for beverages, desserts, and health remedies.",
+                image: "../assets/images/spices/honey.png",
+                category: "Spices & Condiments"
+            },            
+            {
+                id: "coriander-powder",
+                name: "Coriander Powder",
+                shortDescription: "Freshly ground coriander powder, full of flavor.",
+                detailedDescription: "Made from high-quality coriander seeds, this powder offers a fresh, citrusy flavor and is a staple in Indian cooking.",
+                image: "../assets/images/spices/coriander-powder.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "non-iodized-salt",
+                name: "Non-Iodized Salt",
+                shortDescription: "Pure and natural non-iodized salt for cooking.",
+                detailedDescription: "Ideal for preserving pickles and enhancing flavors, non-iodized salt is a versatile ingredient in any kitchen.",
+                image: "../assets/images/spices/non-iodized-salt.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "clove",
+                name: "Clove",
+                shortDescription: "Whole cloves for a warm, spicy flavor.",
+                detailedDescription: "Handpicked cloves are perfect for adding aromatic warmth to curries, teas, and baked goods.",
+                image: "../assets/images/spices/clove.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "star-anise",
+                name: "Star Anise",
+                shortDescription: "Star-shaped spice with a licorice flavor.",
+                detailedDescription: "Star anise is a key ingredient in masala chai and biryani, offering a sweet and aromatic touch.",
+                image: "../assets/images/spices/star-anise.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "fenugreek-seeds",
+                name: "Fenugreek Seeds",
+                shortDescription: "Bitter and aromatic fenugreek seeds for cooking.",
+                detailedDescription: "Used in curries and spice blends, fenugreek seeds add a unique bitter-sweet flavor and are known for their health benefits.",
+                image: "../assets/images/spices/fenugreek-seeds.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -967,7 +1031,7 @@ const products = [
                 name: "Groundnut Oil",
                 shortDescription: "Rich and flavorful groundnut oil for cooking and frying.",
                 detailedDescription: "Known for its high smoking point and nutty flavor, groundnut oil is ideal for deep-frying, sautéing, and adding flavor to dishes.",
-                image: "../assets/images/products/groundnut-oil.jpg",
+                image: "../assets/images/spices/groundnut-oil.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -975,7 +1039,23 @@ const products = [
                 name: "Sunflower Oil",
                 shortDescription: "Light and healthy sunflower oil for daily cooking.",
                 detailedDescription: "Rich in vitamin E and essential fatty acids, sunflower oil is perfect for frying, baking, and light cooking.",
-                image: "../assets/images/products/sunflower-oil.jpg",
+                image: "../assets/images/spices/sunflower-oil.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "cashew",
+                name: "Cashew",
+                shortDescription: "Rich and creamy cashews for snacking and cooking.",
+                detailedDescription: "High-quality cashews are perfect for snacks, desserts, and adding creaminess to savory dishes like gravies and stir-fries.",
+                image: "../assets/images/spices/cashew.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "ghee",
+                name: "Ghee",
+                shortDescription: "Pure clarified butter for authentic Indian flavors.",
+                detailedDescription: "Rich in aroma and taste, ghee is a staple in Indian cooking, ideal for frying, sautéing, and making desserts.",
+                image: "../assets/images/spices/ghee.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -983,7 +1063,7 @@ const products = [
                 name: "Flaxseed",
                 shortDescription: "Nutrient-packed flaxseeds for baking and snacking.",
                 detailedDescription: "A rich source of omega-3 fatty acids, flaxseeds are ideal for smoothies, salads, and baking healthy treats.",
-                image: "../assets/images/products/flaxseed.jpg",
+                image: "../assets/images/spices/flaxseed.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -991,7 +1071,7 @@ const products = [
                 name: "Tamarind",
                 shortDescription: "Tangy and versatile tamarind for chutneys and curries.",
                 detailedDescription: "A key ingredient in Indian and Southeast Asian cuisines, tamarind adds a tangy depth of flavor to curries, soups, and desserts.",
-                image: "../assets/images/products/tamarind.jpg",
+                image: "../assets/images/spices/tamarind.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -999,7 +1079,15 @@ const products = [
                 name: "Jaggery",
                 shortDescription: "Natural and unrefined jaggery for sweetening and desserts.",
                 detailedDescription: "Rich in minerals and a healthy alternative to sugar, jaggery is perfect for sweets, beverages, and traditional dishes.",
-                image: "../assets/images/products/jaggery.jpg",
+                image: "../assets/images/spices/jaggery.jpg",
+                category: "Spices & Condiments"
+            },
+            {
+                id: "nutmeg",
+                name: "Nutmeg",
+                shortDescription: "Aromatic nutmeg for sweet and savory dishes.",
+                detailedDescription: "Nutmeg adds a warm, nutty flavor to baked goods, curries, and beverages, making it a versatile spice for culinary uses.",
+                image: "../assets/images/spices/nutmeg.jpg",
                 category: "Spices & Condiments"
             },
             {
@@ -1007,11 +1095,11 @@ const products = [
                 name: "Papad",
                 shortDescription: "Crispy and flavorful papad for snacking and meals.",
                 detailedDescription: "Made from lentils and spices, papad is a versatile accompaniment to meals or a standalone snack.",
-                image: "../assets/images/products/papad.jpg",
+                image: "../assets/images/spices/papad.jpg",
                 category: "Spices & Condiments"
             }
         ]
-    },
+    },    
     {
         title: "Insecticides",
         icon: "fas fa-bug",
