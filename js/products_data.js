@@ -544,7 +544,7 @@ const products = [
             "Special Thick Rice for African Markets",
             "Export Certified"
         ],
-        backgroundImage: "../assets/images/fruits.jpg",
+        backgroundImage: "../assets/images/food-grains.jpg",
         products: [
             {
                 id: "basmati-rice",
@@ -686,7 +686,7 @@ const products = [
             "Chickpeas & Beans",
             "Split and Whole Dal Varieties"
         ],
-        backgroundImage: "../assets/images/fruits.jpg",
+        backgroundImage: "../assets/images/pulses.jpg",
         products: [
             {
                 id: "toor-dal",
@@ -795,14 +795,14 @@ const products = [
             "Whole Beans & Ground",
             "High-Quality Export Grade"
         ],
-        backgroundImage: "../assets/images/fruits.jpg",
+        backgroundImage: "../assets/images/coffee.jpg",
         products: [
             {
                 id: "monsooned-malabar",
                 name: "Monsooned Malabar",
                 shortDescription: "Unique Monsooned Malabar coffee beans from Kerala, known for their smooth flavor.",
                 detailedDescription: "Processed through exposure to monsoon winds, Monsooned Malabar beans develop a mellow flavor with low acidity, perfect for a smooth and rich cup of coffee.",
-                image: "../assets/images/products/monsooned-malabar.jpg",
+                image: "../assets/images/coffee/monsooned-malabar.jpg",
                 category: "Coffee"
             },
             {
@@ -810,7 +810,7 @@ const products = [
                 name: "Coorg Coffee",
                 shortDescription: "Premium coffee beans from Coorg, Karnataka, offering a robust flavor.",
                 detailedDescription: "Grown in the lush plantations of Coorg, these beans are handpicked and processed to maintain their rich aroma and bold taste, ideal for espresso and dark roasts.",
-                image: "../assets/images/products/coorg-coffee.jpg",
+                image: "../assets/images/coffee/coorg-coffee.jpg",
                 category: "Coffee"
             },
             {
@@ -818,7 +818,7 @@ const products = [
                 name: "Chikmagalur Arabica Coffee",
                 shortDescription: "Premium Arabica coffee from Chikmagalur, Karnataka.",
                 detailedDescription: "Renowned for its smooth and balanced flavor, this Arabica coffee is grown in the lush plantations of Chikmagalur, offering a delightful and aromatic coffee experience.",
-                image: "../assets/images/products/chikmagalur-arabica.jpg",
+                image: "../assets/images/coffee/chikmagalur-arabica-coffee.jpg",
                 category: "Coffee"
             },
             {
@@ -826,7 +826,7 @@ const products = [
                 name: "Chikmagalur Robusta Coffee",
                 shortDescription: "Robusta coffee beans from Chikmagalur, Karnataka, known for their bold taste.",
                 detailedDescription: "Grown at high altitudes in Chikmagalur, these Robusta beans are handpicked for their rich flavor, delivering a strong and full-bodied cup of coffee.",
-                image: "../assets/images/products/chikmagalur-robusta.jpg",
+                image: "../assets/images/coffee/chikmagalur-robusta-coffee.jpg",
                 category: "Coffee"
             },
             {
@@ -834,7 +834,7 @@ const products = [
                 name: "Mysore Nuggets",
                 shortDescription: "High-grade Mysore Nuggets from Karnataka, celebrated for their full-bodied flavor.",
                 detailedDescription: "Known for their large bean size and exceptional flavor profile, Mysore Nuggets are perfect for gourmet coffee enthusiasts seeking a strong and aromatic brew.",
-                image: "../assets/images/products/mysore-nuggets.jpg",
+                image: "../assets/images/coffee/mysore-nuggets.jpg",
                 category: "Coffee"
             },
             {
@@ -842,7 +842,7 @@ const products = [
                 name: "Araku Coffee",
                 shortDescription: "Organic Araku coffee from Andhra Pradesh, rich in flavor and aroma.",
                 detailedDescription: "Cultivated in the Araku Valley, these organic coffee beans are known for their sweet and fruity undertones, providing a delightful and aromatic coffee experience.",
-                image: "../assets/images/products/araku-coffee.jpg",
+                image: "../assets/images/coffee/araku-coffee.jpg",
                 category: "Coffee"
             },
             {
@@ -850,7 +850,7 @@ const products = [
                 name: "Kannur Dark Roast",
                 shortDescription: "Bold and intense dark roast coffee from Kannur, Kerala.",
                 detailedDescription: "Perfect for those who prefer a strong and robust coffee, Kannur Dark Roast beans are expertly roasted to bring out deep flavors and a rich aroma.",
-                image: "../assets/images/products/kannur-dark-roast.jpg",
+                image: "../assets/images/coffee/kannur-dark-roast.jpg",
                 category: "Coffee"
             },
             {
@@ -858,7 +858,7 @@ const products = [
                 name: "Sandalwood Coffee",
                 shortDescription: "Infused Sandalwood coffee from Karnataka, offering a unique aromatic blend.",
                 detailedDescription: "A fusion of high-quality coffee beans with natural sandalwood essence, providing a soothing and fragrant coffee experience.",
-                image: "../assets/images/products/sandalwood-coffee.jpg",
+                image: "../assets/images/coffee/sandalwood-coffee.jpg",
                 category: "Coffee"
             },
             {
@@ -866,7 +866,7 @@ const products = [
                 name: "Belgian Roast",
                 shortDescription: "Rich Belgian Roast coffee from Tamil Nadu, perfect for a strong brew.",
                 detailedDescription: "Expertly roasted to a dark finish, Belgian Roast coffee beans deliver a deep and intense flavor, ideal for those who enjoy a powerful and satisfying cup of coffee.",
-                image: "../assets/images/products/belgian-roast.jpg",
+                image: "../assets/images/coffee/belgian-roast.jpg",
                 category: "Coffee"
             },
             {
@@ -874,7 +874,7 @@ const products = [
                 name: "Java Mountain",
                 shortDescription: "Exquisite Java Mountain coffee from Karnataka, known for its smooth taste.",
                 detailedDescription: "Grown in the mountainous regions, Java Mountain coffee beans are prized for their balanced acidity and smooth, lingering finish, perfect for a refined coffee experience.",
-                image: "../assets/images/products/java-mountain.jpg",
+                image: "../assets/images/coffee/java-mountain.jpg",
                 category: "Coffee"
             },
             {
@@ -882,7 +882,7 @@ const products = [
                 name: "Roasted Arabica",
                 shortDescription: "Premium roasted Arabica beans from India, offering a delicate flavor.",
                 detailedDescription: "Selected from the best Arabica plantations, these beans are roasted to perfection to enhance their natural sweetness and floral aroma, ideal for a light and flavorful brew.",
-                image: "../assets/images/products/roasted-arabica.jpg",
+                image: "../assets/images/coffee/roasted-arabica.jpg",
                 category: "Coffee"
             }
         ]
@@ -896,7 +896,7 @@ const products = [
             "Turmeric, Red Chili, Cumin",
             "ISO Certified Quality"
         ],
-        backgroundImage: "../assets/images/fruits.jpg",
+        backgroundImage: "../assets/images/spices.jpg",
         products: [
             {
                 id: "cardamom",
@@ -1109,14 +1109,14 @@ const products = [
             "Targets specific pests with precision",
             "Environmentally friendly"
         ],
-        backgroundImage: "../assets/images/fruits.jpg",
+        backgroundImage: "../assets/images/insecticides.jpg",
         products: [
             {
                 id: "larvicides",
                 name: "Larvicides",
                 shortDescription: "Effective larvicides for controlling harmful larvae.",
                 detailedDescription: "Our range of larvicides includes specialized solutions for pests such as Helicoverpa, Spodoptera, Cutworms, Stem Borer, Fruit Borer, Tobacco caterpillar, Rootgrub, etc. These products are formulated to target and eliminate larvae stages, preventing them from causing extensive damage to your crops.",
-                image: "../assets/images/products/larvicides.jpg",
+                image: "../assets/images/insecticides/larvicides.jpeg",
                 category: "Insecticides"
             },
             {
@@ -1124,7 +1124,7 @@ const products = [
                 name: "Miticides & Sucking Pesticides",
                 shortDescription: "Miticides and Pesticides targeting sucking pests.",
                 detailedDescription: "Designed to combat pests such as red mites, white mites, thrips, leaf miners, spider mites, aphids, jashids, mealybugs, etc., our miticides and sucking pesticides offer robust protection against these destructive pests. They ensure the health and vitality of your crops by effectively reducing pest populations.",
-                image: "../assets/images/products/miticides-sucking-pests.jpg",
+                image: "../assets/images/insecticides/miticides-sucking-pests.jpeg",
                 category: "Insecticides"
             },
             {
@@ -1132,7 +1132,7 @@ const products = [
                 name: "Fungicides",
                 shortDescription: "Advanced fungicides for preventing and treating fungal diseases.",
                 detailedDescription: "Our fungicides are formulated to combat a wide range of fungal diseases, including Tikka Leaf Spot, Rice Blast, Anthracnose, Late Blight, Early Blight, Powdery Mildew, Wilt, Apple scab, Lime canker, Root Rot, etc. These products ensure your crops remain healthy and free from debilitating fungal infections.",
-                image: "../assets/images/products/fungicides.jpg",
+                image: "../assets/images/insecticides/fungicides.jpeg",
                 category: "Insecticides"
             },
             {
@@ -1140,7 +1140,7 @@ const products = [
                 name: "Weedicides",
                 shortDescription: "Selective and general weedicides for all crop types.",
                 detailedDescription: "Our weedicides are available in both selective and general formulations, catering to a diverse range of crops. They effectively eliminate unwanted weeds such as sedges, broadleaf weeds, grasses, etc., without harming your valuable crops, ensuring optimal growth and yield.",
-                image: "../assets/images/products/weedicides.jpg",
+                image: "../assets/images/insecticides/weedicides.jpeg",
                 category: "Insecticides"
             },
             {
@@ -1148,7 +1148,7 @@ const products = [
                 name: "Neem Oil",
                 shortDescription: "Organic neem oil pesticide effective against a wide range of pests.",
                 detailedDescription: "Derived from neem seeds, this oil acts as a natural pesticide, repelling pests such as aphids, whiteflies, caterpillars, nematodes, etc., and preventing fungal diseases without harming beneficial organisms.",
-                image: "../assets/images/products/neem-oil.jpg",
+                image: "../assets/images/insecticides/neem-oil.jpg",
                 category: "Insecticides"
             },
             {
@@ -1156,7 +1156,7 @@ const products = [
                 name: "Karanja Oil",
                 shortDescription: "Natural pesticide extracted from Karanja seeds.",
                 detailedDescription: "Rich in bioactive compounds, Karanja Oil provides excellent pest control by repelling insects such as whiteflies, mites, aphids, mealybugs, etc., and inhibiting their growth without harming the environment.",
-                image: "../assets/images/products/karanja-oil.jpg",
+                image: "../assets/images/insecticides/karanja-oil.jpeg",
                 category: "Insecticides"
             },
             {
@@ -1164,7 +1164,7 @@ const products = [
                 name: "Custard Apple Seed Oil",
                 shortDescription: "Eco-friendly oil extracted from custard apple seeds for pest control.",
                 detailedDescription: "A natural pesticide that targets pests such as aphids, whiteflies, mealybugs, caterpillars, etc., and prevents insect infestations, ensuring healthy crop growth.",
-                image: "../assets/images/products/custard-apple-seed-oil.jpg",
+                image: "../assets/images/insecticides/custard-apple-seed-oil.jpeg",
                 category: "Insecticides"
             },
             {
@@ -1172,7 +1172,7 @@ const products = [
                 name: "Insecticidal Soap",
                 shortDescription: "Gentle insecticidal soap for controlling soft-bodied insects.",
                 detailedDescription: "An eco-friendly solution that disrupts the cell membranes of soft-bodied pests such as aphids, whiteflies, spider mites, etc., providing effective control without environmental harm.",
-                image: "../assets/images/products/insecticidal-soap.jpg",
+                image: "../assets/images/insecticides/insecticidal-soap.jpeg",
                 category: "Insecticides"
             },
             {
@@ -1180,7 +1180,7 @@ const products = [
                 name: "Bacillus Thuringiensis (Bt)",
                 shortDescription: "Biological insecticide Bt effective against caterpillars and beetles.",
                 detailedDescription: "A naturally occurring bacterium that targets and kills specific insect pests such as caterpillars, beetles, and mosquito larvae, etc. Bt is safe for humans, animals, and beneficial insects when used correctly.",
-                image: "../assets/images/products/bacillus-thuringiensis.jpg",
+                image: "../assets/images/insecticides/bacillus-thuringiensis.jpeg",
                 category: "Insecticides"
             },
             {
@@ -1188,7 +1188,7 @@ const products = [
                 name: "Kaolin Clay",
                 shortDescription: "Mineral-based kaolin clay repels a variety of insect pests.",
                 detailedDescription: "Creates a protective barrier on plant surfaces, deterring pests such as aphids, leafhoppers, grasshoppers, etc., by causing discomfort and preventing them from feeding or laying eggs.",
-                image: "../assets/images/products/kaolin-clay.jpg",
+                image: "../assets/images/insecticides/kaolin-clay.jpeg",
                 category: "Insecticides"
             },
             {
@@ -1196,7 +1196,7 @@ const products = [
                 name: "Horticultural Oil",
                 shortDescription: "Mineral-based horticultural oil for smothering insect pests.",
                 detailedDescription: "Acts by suffocating pests such as scales, mites, whiteflies, aphids, etc. Horticultural oil is an effective and environmentally friendly option for pest management.",
-                image: "../assets/images/products/horticultural-oil.jpg",
+                image: "../assets/images/insecticides/horticultural-oil.jpg",
                 category: "Insecticides"
             }
         ]
@@ -1210,14 +1210,14 @@ const products = [
             "High-quality formulations ensuring optimal plant growth and yield",
             "Certified for quality and suitability for international markets"
         ],
-        backgroundImage: "../assets/images/fruits.jpg",
+        backgroundImage: "../assets/images/fertilizers.jpg",
         products: [
             {
                 id: "calcium-nitrate",
                 name: "Calcium Nitrate",
                 shortDescription: "Calcium nitrate fertilizer for improved soil structure and plant health.",
                 detailedDescription: "Calcium nitrate strengthens plant cell walls and enhances nutrient uptake, leading to healthier and more resilient crops. It aids in preventing disorders like blossom end rot and improves overall soil quality.",
-                image: "../assets/images/products/calcium-nitrate.jpg",
+                image: "../assets/images/fertilizers/calcium-nitrate.jpeg",
                 category: "Fertilizers"
             },
             {
@@ -1225,7 +1225,7 @@ const products = [
                 name: "Macro Nutrients Blend (Water Soluble)",
                 shortDescription: "Balanced water-soluble macro nutrients blend for comprehensive crop nutrition.",
                 detailedDescription: "This water-soluble blend provides essential macro nutrients like nitrogen, phosphorus, and potassium in an easily absorbable form. It ensures balanced and healthy plant growth across various crop types, supporting overall plant metabolism and structural integrity while being easy to apply through irrigation systems.",
-                image: "../assets/images/products/macro-nutrients.jpg",
+                image: "../assets/images/fertilizers/macro-nutrients.jpg",
                 category: "Fertilizers"
             },
             {
@@ -1233,7 +1233,7 @@ const products = [
                 name: "Organic Compost",
                 shortDescription: "Rich organic compost for sustainable soil fertility.",
                 detailedDescription: "Enhances soil structure and fertility naturally, promoting healthy plant growth without the use of synthetic chemicals. Organic compost improves water retention and supports beneficial soil microorganisms.",
-                image: "../assets/images/products/organic-compost.jpg",
+                image: "../assets/images/fertilizers/organic-compost.jpg",
                 category: "Fertilizers"
             },
             {
@@ -1241,7 +1241,7 @@ const products = [
                 name: "Neem Cake",
                 shortDescription: "Natural neem cake for improving soil fertility and pest control.",
                 detailedDescription: "Derived from neem seeds, neem cake is a natural soil conditioner that provides essential nutrients while repelling soil-based pests. It enhances soil fertility and supports sustainable crop growth.",
-                image: "../assets/images/products/neem-cake.jpg",
+                image: "../assets/images/fertilizers/neem-cake.jpg",
                 category: "Fertilizers"
             },
             {
@@ -1249,7 +1249,7 @@ const products = [
                 name: "Karanja Cake",
                 shortDescription: "Organic karanja cake for nutrient-rich soil and natural pest control.",
                 detailedDescription: "Extracted from Karanja seeds, this organic fertilizer improves soil quality and acts as a natural pest repellent. It is rich in nitrogen, phosphorus, and potassium, ensuring healthy plant growth.",
-                image: "../assets/images/products/karanja-cake.jpg",
+                image: "../assets/images/fertilizers/karanja-cake.png",
                 category: "Fertilizers"
             },
             {
@@ -1257,7 +1257,7 @@ const products = [
                 name: "Castor Cake",
                 shortDescription: "Organic castor cake for enhanced soil fertility and crop protection.",
                 detailedDescription: "Castor cake is a by-product of castor oil production, rich in organic nutrients. It conditions the soil, provides essential nutrients, and helps in natural pest management.",
-                image: "../assets/images/products/castor-cake.jpg",
+                image: "../assets/images/fertilizers/castor-cake.jpg",
                 category: "Fertilizers"
             }
         ]
@@ -1271,14 +1271,14 @@ const products = [
             "Enhances soil health and promotes beneficial microbial activity",
             "Certified for quality and environmental safety"
         ],
-        backgroundImage: "../assets/images/fruits.jpg",
+        backgroundImage: "../assets/images/organic-fertilizers.jpg",
         products: [
             {
                 id: "compost",
                 name: "Compost",
                 shortDescription: "Premium organic compost enriched with natural nutrients.",
                 detailedDescription: "Made from decomposed organic matter, this compost improves soil structure, enhances nutrient availability, and promotes sustainable plant growth. It fosters a healthy soil ecosystem and increases moisture retention.",
-                image: "../assets/images/products/compost.jpg",
+                image: "../assets/images/organic-fertilizer/compost.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1286,7 +1286,7 @@ const products = [
                 name: "Vermicompost",
                 shortDescription: "Nutrient-rich vermicompost produced using earthworms.",
                 detailedDescription: "A superior form of compost, vermicompost is rich in beneficial microbes and essential nutrients, enhancing soil health and plant vitality. It improves soil aeration and promotes robust root development.",
-                image: "../assets/images/products/vermicompost.jpg",
+                image: "../assets/images/organic-fertilizer/vermicompost.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1294,7 +1294,7 @@ const products = [
                 name: "Bio Fertilizer",
                 shortDescription: "Natural bio fertilizer containing beneficial microorganisms.",
                 detailedDescription: "Bio fertilizers enhance soil fertility by promoting microbial activity, improving nutrient uptake, and increasing crop resistance to pests and diseases. They support sustainable agricultural practices and reduce dependency on chemical fertilizers.",
-                image: "../assets/images/products/bio-fertilizer.jpg",
+                image: "../assets/images/organic-fertilizer/bio-fertilizer.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1302,7 +1302,7 @@ const products = [
                 name: "Fish Emulsion",
                 shortDescription: "Liquid fish emulsion fertilizer high in nitrogen and trace minerals.",
                 detailedDescription: "An organic liquid fertilizer that provides a quick nutrient boost to plants, enhancing growth and foliage health without the use of synthetic chemicals. It stimulates microbial activity and improves soil structure.",
-                image: "../assets/images/products/fish-emulsion.jpg",
+                image: "../assets/images/organic-fertilizer/fish-emulsion.jpeg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1310,7 +1310,7 @@ const products = [
                 name: "Bone Meal",
                 shortDescription: "High-phosphorus bone meal for strong root and flower development.",
                 detailedDescription: "An excellent source of phosphorus and calcium, bone meal promotes robust root systems and vibrant flower production in plants. It enhances seed germination and overall plant resilience.",
-                image: "../assets/images/products/bone-meal.jpg",
+                image: "../assets/images/organic-fertilizer/bone-meal.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1318,7 +1318,7 @@ const products = [
                 name: "Seaweed Extract",
                 shortDescription: "Organic seaweed extract fertilizer rich in micronutrients, derived from Ascophyllum nodosum.",
                 detailedDescription: "Enhances plant growth and resilience by providing essential micronutrients and growth hormones, promoting overall plant health and productivity. Derived from Ascophyllum nodosum, it improves soil fertility and stress tolerance in plants.",
-                image: "../assets/images/products/seaweed-extract.jpg",
+                image: "../assets/images/organic-fertilizer/seaweed-extract.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1326,7 +1326,7 @@ const products = [
                 name: "Green Manure",
                 shortDescription: "Cover crops used as green manure to enrich soil organically.",
                 detailedDescription: "Green manure crops improve soil structure, increase organic matter content, and enhance nutrient availability, supporting sustainable agricultural practices. They prevent soil erosion and suppress weed growth naturally.",
-                image: "../assets/images/products/green-manure.jpg",
+                image: "../assets/images/organic-fertilizer/green-manure.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1334,7 +1334,7 @@ const products = [
                 name: "Humus",
                 shortDescription: "Natural humus fertilizer to improve soil structure and fertility.",
                 detailedDescription: "Humus enhances water retention, nutrient availability, and soil aeration while fostering beneficial microbial activity, ensuring healthy crop growth.",
-                image: "../assets/images/products/humus.jpg",
+                image: "../assets/images/organic-fertilizer/humus.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1342,7 +1342,7 @@ const products = [
                 name: "Fulvic Acid",
                 shortDescription: "Organic fulvic acid to boost nutrient absorption.",
                 detailedDescription: "Fulvic acid improves plant nutrient uptake, enhances root growth, and increases resistance to environmental stress. It is a vital component for sustainable crop nutrition.",
-                image: "../assets/images/products/fulvic-acid.jpg",
+                image: "../assets/images/organic-fertilizer/fulvic-acid.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1350,7 +1350,7 @@ const products = [
                 name: "Amino Acids",
                 shortDescription: "Plant-based amino acid fertilizer for healthy crop development.",
                 detailedDescription: "Amino acids stimulate plant growth by enhancing photosynthesis, stress tolerance, and overall nutrient absorption, promoting robust and vibrant crops.",
-                image: "../assets/images/products/amino-acids.jpg",
+                image: "../assets/images/organic-fertilizer/amino-acids.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1358,7 +1358,7 @@ const products = [
                 name: "Bio Potash",
                 shortDescription: "Bio potash fertilizer for improved potassium availability.",
                 detailedDescription: "Bio potash enhances flowering, fruiting, and overall plant vigor by supplying bioavailable potassium through eco-friendly methods.",
-                image: "../assets/images/products/bio-potash.jpg",
+                image: "../assets/images/organic-fertilizer/bio-potash.jpg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1366,7 +1366,7 @@ const products = [
                 name: "Bio Phosphorus",
                 shortDescription: "Bio phosphorus fertilizer for efficient phosphorus supply.",
                 detailedDescription: "Promotes strong root development and higher crop yield by enhancing phosphorus availability through natural microbial activity.",
-                image: "../assets/images/products/bio-phosphorus.jpg",
+                image: "../assets/images/organic-fertilizer/bio-phosphorus.jpeg",
                 category: "Organic Fertilizers"
             },
             {
@@ -1374,7 +1374,7 @@ const products = [
                 name: "Bio Nitrogen",
                 shortDescription: "Nitrogen-fixing bio fertilizer for sustainable farming.",
                 detailedDescription: "Bio nitrogen enhances nitrogen availability in the soil, reducing dependency on chemical nitrogen fertilizers and promoting eco-friendly agriculture.",
-                image: "../assets/images/products/bio-nitrogen.jpg",
+                image: "../assets/images/organic-fertilizer/bio-nitrogen.jpg",
                 category: "Organic Fertilizers"
             }
         ]
