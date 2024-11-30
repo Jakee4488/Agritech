@@ -301,7 +301,7 @@ body {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    margin-left: 30px ;
+    margin-left: 0px ;
     width: 100%; /* Video takes up 80% of the screen width */
 }
 
@@ -511,8 +511,10 @@ body {
 }
 
 .member-image img {
-    width: 100%;
+    width: 50%;
     display: block;
+    justify-self: center;
+    border-radius: 10%;
 }
 
 .social-links {
