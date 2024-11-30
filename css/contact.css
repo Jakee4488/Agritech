@@ -395,3 +395,156 @@ body {
         font-size: 0.8rem;
     }
 }
+/* ===========================
+   2. Our Operational Hubs Section Styles
+=========================== */
+.our-operational-hubs {
+    padding: 40px 10px;
+    background: rgba(245, 245, 245, 0.5); /* Light background for contrast */
+}
+
+.our-operational-hubs .container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.our-operational-hubs .section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-operational-hubs .section-header h2 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333; /* Dark text for better contrast */
+}
+
+.our-operational-hubs .section-header p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.hubs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.hub-card {
+    background: #ffffff; /* White background for cards */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px;
+    padding: 15px;
+    width: 500px; /* Increased card width */
+    min-height: auto; /* Adjusts height dynamically */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hub-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hub-icon {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hub-card:hover .hub-icon {
+    color: #2E8B57; /* Primary color on hover */
+    transform: scale(1.1);
+}
+
+.hub-details h3 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 600;
+}
+
+.hub-details p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+    margin: 5px 0;
+}
+
+/* ===========================
+   3. Responsive Styles for Our Operational Hubs
+=========================== */
+@media (max-width: 1024px) {
+    .our-operational-hubs {
+        padding: 30px 10px;
+    }
+
+    .our-operational-hubs .section-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .our-operational-hubs .section-header p {
+        font-size: 0.9rem;
+    }
+
+    .hub-card {
+        width: 48%; /* Wider for better grid layout */
+    }
+}
+
+@media (max-width: 768px) {
+    .our-operational-hubs {
+        padding: 20px 10px;
+    }
+
+    .our-operational-hubs .section-header h2 {
+        font-size: 1.6rem;
+    }
+
+    .our-operational-hubs .section-header p {
+        font-size: 0.85rem;
+    }
+
+    .hub-card {
+        width: 100%; /* Full width for small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .our-operational-hubs {
+        padding: 15px 10px;
+    }
+
+    .our-operational-hubs .section-header h2 {
+        font-size: 1.4rem;
+    }
+
+    .our-operational-hubs .section-header p {
+        font-size: 0.8rem;
+    }
+
+    .hub-card {
+        padding: 12px;
+        width: 100%; /* Full width */
+    }
+
+    .hub-details h3 {
+        font-size: 1.2rem;
+    }
+
+    .hub-details p {
+        font-size: 0.8rem;
+    }
+
+    .hub-icon {
+        font-size: 1.4rem;
+    }
+}
