@@ -291,7 +291,7 @@ const products = [
                 name: "Onions",
                 shortDescription: "Flavorful onions, perfect for every culinary need.",
                 detailedDescription: "Sustainable farming practices ensure long shelf-life and rich flavor in these onions, freshly harvested for superior quality.",
-                image: "assets/images/Vegetables/onions.jpg",
+                image: "assets/images/Vegetables/Onions.jpg",
                 category: "Vegetables"
             },
             {
@@ -323,7 +323,7 @@ const products = [
                 name: "Cauliflower",
                 shortDescription: "White and crunchy cauliflower, a staple in many households.",
                 detailedDescription: "Sustainable farming practices and minimal pesticide use ensure that these freshly picked cauliflowers are perfect for a variety of culinary uses.",
-                image: "assets/images/Vegetables/cauliflower.jpg",
+                image: "assets/images/Vegetables/Cauliflower.jpg",
                 category: "Vegetables"
             },
             {
@@ -331,7 +331,7 @@ const products = [
                 name: "Cabbages",
                 shortDescription: "Crisp and green cabbages, perfect for salads and stir-fries.",
                 detailedDescription: "Eco-friendly cultivation and high in vitamins K and C, these freshly harvested cabbages are ideal for healthy and flavorful meals.",
-                image: "assets/images/Vegetables/cabbages.jpg",
+                image: "assets/images/Vegetables/Cabbages.jpg",
                 category: "Vegetables"
             },
             {
@@ -339,7 +339,7 @@ const products = [
                 name: "Beans",
                 shortDescription: "Fresh green beans, perfect for healthy meals.",
                 detailedDescription: "Sustainable farming and rich in protein, these handpicked green beans are fresh and nutritious for a variety of dishes.",
-                image: "assets/images/Vegetables/beans.jpg",
+                image: "assets/images/Vegetables/Beans.jpg",
                 category: "Vegetables"
             },
             {
@@ -347,7 +347,7 @@ const products = [
                 name: "Carrots",
                 shortDescription: "Sweet and crunchy carrots, grown in cool climates.",
                 detailedDescription: "Organic farming methods and high in beta-carotene, these freshly harvested carrots are perfect for a healthy diet.",
-                image: "assets/images/Vegetables/carrots.jpg",
+                image: "assets/images/Vegetables/Carrots.jpg",
                 category: "Vegetables"
             },
             {
@@ -355,7 +355,7 @@ const products = [
                 name: "Spinach",
                 shortDescription: "Nutritious spinach cultivated with minimal resources.",
                 detailedDescription: "Drought-resistant farming and high in iron and calcium make this sustainably harvested spinach a healthy choice for your meals.",
-                image: "assets/images/Vegetables/spinach.jpg",
+                image: "assets/images/Vegetables/Spinach.jpg",
                 category: "Vegetables"
             },
             {
@@ -363,7 +363,7 @@ const products = [
                 name: "Green Peas",
                 shortDescription: "Tender green peas, perfect for soups and side dishes.",
                 detailedDescription: "Organic farming methods and rich in protein, these sustainably harvested green peas are ideal for a variety of culinary uses.",
-                image: "assets/images/Vegetables/Green-peas.jpg",
+                image: "assets/images/Vegetables/Green-Peas.jpg",
                 category: "Vegetables"
             },
             {
@@ -371,7 +371,7 @@ const products = [
                 name: "Cucumber",
                 shortDescription: "Refreshing cucumbers, ideal for salads and beverages.",
                 detailedDescription: "Eco-friendly cultivation and high water content make these freshly harvested cucumbers perfect for hydrating and healthy recipes.",
-                image: "assets/images/Vegetables/cucumbers.jpg",
+                image: "assets/images/Vegetables/Cucumbers.jpg",
                 category: "Vegetables"
             },
             {
@@ -379,7 +379,7 @@ const products = [
                 name: "Pumpkins",
                 shortDescription: "Versatile pumpkins, perfect for savory and sweet dishes.",
                 detailedDescription: "Sustainable farming practices and rich in vitamins A and C ensure these freshly picked pumpkins are both nutritious and delicious.",
-                image: "assets/images/Vegetables/pumpkins.jpg",
+                image: "assets/images/Vegetables/Pumpkins.jpg",
                 category: "Vegetables"
             },
             {
@@ -387,7 +387,7 @@ const products = [
                 name: "Bell Peppers",
                 shortDescription: "Colorful bell peppers, adding vibrant flavors to your meals.",
                 detailedDescription: "Organic farming options and rich in antioxidants make these freshly harvested bell peppers a healthy and flavorful addition to any dish.",
-                image: "assets/images/Vegetables/bellpeppers.jpg",
+                image: "assets/images/Vegetables/BellPeppers.jpg",
                 category: "Vegetables"
             },
             {
@@ -395,7 +395,7 @@ const products = [
                 name: "Bitter Gourd",
                 shortDescription: "Health-packed bitter gourd, known for its medicinal benefits.",
                 detailedDescription: "Sustainable cultivation and rich in vitamins and minerals, these freshly picked bitter gourds are perfect for a healthy and nutritious diet.",
-                image: "assets/images/Vegetables/bitter-gourd.jpg",
+                image: "assets/images/Vegetables/Bitter-Gourd.jpg",
                 category: "Vegetables"
             }
         ]
@@ -417,7 +417,7 @@ const products = [
                 name: "Organic Potatoes",
                 shortDescription: "Organic potatoes cultivated without synthetic pesticides for pure taste.",
                 detailedDescription: "Certified organic and sustainable farming practices ensure these freshly harvested potatoes are free from synthetic pesticides, offering a pure and delicious flavor.",
-                image: "assets/images/Vegetables/potatoes.jpg",
+                image: "assets/images/Vegetables/Potatoes.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -425,7 +425,7 @@ const products = [
                 name: "Organic Onions",
                 shortDescription: "Flavorful organic onions grown with natural methods.",
                 detailedDescription: "Pesticide-free cultivation and long shelf-life practices make these organic onions a rich and flavorful addition to your kitchen.",
-                image: "assets/images/Vegetables/onions.jpg",
+                image: "assets/images/Vegetables/Onions.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -433,7 +433,7 @@ const products = [
                 name: "Organic Tomatoes",
                 shortDescription: "Juicy organic tomatoes ensuring natural sweetness and quality.",
                 detailedDescription: "Grown organically with high vitamin C content and freshly picked, these tomatoes are perfect for a variety of healthy and delicious recipes.",
-                image: "assets/images/Vegetables/tomatoes.jpg",
+                image: "assets/images/Vegetables/Tomatoes.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -441,7 +441,7 @@ const products = [
                 name: "Organic Okra (Lady's Finger)",
                 shortDescription: "Tender organic okra perfect for a variety of dishes.",
                 detailedDescription: "Certified organic and minimally water-used cultivation results in rich dietary fiber okra, sustainably harvested for premium quality.",
-                image: "assets/images/Vegetables/okra.jpg",
+                image: "assets/images/Vegetables/Okra.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -449,7 +449,7 @@ const products = [
                 name: "Organic Brinjals (Eggplants)",
                 shortDescription: "Glossy organic brinjals cultivated sustainably for premium quality.",
                 detailedDescription: "Pesticide-free farming and freshly harvested practices make these organic brinjals high in antioxidants and perfect for a healthy diet.",
-                image: "assets/images/Vegetables/brinjal.png",
+                image: "assets/images/Vegetables/Brinjal.png",
                 category: "Organic Vegetables"
             },
             {
@@ -457,7 +457,7 @@ const products = [
                 name: "Organic Cauliflower",
                 shortDescription: "White organic cauliflower, a staple in many households.",
                 detailedDescription: "Certified organic and sustainable farming practices ensure these freshly picked cauliflowers are free from harmful chemicals, perfect for a variety of culinary uses.",
-                image: "assets/images/Vegetables/cauliflower.jpg",
+                image: "assets/images/Vegetables/Cauliflower.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -465,7 +465,7 @@ const products = [
                 name: "Organic Cabbages",
                 shortDescription: "Crisp organic cabbages, perfect for salads and stir-fries.",
                 detailedDescription: "Eco-friendly cultivation and high in vitamins K and C, these freshly harvested organic cabbages are ideal for healthy and flavorful meals.",
-                image: "assets/images/Vegetables/cabbages.jpg",
+                image: "assets/images/Vegetables/Cabbages.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -473,7 +473,7 @@ const products = [
                 name: "Organic Beans",
                 shortDescription: "Fresh organic green beans, perfect for healthy meals.",
                 detailedDescription: "Certified organic and rich in protein, these handpicked green beans are fresh and nutritious for a variety of dishes.",
-                image: "assets/images/Vegetables/beans.jpg",
+                image: "assets/images/Vegetables/Beans.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -481,7 +481,7 @@ const products = [
                 name: "Organic Carrots",
                 shortDescription: "Sweet organic carrots, grown in cool climates.",
                 detailedDescription: "Pesticide-free farming and high in beta-carotene make these freshly harvested organic carrots a healthy and delicious choice for your diet.",
-                image: "assets/images/Vegetables/carrots.jpg",
+                image: "assets/images/Vegetables/Carrots.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -489,7 +489,7 @@ const products = [
                 name: "Organic Spinach",
                 shortDescription: "Nutritious organic spinach cultivated sustainably.",
                 detailedDescription: "Certified organic and drought-resistant farming practices ensure that this freshly picked spinach is rich in iron and calcium, perfect for a healthy diet.",
-                image: "assets/images/Vegetables/spinach.jpg",
+                image: "assets/images/Vegetables/Spinach.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -497,7 +497,7 @@ const products = [
                 name: "Organic Green Peas",
                 shortDescription: "Tender organic green peas, perfect for soups and side dishes.",
                 detailedDescription: "Organic farming methods and rich in protein, these sustainably harvested green peas are ideal for a variety of culinary uses.",
-                image: "assets/images/Vegetables/green-peas.jpg",
+                image: "assets/images/Vegetables/Green-Peas.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -505,7 +505,7 @@ const products = [
                 name: "Organic Cucumber",
                 shortDescription: "Refreshing organic cucumbers, ideal for salads and beverages.",
                 detailedDescription: "Certified organic cultivation and high water content make these freshly harvested organic cucumbers perfect for hydrating and healthy recipes.",
-                image: "assets/images/Vegetables/cucumbers.jpg",
+                image: "assets/images/Vegetables/Cucumbers.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -513,7 +513,7 @@ const products = [
                 name: "Organic Pumpkins",
                 shortDescription: "Versatile organic pumpkins, perfect for savory and sweet dishes.",
                 detailedDescription: "Pesticide-free cultivation and rich in vitamins A and C ensure these freshly picked organic pumpkins are both nutritious and delicious.",
-                image: "assets/images/Vegetables/pumpkins.jpg",
+                image: "assets/images/Vegetables/Pumpkins.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -521,7 +521,7 @@ const products = [
                 name: "Organic Bell Peppers",
                 shortDescription: "Colorful organic bell peppers, adding vibrant flavors to your meals.",
                 detailedDescription: "Certified organic and rich in antioxidants, these freshly harvested bell peppers are a healthy and flavorful addition to any dish.",
-                image: "assets/images/Vegetables/bellpeppers.jpg",
+                image: "assets/images/Vegetables/BellPeppers.jpg",
                 category: "Organic Vegetables"
             },
             {
@@ -529,7 +529,7 @@ const products = [
                 name: "Organic Bitter Gourd",
                 shortDescription: "Health-packed organic bitter gourd, known for its medicinal benefits.",
                 detailedDescription: "Organic farming practices and rich in vitamins and minerals, these freshly picked bitter gourds are perfect for a healthy and nutritious diet.",
-                image: "assets/images/Vegetables/bitter-gourd.jpg",
+                image: "assets/images/Vegetables/Bitter-Gourd.jpg",
                 category: "Organic Vegetables"
             }
         ]
@@ -551,7 +551,7 @@ const products = [
                 name: "Basmati Rice",
                 shortDescription: "Aromatic and long-grained basmati rice from India, perfect for special occasions.",
                 detailedDescription: "Grown in the fertile plains of Punjab and Haryana, this basmati rice is known for its distinctive fragrance and fluffy texture upon cooking. Ideal for biryanis and pilafs.",
-                image: "../assets/images/foodgrains/basmati-rice.jpg",
+                image: "../assets/images/foodgrains/Basmati-Rice.jpg",
                 category: "Food Grains"
             },
             {
@@ -567,7 +567,7 @@ const products = [
                 name: "Jasmine Rice",
                 shortDescription: "Fragrant jasmine rice ideal for Asian dishes.",
                 detailedDescription: "Known for its subtle floral aroma and sticky texture when cooked, jasmine rice is perfect for stir-fries, curries, and Southeast Asian recipes.",
-                image: "../assets/images/foodgrains/jasmine-rice.jpg",
+                image: "../assets/images/foodgrains/Jasmine-Rice.jpg",
                 category: "Food Grains"
             },
             {
@@ -607,7 +607,7 @@ const products = [
                 name: "Finger Millet (Ragi)",
                 shortDescription: "Nutritious finger millet from Karnataka, rich in calcium and iron.",
                 detailedDescription: "Perfect for making ragi dosa, ragi roti, and other traditional recipes, finger millet is a staple for health-conscious households.",
-                image: "../assets/images/foodgrains/finger-millet.jpg",
+                image: "../assets/images/foodgrains/Finger-millet.jpg",
                 category: "Food Grains"
             },
             {
@@ -802,7 +802,7 @@ const products = [
                 name: "Monsooned Malabar",
                 shortDescription: "Unique Monsooned Malabar coffee beans from Kerala, known for their smooth flavor.",
                 detailedDescription: "Processed through exposure to monsoon winds, Monsooned Malabar beans develop a mellow flavor with low acidity, perfect for a smooth and rich cup of coffee.",
-                image: "../assets/images/coffee/monsooned-malabar.jpg",
+                image: "../assets/images/coffee/Monsooned-Malabar.jpg",
                 category: "Coffee"
             },
             {
@@ -810,7 +810,7 @@ const products = [
                 name: "Coorg Coffee",
                 shortDescription: "Premium coffee beans from Coorg, Karnataka, offering a robust flavor.",
                 detailedDescription: "Grown in the lush plantations of Coorg, these beans are handpicked and processed to maintain their rich aroma and bold taste, ideal for espresso and dark roasts.",
-                image: "../assets/images/coffee/coorg-coffee.jpg",
+                image: "../assets/images/coffee/Coorg-Coffee.jpg",
                 category: "Coffee"
             },
             {
@@ -818,7 +818,7 @@ const products = [
                 name: "Chikmagalur Arabica Coffee",
                 shortDescription: "Premium Arabica coffee from Chikmagalur, Karnataka.",
                 detailedDescription: "Renowned for its smooth and balanced flavor, this Arabica coffee is grown in the lush plantations of Chikmagalur, offering a delightful and aromatic coffee experience.",
-                image: "../assets/images/coffee/chikmagalur-arabica-coffee.jpg",
+                image: "../assets/images/coffee/Chikmagalur-Arabica-Coffee.jpg",
                 category: "Coffee"
             },
             {
@@ -826,7 +826,7 @@ const products = [
                 name: "Chikmagalur Robusta Coffee",
                 shortDescription: "Robusta coffee beans from Chikmagalur, Karnataka, known for their bold taste.",
                 detailedDescription: "Grown at high altitudes in Chikmagalur, these Robusta beans are handpicked for their rich flavor, delivering a strong and full-bodied cup of coffee.",
-                image: "../assets/images/coffee/chikmagalur-robusta-coffee.jpg",
+                image: "../assets/images/coffee/Chikmagalur-Robusta-Coffee.jpg",
                 category: "Coffee"
             },
             {
@@ -834,7 +834,7 @@ const products = [
                 name: "Mysore Nuggets",
                 shortDescription: "High-grade Mysore Nuggets from Karnataka, celebrated for their full-bodied flavor.",
                 detailedDescription: "Known for their large bean size and exceptional flavor profile, Mysore Nuggets are perfect for gourmet coffee enthusiasts seeking a strong and aromatic brew.",
-                image: "../assets/images/coffee/mysore-nuggets.jpg",
+                image: "../assets/images/coffee/Mysore-Nuggets.jpg",
                 category: "Coffee"
             },
             {
@@ -842,7 +842,7 @@ const products = [
                 name: "Araku Coffee",
                 shortDescription: "Organic Araku coffee from Andhra Pradesh, rich in flavor and aroma.",
                 detailedDescription: "Cultivated in the Araku Valley, these organic coffee beans are known for their sweet and fruity undertones, providing a delightful and aromatic coffee experience.",
-                image: "../assets/images/coffee/araku-coffee.jpg",
+                image: "../assets/images/coffee/Araku-Coffee.jpg",
                 category: "Coffee"
             },
             {
@@ -858,7 +858,7 @@ const products = [
                 name: "Sandalwood Coffee",
                 shortDescription: "Infused Sandalwood coffee from Karnataka, offering a unique aromatic blend.",
                 detailedDescription: "A fusion of high-quality coffee beans with natural sandalwood essence, providing a soothing and fragrant coffee experience.",
-                image: "../assets/images/coffee/sandalwood-coffee.jpg",
+                image: "../assets/images/coffee/Sandalwood-Coffee.jpg",
                 category: "Coffee"
             },
             {
@@ -874,7 +874,7 @@ const products = [
                 name: "Java Mountain",
                 shortDescription: "Exquisite Java Mountain coffee from Karnataka, known for its smooth taste.",
                 detailedDescription: "Grown in the mountainous regions, Java Mountain coffee beans are prized for their balanced acidity and smooth, lingering finish, perfect for a refined coffee experience.",
-                image: "../assets/images/coffee/java-mountain.jpg",
+                image: "../assets/images/coffee/Java-Mountain.jpg",
                 category: "Coffee"
             },
             {
@@ -882,7 +882,7 @@ const products = [
                 name: "Roasted Arabica",
                 shortDescription: "Premium roasted Arabica beans from India, offering a delicate flavor.",
                 detailedDescription: "Selected from the best Arabica plantations, these beans are roasted to perfection to enhance their natural sweetness and floral aroma, ideal for a light and flavorful brew.",
-                image: "../assets/images/coffee/roasted-arabica.jpg",
+                image: "../assets/images/coffee/Roasted-Arabica.jpg",
                 category: "Coffee"
             }
         ]
@@ -1087,7 +1087,7 @@ const products = [
                 name: "Nutmeg",
                 shortDescription: "Aromatic nutmeg for sweet and savory dishes.",
                 detailedDescription: "Nutmeg adds a warm, nutty flavor to baked goods, curries, and beverages, making it a versatile spice for culinary uses.",
-                image: "../assets/images/spices/nutmeg.jpg",
+                image: "../assets/images/spices/Nutmeg.jpg",
                 category: "Spices & Condiments"
             },
             {
